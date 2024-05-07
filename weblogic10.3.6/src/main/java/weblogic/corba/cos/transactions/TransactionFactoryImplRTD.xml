@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.corba.cos.transactions.TransactionFactoryImpl"
+    initial-reference="17"
+>
+<lifecycle
+    dgc-policy="managed"
+>
+</lifecycle>
+
+<security 
+  confidentiality="config" 
+  integrity="config" 
+  client-authentication="config" 
+  client-cert-authentication="config" 
+  identity-assertion="config">
+</security>
+
+</rmi>

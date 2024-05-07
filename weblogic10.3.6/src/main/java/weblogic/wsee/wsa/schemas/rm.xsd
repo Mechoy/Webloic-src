@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ 
+Legal Disclaimer
+
+The presentation, distribution or other dissemination of the information 
+contained in this document is not a license, either expressly or impliedly, 
+to any intellectual property owned or controlled by BEA or IBM or Microsoft or TIBCO Software
+and\or any other third party.  BEA and IBM and Microsoft and TIBCO Software and\or any other
+third party may have patents, patent applications, trademarks, copyrights, 
+or other intellectual property rights covering subject matter in this 
+document.  The furnishing of this document does not give you any license 
+to BEA's and IBM's and Microsoft's or TIBCO Software's or any other third party's patents, 
+trademarks, copyrights, or other intellectual property.
+
+This document and the information contained herein is provided on an "AS IS"
+basis and to the maximum extent permitted by applicable law, BEA and IBM 
+and Microsoft and TIBCO Software provide the document AS IS AND WITH ALL FAULTS, and hereby 
+disclaims all other warranties and conditions, either express, implied or 
+statutory, including, but not limited to, any (if any) implied warranties, 
+duties or conditions of merchantability, of fitness for a particular 
+purpose, of accuracy or completeness of responses, of results, of 
+workmanlike effort, of lack of viruses, and of lack of negligence, all with
+regard to the document. ALSO, THERE IS NO WARRANTY OR CONDITION OF 
+TITLE, QUIET ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE TO DESCRIPTION OR 
+NON-INFRINGEMENT OF ANY INTELLECTUAL PROPERTY RIGHTS WITH REGARD TO THE 
+DOCUMENT.
+
+IN NO EVENT WILL BEA or IBM or MICROSOFT or TIBCO Software BE LIABLE TO ANY OTHER PARTY FOR THE
+COST OF PROCURING SUBSTITUTE GOODS OR SERVICES, LOST PROFITS, LOSS OF USE, 
+LOSS OF DATA, OR ANY INCIDENTAL, CONSEQUENTIAL, DIRECT, INDIRECT, OR SPECIAL 
+DAMAGES WHETHER UNDER CONTRACT, TORT, WARRANTY, OR OTHERWISE, ARISING IN ANY 
+WAY OUT OF THIS OR ANY OTHER AGREEMENT RELATING TO THIS DOCUMENT, WHETHER OR 
+NOT SUCH PARTY HAD ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Copyright Notice
+
+Copyright 2003 BEA Systems Inc. and IBM Corporation and Microsoft Corporation and TIBCO Software Inc. All rights reserved.
+
+-->
+<xs:schema targetNamespace="http://schemas.xmlsoap.org/ws/2003/03/rm" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2003/03/rm" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xs:import namespace="http://schemas.xmlsoap.org/ws/2002/07/utility" schemaLocation="http://schemas.xmlsoap.org/ws/2002/07/utility/utility.xsd"/>
+
+	<!-- Protocol Elements -->
+	<xs:complexType name="SequenceType">
+		<xs:sequence>
+			<xs:element ref="wsu:Identifier"/>
+			<xs:element name="MessageNumber" type="xs:unsignedLong"/>
+			<xs:element name="LastMessage" type="xs:ENTITY" minOccurs="0"/>
+			<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##other" processContents="lax"/>
+	</xs:complexType>
+	<xs:element name="Sequence" type="wsrm:SequenceType"/>
+	<xs:element name="SequenceTerminate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="wsu:Identifier"/>
+				<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:anyAttribute namespace="##other" processContents="lax"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SequenceAcknowledgment">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="wsu:Identifier"/>
+				<xs:element name="AcknowledgmentRange" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence/>
+						<xs:attribute name="Upper" type="xs:unsignedLong" use="required"/>
+						<xs:attribute name="Lower" type="xs:unsignedLong" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:anyAttribute namespace="##other" processContents="lax"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="AckRequestedType">
+		<xs:sequence>
+			<xs:element ref="wsu:Identifier"/>
+			<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##other" processContents="lax"/>
+	</xs:complexType>
+	<xs:element name="AckRequested" type="wsrm:AckRequestedType"/>
+	<!-- Policy Assertions -->
+	<xs:element name="InactivityTimeout">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="wsrm:PolicyAssertionType">
+					<xs:attribute name="Milliseconds" type="xs:unsignedLong" use="required"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BaseRetransmissionInterval">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="wsrm:PolicyAssertionType">
+					<xs:attribute name="Milliseconds" type="xs:unsignedLong" use="required"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExponentialBackoff" type="wsrm:PolicyAssertionType"/>
+	<xs:element name="AcknowledgementInterval">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="wsrm:PolicyAssertionType">
+					<xs:attribute name="Milliseconds" type="xs:unsignedLong" use="required"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="PolicyAssertionType">
+		<xs:sequence>
+			<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##other"/>
+	</xs:complexType>
+	<xs:simpleType name="DeliveryAssuranceEnum">
+		<xs:restriction base="xs:QName">
+			<xs:enumeration value="wsrm:AtMostOnce"/>
+			<xs:enumeration value="wsrm:AtLeastOnce"/>
+			<xs:enumeration value="wsrm:ExactlyOnce"/>
+			<xs:enumeration value="wsrm:InOrder"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="DeliveryAssurance">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="wsrm:PolicyAssertionType">
+					<xs:attribute name="Value" type="xs:QName" use="required"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<!-- Fault Container and Codes -->
+	<xs:simpleType name="FaultCodes">
+		<xs:restriction base="xs:QName">
+			<xs:enumeration value="wsrm:UnknownSequence"/>
+			<xs:enumeration value="wsrm:SequenceTerminated"/>
+			<xs:enumeration value="wsrm:InvalidAcknowledgement"/>
+			<xs:enumeration value="wsrm:MessageNumberRollover"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="SequenceFaultType">
+		<xs:sequence>
+			<xs:element ref="wsu:Identifier"/>
+			<xs:element name="FaultCode" type="xs:QName"/>
+			<xs:any namespace="##any"/>
+		</xs:sequence>
+		<xs:anyAttribute/>
+	</xs:complexType>
+	<xs:element name="SequenceFault" type="wsrm:SequenceFaultType"/>
+	<!-- Sequence Reference Domain Expression -->
+	<xs:complexType name="SequenceRefType">
+		<xs:sequence>
+			<xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Identifier" type="xs:anyURI" use="required"/>
+		<xs:attribute name="Match" type="wsrm:MatchChoiceType" use="optional"/>
+		<xs:anyAttribute/>
+	</xs:complexType>
+	<xs:simpleType name="MatchChoiceType">
+		<xs:restriction base="xs:QName">
+			<xs:enumeration value="wsrm:Exact"/>
+			<xs:enumeration value="wsrm:Prefix"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="SequenceRef" type="wsrm:SequenceRefType"/>
+</xs:schema>

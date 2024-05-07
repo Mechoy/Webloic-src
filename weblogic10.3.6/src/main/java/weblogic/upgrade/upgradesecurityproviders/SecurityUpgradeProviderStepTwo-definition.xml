@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>SecurityProviderUpgradeStepTwo</name>
+  <class>weblogic.upgrade.upgradesecurityproviders.UpgradeProviderPlugin</class>
+  <i18n>weblogic/upgrade/upgradesecurityproviders/i18n_SecurityProviderUpgradeStepTwo</i18n>
+  <input-adapter-definition>
+    <description>Allow selection of a new bea home directory.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultFileSelectionInputAdapter</class>
+    <name>IA</name>
+    <bind-property>selectedFileNames</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultFileSelectionInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+
+

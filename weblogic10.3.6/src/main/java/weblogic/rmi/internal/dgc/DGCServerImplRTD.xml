@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.rmi.internal.dgc.DGCServerImpl"
+    initial-reference="2"
+>
+<lifecycle
+    dgc-policy="managed"
+>
+</lifecycle>
+
+<method
+     name="*"
+    dispatch-policy="direct"
+    oneway="true"
+>
+</method>
+
+</rmi>

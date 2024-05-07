@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<wsp:Policy
+  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+  xmlns:wssp="http://www.bea.com/wls90/security/policy"
+  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+  xmlns:wls="http://www.bea.com/wls90/security/policy/wsee#part"
+  >
+  
+  <wssp:Integrity SupportTrust10="true">
+    <wssp:SignatureAlgorithm URI="http://www.w3.org/2000/09/xmldsig#hmac-sha1"/>
+    <wssp:CanonicalizationAlgorithm URI="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <wssp:MessageParts Dialect="http://www.bea.com/wls90/security/policy/wsee#part"> 
+          wls:SystemHeaders()
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <wssp:MessageParts Dialect="http://www.bea.com/wls90/security/policy/wsee#part"> 
+          wls:SecurityHeader(wsu:Timestamp)
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <wssp:MessageParts Dialect="http://schemas.xmlsoap.org/2002/12/wsse#part">
+       wsp:Body()
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:SupportedTokens>
+      <wssp:SecurityToken IncludeInMessage="true"
+        TokenType="http://schemas.xmlsoap.org/ws/2005/02/sc/dk"
+        DerivedFromTokenType="http://schemas.xmlsoap.org/ws/2005/02/sc/sct">
+        <wssp:Claims>
+          <wssp:Label>WS-SecureConversationWS-SecureConversation</wssp:Label>
+          <wssp:Length>16</wssp:Length>
+        </wssp:Claims>
+      </wssp:SecurityToken>
+    </wssp:SupportedTokens>
+  </wssp:Integrity>
+  
+  <wssp:Confidentiality SupportTrust10="true">
+    
+    <wssp:Target encryptContentOnly="false">
+      <wssp:EncryptionAlgorithm URI="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+      <wssp:MessageParts Dialect="http://www.bea.com/wls90/security/policy/wsee#part" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        wls:SecurityHeader(dsig:Signature)
+      </wssp:MessageParts>
+    </wssp:Target>
+    <wssp:KeyInfo>
+      <wssp:SecurityToken IncludeInMessage="true"
+        TokenType="http://schemas.xmlsoap.org/ws/2005/02/sc/dk"
+        DerivedFromTokenType="http://schemas.xmlsoap.org/ws/2005/02/sc/sct">
+        <wssp:Claims>
+          <wssp:Label>WS-SecureConversationWS-SecureConversation</wssp:Label>
+          <wssp:Length>16</wssp:Length>
+        </wssp:Claims>
+      </wssp:SecurityToken>
+    </wssp:KeyInfo>
+  </wssp:Confidentiality>
+  
+  <wssp:MessageAge/>
+</wsp:Policy>

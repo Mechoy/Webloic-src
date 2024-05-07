@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainDirectoryBackupPlugIn</name>
+  <description>Allows user to backup a domain directory in a zip file.  The contents of the directory and subdirectories are packed.  The name of the backup file is stored in the plugin context under the key UpgradePlugInConstants.DOMAIN_DIRECTORY_BACKUP_KEY</description>
+  <author>mrack@bea.com</author>
+  <class>weblogic.upgrade.domain.directorybackup.DomainDirectoryBackupPlugIn</class>
+  <i18n>weblogic/upgrade/domain/directorybackup/i18n_DomainDirectoryBackupPlugIn</i18n>
+  <input-adapter-definition>
+    <description>Allow selection of a backup directory and file to backup domain directory.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultFileSelectionInputAdapter</class>
+    <name>FileSelectionIA</name>
+    <bind-property>selectedFileNames</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultFileSelectionInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Allow selection of a backup directory and file to backup domain directory.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIA</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>

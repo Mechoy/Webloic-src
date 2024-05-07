@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<wsp:Policy
+  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+  xmlns:wssp="http://www.bea.com/wls90/security/policy"
+  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+  xmlns:wls="http://www.bea.com/wls90/security/policy/wsee#part"
+  >
+
+  <wssp:Identity>
+    <wssp:SupportedTokens>
+      <wssp:SecurityToken TokenType="http://schemas.xmlsoap.org/ws/2005/02/sc/sct">
+      </wssp:SecurityToken>
+    </wssp:SupportedTokens>
+  </wssp:Identity>
+</wsp:Policy>

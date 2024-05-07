@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-silent-responses>
+</plugin-silent-responses>
+
+<!-- SAMPLE BELOW -->
+<!--
+<plugin-silent-responses>
+  <group name="DomainSelectionGroup">
+    <plugin name="SelectWebLogicVersionPlugIn">
+      <input-adapter name="ChoiceIA">
+        <bind-property name="selectedChoiceIds">
+          <value>__WEBLOGIC_VERSION__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+    <plugin name="DomainDirectorySelectionPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedFile">
+          <value>__DOMAIN_DIR__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+  <group name="PostDirSelectionGroup">
+    <plugin name="AdminServerSelectionPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedChoiceIds">
+          <value>__ADMIN_SERVER_NAME__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+    <plugin name="NodeManagerCredentialsPlugIn">
+      <input-adapter name="UsernameIA">
+        <bind-property name="value">
+          <value>__NODE_MANAGER_USERNAME__</value>
+        </bind-property>
+      </input-adapter>
+      <input-adapter name="PasswordIA">
+        <bind-property name="value">
+          <value>__NODE_MANAGER_PASSWORD__</value>
+        </bind-property>
+      </input-adapter>
+      <input-adapter name="PasswordConfirmIA">
+        <bind-property name="value">
+          <value>__NODE_MANAGER_PASSWORD__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+    <plugin name="OptionalGroupsSelectionPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedChoiceIds">
+          <value>__OPTIONAL_ACTION_1__</value>
+          <value> . . . </value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+  <group name="PostDirSelectionPost81Group">
+    <plugin name="AdminServerSelectionPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedChoiceIds">
+          <value>__ADMIN_SERVER_NAME__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+    <plugin name="OptionalGroupsSelectionPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedChoiceIds">
+          <value>__OPTIONAL_ACTION_1__</value>
+          <value> . . . </value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+  <group name="DomainBackupGroup">
+    <plugin name="DomainDirectoryBackupPlugIn">
+      <input-adapter name="FileSelectionIA">
+        <bind-property name="selectedFileNames">
+          <value>__BACKUP_DIR__</value>
+        </bind-property>
+      </input-adapter>
+      <input-adapter name="TextIA">
+        <bind-property name="value">
+          <value>___BACKUP_FILE_NAME__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+</plugin-silent-responses>
+
+-->
+<!--
+  __OPTIONAL_ACTION_1__ is one of 
+    DOMAIN_DIRECTORY_BACKUP_SELECTED_VALUE OR 
+    DOMAIN_DIRECTORY_BACKUP_LOG_FILES_INCLUDED_SELECTED_VALUE OR
+    SKIP_BACKWARDS_COMPATIBILITY_FLAGS_SELECTED_VALUE
+    ** You can put many
+  __WEBLOGIC_VERSION__ = 6.1 OR 7.0 OR 8.1 OR "9.0 or higher"
+-->

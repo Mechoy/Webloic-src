@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plan-definition name="Default">
+  <!-- declare the plug-ins that will be used; order is irrelevant. -->
+  <plugin-definition-import>weblogic/upgrade/simple/SimplestPlugInEver-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directoryselection/DomainDirectorySelectionPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directorybackup/DomainDirectoryBackupPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/configuration/NodeManagerCredentialsPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/configuration/DomainConfigurationPersistencePlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/configuration/DomainConfigurationUpdatePlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/configuration/DomainConfigurationUpdatePost81PlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/adminserverselection/AdminServerSelectionPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directoryrestructure/DomainDirectoryReorgPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directoryrestructure/DomainDirectoryFileReorgPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/application/DomainApplicationsPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/jms/StoreUpgradePlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/jta/JTAUpgradePlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directoryselection/OptionalGroupsSelectionPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/singleton/MigratableServersJDBCConfigPlugIn-definition.xml</plugin-definition-import>
+  <plugin-definition-import>resources/CoreDomainArtifact/PluginDefinition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/domain/directoryselection/SelectWebLogicVersionPlugIn-definition.xml</plugin-definition-import>
+  <!-- define the group that allows the user to select a domain; plugin order is important -->
+
+  <group-definition name="DomainSelectionGroup" allow-backout="false">
+    <i18n>weblogic/upgrade/domain/directoryselection/i18n_DomainSelectionGroup</i18n>
+    <prepare-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.ImageHtmlGroupVisualization</wf-gui><!-- ImageMessageGroupVisualizaton -->
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>SelectWebLogicVersionPlugIn</plugin>
+    <plugin>DomainDirectorySelectionPlugIn</plugin>
+  </group-definition>
+
+  <group-definition name="PostDirSelectionGroup"
+                    precondition-class="weblogic.upgrade.domain.configuration.SkipIfConfigurationPost81Precondition">
+    <i18n>weblogic/upgrade/domain/directoryselection/i18n_PostDirSelectionGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>AdminServerSelectionPlugIn</plugin>
+    <plugin>NodeManagerCredentialsPlugIn</plugin>
+    <plugin>OptionalGroupsSelectionPlugIn</plugin>
+  </group-definition>
+  
+  <group-definition name="PostDirSelectionPost81Group"
+                    precondition-class="weblogic.upgrade.domain.configuration.RunIfConfigurationPost81Precondition">
+    <i18n>weblogic/upgrade/domain/directoryselection/i18n_PostDirSelectionGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>AdminServerSelectionPlugIn</plugin>
+    <plugin>OptionalGroupsSelectionPlugIn</plugin>
+  </group-definition>
+  
+  <!--
+  <group-definition name="NodeManagerCredentialsGroup"
+                    precondition-class="weblogic.upgrade.domain.configuration.NodeManagerCredentialsPrecondition">
+    <i18n></i18n>
+    <plugin>NodeManagerCredentialsPlugIn</plugin>
+  </group-definition>
+  -->
+  
+  <!-- define a group that allows the user to select a directory and provide a zip filename where the domain directory will be backed up -->
+  <group-definition name="DomainBackupGroup" allow-backout="true"
+                    precondition-class="weblogic.upgrade.domain.directorybackup.DomainDirectoryBackupPrecondition">
+    <i18n>weblogic/upgrade/domain/directorybackup/i18n_DomainBackupGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedProgressMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>DomainDirectoryBackupPlugIn</plugin>
+ </group-definition>
+
+  <!-- define a group that indicates where DomainDirectoryReorgPlugIn ... -->
+  <group-definition name="DomainDirectoryReorgGroup" allow-backout="false">
+    <i18n>weblogic/upgrade/domain/directoryrestructure/i18n_DomainDirectoryReorgGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>CoreDomainArtifactChangesPlugIn</plugin>
+  </group-definition>
+
+
+  <!-- define a group that indicates where DomainDirectoryReorgPlugIn ... -->
+  <group-definition name="DomainDirectoryReorgPre9XGroup" allow-backout="false"
+                    precondition-class="weblogic.upgrade.domain.configuration.SkipIfConfigurationOnlyOrPost81Precondition">
+    <i18n>weblogic/upgrade/domain/directoryrestructure/i18n_DomainDirectoryReorgGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>DomainDirectoryReorgPlugIn</plugin>
+    <plugin>DomainDirectoryFileReorgPlugIn</plugin>
+  </group-definition>
+
+
+  <group-definition name="MigratableServersConfigGroup" allow-backout="false"
+                    precondition-class="weblogic.upgrade.singleton.MigratableServersUpdatePrecondition">
+    <i18n>weblogic/upgrade/singleton/i18n_MigratableServersConfigGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>MigratableServersJDBCConfigPlugIn</plugin>
+  </group-definition>
+
+  <!-- define a group that indicates where DomainConfigurationUpdateGroup ... -->
+  <group-definition name="DomainConfigurationUpdateGroup" allow-backout="false"
+                    precondition-class="weblogic.upgrade.domain.configuration.SkipIfConfigurationPost81Precondition">
+    <i18n>weblogic/upgrade/domain/configuration/i18n_DomainConfigurationUpdateGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>DomainConfigurationUpdatePlugIn</plugin>
+  </group-definition>
+
+  <!-- define a group that indicates where DomainRuntimePersistedGroup ... -->
+  <group-definition name="DomainRuntimePersistedGroup" allow-backout="false"
+                    precondition-class="weblogic.upgrade.domain.configuration.SkipIfConfigurationOnlyOrPost81Precondition">
+    <i18n>weblogic/upgrade/domain/i18n_DomainRuntimePersistedGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedProgressMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>StoreUpgradePlugIn</plugin>
+    <plugin>JTAUpgradePlugIn</plugin>
+  </group-definition>
+
+  <!-- define a group that indicates where DomainConfigurationUpdatePost81Group ... -->
+  <group-definition name="DomainConfigurationUpdatePost81Group" allow-backout="false"
+                    precondition-class="weblogic.upgrade.domain.configuration.RunIfConfigurationPost81Precondition">
+    <i18n>weblogic/upgrade/domain/configuration/i18n_DomainConfigurationUpdateGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>DomainConfigurationUpdatePost81PlugIn</plugin>
+  </group-definition>
+
+  <!-- define a group that indicates where DomainUpgradeCompleteGroup ... -->
+  <group-definition name="DomainUpgradeCompleteGroup" allow-backout="false">
+                    <!-- precondition-class="weblogic.upgrade.domain.configuration.DomainConfigurationUpdatePrecondition"> -->
+    <i18n>weblogic/upgrade/domain/i18n_DomainUpgradeCompleteGroup</i18n>
+    <prepare-visualization auto-next-delay="5000">
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization >
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.CachedMessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>DomainConfigurationPersistencePlugIn</plugin>
+  </group-definition>
+
+  <!-- define the plan of execution by ordering the groups -->
+  <execution-plan>
+    <group>DomainSelectionGroup</group>
+    <group>PostDirSelectionGroup</group>
+    <group>PostDirSelectionPost81Group</group>
+    <group>DomainBackupGroup</group>
+    <group>DomainDirectoryReorgGroup</group>
+    <group>DomainDirectoryReorgPre9XGroup</group>
+    <group>MigratableServersConfigGroup</group>
+    <group>DomainConfigurationUpdateGroup</group>
+    <group>DomainRuntimePersistedGroup</group>
+    <group>DomainConfigurationUpdatePost81Group</group>
+    <group>DomainUpgradeCompleteGroup</group>
+  </execution-plan>
+
+</plan-definition>
+

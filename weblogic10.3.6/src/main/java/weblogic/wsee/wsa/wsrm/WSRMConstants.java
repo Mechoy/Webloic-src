@@ -1,0 +1,118 @@
+package weblogic.wsee.wsa.wsrm;
+
+import javax.xml.namespace.QName;
+
+/** @deprecated */
+public interface WSRMConstants {
+   String WSRM_PREFIX = "wsrm";
+   String WSRM_NS = "http://schemas.xmlsoap.org/ws/2005/02/rm";
+   String WSRMP_NS = "http://schemas.xmlsoap.org/ws/2005/02/rm/policy";
+   String ACK_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/SequenceAcknowledgement";
+   String ACK_REQUESTED_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/AckRequested";
+   String CREATE_SEQUENCE_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequence";
+   String CREATE_SEQUENCE_RESPONSE_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse";
+   String TERMINATE_SEQUENCE_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence";
+   String LAST_MESSAGE_ACTION_URI = "http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage";
+   String XML_TAG_IDENTIFIER = "Identifier";
+   String XML_TAG_SEQUENCE = "Sequence";
+   String XML_TAG_ACK_RANGE = "AcknowledgementRange";
+   String XML_TAG_ACK = "SequenceAcknowledgement";
+   String XML_TAG_MESSAGE_NUMBER = "MessageNumber";
+   String XML_TAG_LAST_MESSAGE = "LastMessage";
+   String XML_TAG_NACK = "Nack";
+   String XML_TAG_LOWER_LIMIT = "Lower";
+   String XML_TAG_UPPER_LIMIT = "Upper";
+   String XML_TAG_ACK_REQUEST = "AckRequested";
+   String XML_TAG_CREATE_SEQUENCE = "CreateSequence";
+   String XML_TAG_ACKSTO = "AcksTo";
+   String XML_TAG_EXPIRES = "Expires";
+   String XML_TAG_OFFER = "Offer";
+   String XML_TAG_ACCEPT = "Accept";
+   String XML_TAG_CREATE_SEQUENCE_RESPONSE = "CreateSequenceResponse";
+   String XML_TAG_TERMINATE_SEQUENCE = "TerminateSequence";
+   String XML_TAG_SEQUENCE_FAULT = "SequenceFault";
+   String XML_TAG_FAULT_CODE = "FaultCode";
+   String FAULT_CODE_SENDER = "Sender";
+   String FAULT_CODE_RECEIVER = "Receiver";
+   String FAULT_CODE_CLIENT = "Client";
+   String FAULT_CODE_SERVER = "Server";
+   String FAULT_SUBCODE_SEQUENCE_TERMINATED = "SequenceTerminated";
+   String FAULT_SUBCODE_UNKNOWN_SEQUENCE = "UnknownSequence";
+   String FAULT_SUBCODE_INVALID_ACK = "InvalidAcknowledgement";
+   String FAULT_SUBCODE_MESSAGE_NUM_ROLLOVER = "MessageNumberRollover";
+   String FAULT_SUBCODE_LAST_MESSAGE_NUM_EXCEEDED = "LastMessageNumberExceeded";
+   String FAULT_SUBCODE_SEQUENCE_REFUSED = "SequenceRefused";
+   String FAULT_SUBCODE_CREATE_SEQUENCE_REFUSED = "CreateSequenceRefused";
+   String FAULT_REASON_SEQUENCE_TERMINATED = "The Sequence has been terminated due to an unrecoverable error.";
+   String FAULT_REASON_UNKNOWN_SEQUENCE = "The value of wsrm:Identifier is not a known Sequence identifier.";
+   String FAULT_REASON_INVALID_ACK = "The SequenceAcknowledgement violates the cumulative acknowledgement invariant.";
+   String FAULT_REASON_MESSAGE_NUM_ROLLOVER = "The maximum value for wsrm:MessageNumber has been exceeded.";
+   String FAULT_REASON_LAST_MESSAGE_NUM_EXCEEDED = "The value for wsrm:MessageNumber exceeds the value of the MessageNumber accompanying a LastMessage element in this Sequence.";
+   String FAULT_REASON_SEQUENCE_REFUSED = "The requested Sequence has been refused by the RM Destination.";
+   String FAULT_REASON_CREATE_SEQUENCE_REFUSED = "The create sequence request has been refused by the RM Destination.";
+   String XML_TAG_FAULT_DESCRIPTION = "FaultDescription";
+   QName WSRM_HEADER_SEQUENCE = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "Sequence", "wsrm");
+   QName WSRM_HEADER_ACK = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "SequenceAcknowledgement", "wsrm");
+   QName WSRM_HEADER_ACK_REQUEST = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "AckRequested", "wsrm");
+   QName WSRM_MSG_CREATE_SEQUENCE = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "CreateSequence", "wsrm");
+   QName WSRM_MSG_CREATE_SEQUENCE_RESPONSE = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "CreateSequenceResponse", "wsrm");
+   QName WSRM_MSG_TERMINATE_SEQUENCE = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "TerminateSequence", "wsrm");
+   QName WSRM_MSG_SEQUENCE_FAULT = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "SequenceFault", "wsrm");
+   QName WSRM_FAULT_SEQUENCE_TERMINATED = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "SequenceTerminated", "wsrm");
+   QName WSRM_FAULT_UNKNOWN_SEQUENCE = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "UnknownSequence", "wsrm");
+   QName WSRM_FAULT_INVALID_ACK = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "InvalidAcknowledgement", "wsrm");
+   QName WSRM_FAULT_MESSAGE_NUM_ROLLOVER = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "MessageNumberRollover", "wsrm");
+   QName WSRM_FAULT_LAST_MESSAGE_NUM_EXCEEDED = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "LastMessageNumberExceeded", "wsrm");
+   QName WSRM_FAULT_SEQUENCE_REFUSED = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "SequenceRefused", "wsrm");
+   QName WSRM_FAULT_CREATE_SEQUENCE_REFUSED = new QName("http://schemas.xmlsoap.org/ws/2005/02/rm", "CreateSequenceRefused", "wsrm");
+   QName[] WSRM_HEADERS = new QName[]{WSRM_HEADER_SEQUENCE, WSRM_HEADER_ACK, WSRM_HEADER_ACK_REQUEST};
+   String SEQUENCE_ID_PROPERTY = "weblogic.wsee.sequenceid";
+   String PENDING_SEQUENCE_ID_STRING = "PendingSeqId";
+   String ASYNC_SERVICE_CONTEXT_PATH = "/wsrm/AsyncEndpoint";
+   String FAULT_TO_PROPERTY = "weblogic.wsee.wsrm.faultto";
+   String RELIABLE_ONEWAY_MSG_PROPERTY = "weblogic.wsee.reliable.oneway.msg";
+   String RELIABLE_ONEWAY_REPLY_PROPERTY = "weblogic.wsee.reliable.oneway.reply";
+   String RELIABLE_ONEWAY_SENDMSG_PROPERTY = "weblogic.wsee.reliable.oneway.sendmsg";
+   String RELIABILITY_ERROR_HANDLER_PROPERTY = "weblogic.wsee.reliabile.errorhandler";
+   String RELIABILITY_ERROR_LISTENER_PROPERTY = "weblogic.wsee.reliable.errorlistener";
+   /** @deprecated */
+   String INACTIVITY_TIMEOUT_PROPERTY = "weblogic.wsee.inactivitytimeout";
+   /** @deprecated */
+   String BASE_RETRANSMISSION_INTERVAL_PROPERTY = "weblogic.wsee.baseretransmissioninterval";
+   /** @deprecated */
+   String ACKNOWLEDGEMENT_INTERVAL_PROPERTY = "weblogic.wsee.acknowledgementinterval";
+   /** @deprecated */
+   String EXPONENTIAL_BACKOFF_PROPERTY = "weblogic.wsee.exponentialbackoff";
+   String SEQUENCE_CREATION_PROPERTY = "weblogic.wsee.sequencecreation";
+   String EXPIRES_PROPERTY = "weblogic.wsee.expires";
+   String LAST_MESSAGE_PROPERTY = "weblogic.wsee.lastmessage";
+   String REQUEST_MESSAGE_SEQ_NUMBER_PROPERTY = "weblogic.wsee.reliability.RequestMessageSeqNumber";
+   String REQUEST_MESSAGE_SEQ_ID_PROPERTY = "weblogic.wsee.reliability.RequestMessageSeqID";
+   String REQUEST_MESSAGE_ACTION_PROPERTY = "weblogic.wsee.reliability.RequestMessageAction";
+   String REQUEST_MESSAGE_OFFER_SEQ_ID_PROPERTY = "weblogic.wsee.reliability.RequestMessageOfferSeqID";
+   String ACK_REQUEST_PROPERTY = "weblogic.wsee.ackrequest";
+   String ACKS_TO_ANONYMOUS = "weblogic.wsee.ackstoanon";
+   String ACKS_TO_ENDPOINT = "weblogic.wsee.acksto";
+   String FAIL_TO_ENDPOINT = "weblogic.wsee.failto";
+   String FAULTTO_OVERRIDE_ENDPOINT = "weblogic.wsee.faultto.override";
+   String OFFER_SEQUENCE_ID_PROPERTY = "weblogic.wsee.offer.sequence.id";
+   String PENDING_OFFER_SEQUENCE_ID_STRING = "PendingOfferSeqId";
+   String SEQUENCE_CONTEXT = "weblogic.wsee.sequencecontext";
+   String ENABLE_RM = "weblogic.wsee.enable.rm";
+   String ASYNC_RES_SEQUENCE_ID = "weblogic.wsee.async.res.sequence.id";
+   String BEA_CUSTOM_POLICY_NAMESPACE = "http://www.bea.com/wsrm/policy";
+   String XML_TAG_QOS = "QOS";
+   /** @deprecated */
+   String SEQUENCE_EXPIRES_PROPERTY = "weblogic.wsee.seq.expires";
+   String QOS_INORDER = "weblogic.wsee.qos.inorder";
+   String QOS_DELIVERY = "weblogic.wsee.qos.delivery";
+   String USER_DEFINED_QOS = "weblogic.wsee.user.defined.qos";
+   String MANDATORY_RM = "weblogic.wsee.rm.mandatory";
+   String SECURITY_CONTEXT = "weblogic.wsee.wsrm.security.context";
+   String QUEUED_INVOKE = "weblogic.wsee.queued.invoke";
+   String EXACTLY_ONCE = "ExactlyOnce";
+   String IN_ORDER = "InOrder";
+   String AT_MOST_ONCE = "AtMostOnce";
+   String AT_LEAST_ONCE = "AtLeastOnce";
+   String ONEWAY_CONVID_SEQUENCE_ID = "weblogic.wsee.convid.sequence.id";
+}

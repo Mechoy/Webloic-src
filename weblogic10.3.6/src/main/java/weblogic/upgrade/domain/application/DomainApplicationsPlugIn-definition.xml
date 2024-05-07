@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainApplicationsPlugIn</name>
+  <description>Upgrades the configured applications</description>
+  <author>ugorjid@bea.com</author>
+  <class>weblogic.upgrade.domain.application.DomainApplicationsPlugIn</class>
+  <i18n></i18n>
+  <input-adapter-definition>
+    <description>Upgrade applications</description>
+    <class>com.bea.plateng.plugin.ia.DefaultChoiceInputAdapter</class>
+    <name>IA</name>
+    <bind-property>selectedChoiceIds</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultChoiceInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent></wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+

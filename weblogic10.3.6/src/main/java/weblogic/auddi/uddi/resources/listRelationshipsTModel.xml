@@ -1,0 +1,8 @@
+<relationships key="uuid:807a2c6a-ee22-470d-adc7-e0424a337c03" name="uddi-org:relationships" value="">
+  <level1 key="" name="Relationship"                   value="Relationship">
+    <level2 key="" name="identity"        value="identity"></level2>
+    <level2 key="" name="parent-child"        value="parent-child"></level2>
+    <level2 key="" name="peer-peer"        value="peer-peer"></level2>
+  </level1>
+</relationships>
+

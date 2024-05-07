@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.oracle.com/weblogic/wsee/policy/runtime/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wbp="http://www.oracle.com/weblogic/wsee/policy/runtime/schema" targetNamespace="http://www.oracle.com/weblogic/wsee/policy/runtime/schema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:element name="WlsBuiltinPolicies">
+		<xsd:annotation>
+			<xsd:documentation>WLS canned policy list</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="BuiltinPolicy" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="CategoryEnum">
+		<xsd:annotation>
+			<xsd:documentation>Policy Category enumeration</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="WLS92"/>
+			<xsd:enumeration value="WSSP12"/>
+			<xsd:enumeration value="WSSP12_2007"/>
+			<xsd:enumeration value="WSRM"/>
+			<xsd:enumeration value="SAML"/>
+			<xsd:enumeration value="MTOM"/>
+			<xsd:enumeration value="WSMC"/>
+			<xsd:enumeration value="WSSC"/>
+			<xsd:enumeration value="WSSC13"/>
+			<xsd:enumeration value="WSSC14"/>
+			<xsd:enumeration value="WSP15"/>
+			<xsd:enumeration value="TRANSPORT"/>
+			<xsd:enumeration value="WSS10"/>
+			<xsd:enumeration value="WSS11"/>
+			<xsd:enumeration value="PROTECTION"/>
+			<xsd:enumeration value="INTERNAL"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="BuiltinPolicyType">
+		<xsd:annotation>
+			<xsd:documentation>Complex type for Built-in Policy</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="Category" type="CategoryEnum" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="PolicyName" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="BuiltinPolicy" type="BuiltinPolicyType">
+		<xsd:annotation>
+			<xsd:documentation>Built-in Canned Policy </xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+</xsd:schema>

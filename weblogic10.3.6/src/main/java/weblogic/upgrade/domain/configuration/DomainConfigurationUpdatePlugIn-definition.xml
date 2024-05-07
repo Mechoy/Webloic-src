@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainConfigurationUpdatePlugIn</name>
+  <description>Saving the configuration</description>
+  <class>weblogic.upgrade.domain.configuration.DomainConfigurationUpdatePlugIn</class>
+  <i18n>weblogic/upgrade/domain/configuration/i18n_DomainConfigurationUpdatePlugIn</i18n>
+</plugin-definition>
+

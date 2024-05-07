@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bea.com/weblogic/wsee/jaxws/framework/jaxrpc/tube-config" 
+  xmlns="http://www.bea.com/weblogic/wsee/jaxws/framework/jaxrpc/tube-config" elementFormDefault="qualified">
+
+	<xsd:complexType name="list">
+   		<xsd:sequence>
+			<xsd:element name="item" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+   		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="assembler-item">
+   		<xsd:sequence>
+			<xsd:element name="after" type="list" minOccurs="0"/>
+			<xsd:element name="before" type="list" minOccurs="0"/>
+			<xsd:element name="required" type="list" minOccurs="0"/>
+   		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required"/>
+		<xsd:attribute name="name" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="listener">
+		<xsd:attribute name="class" type="xsd:string" use="required"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="listeners">
+   		<xsd:sequence>
+			<xsd:element name="listener" type="listener" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="assembler-item" type="assembler-item" minOccurs="0" maxOccurs="unbounded"/>
+   		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="deployment-listeners">
+  		<xsd:sequence>
+			<xsd:element name="client" type="listeners" minOccurs="0"/>
+			<xsd:element name="server" type="listeners" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element name="config">
+		<xsd:complexType>
+	  		<xsd:sequence>
+				<xsd:element name="deployment-listeners" type="deployment-listeners"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>
+

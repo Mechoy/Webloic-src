@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.common.internal.RMIBootServiceImpl"
+    initial-reference="27"
+>
+<lifecycle dgc-policy="managed"/>
+<method name="*" transactional="false"/>
+<method name="authenticate(weblogic.security.acl.UserInfo)" dispatch-context="request" transactional="false"/>
+</rmi>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>StoreUpgradePlugIn</name>
+  <description>Upgrades a JMS store</description>
+  <author>wls-jms@bea.com</author>
+  <class>weblogic.upgrade.jms.StoreUpgradePlugIn</class>
+  <i18n>weblogic/upgrade/jms/i18n_JMSStoreUpgrade</i18n>
+</plugin-definition>
+

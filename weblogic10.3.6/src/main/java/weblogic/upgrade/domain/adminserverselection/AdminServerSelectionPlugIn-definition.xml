@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>AdminServerSelectionPlugIn</name>
+  <description>Selects the Admin Server</description>
+  <author>BEA Systems Inc.</author>
+  <class>weblogic.upgrade.domain.adminserverselection.AdminServerSelectionPlugIn</class>
+  <i18n>weblogic/upgrade/domain/adminserverselection/i18n_AdminServerSelectionPlugIn</i18n>
+  <input-adapter-definition>
+    <description></description>
+    <class>com.bea.plateng.plugin.ia.DefaultChoiceInputAdapter</class>
+    <name>IA</name>
+    <bind-property>selectedChoiceIds</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultChoiceInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+

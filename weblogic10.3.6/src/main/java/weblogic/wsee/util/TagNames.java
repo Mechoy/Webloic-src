@@ -1,0 +1,39 @@
+package weblogic.wsee.util;
+
+public interface TagNames {
+   String TYLARS = "XmlBinding@tylars";
+   String STRICT_BINDING = "XmlBinding@strict";
+   String DEPLOYMENT_LISTENER = "WebService@deploymentListener";
+   String WEBSERVICE_NAME = "WebService@name";
+   String PORT_TYPE = "WebService@portType";
+   String TARGET_NAMESPACE = "WebService@targetNamespace";
+   String SOAP_PORT_NAME = "SOAPBinding@portName";
+   String ENDPOINT_INTERFACE = "WebService@endpointInterface";
+   String SOAP_BINDING_NAME = "SOAPBinding@name";
+   String SOAP_BINDING_STYLE = "SOAPBinding@style";
+   String SOAP_BINDING_CONTEXTPATH = "SOAPBinding@contextpath";
+   String SOAP_BINDING_SERVICEURI = "SOAPBinding@serviceuri";
+   String HANDLERCHAIN_FILE = "HandlerChain@file";
+   String HANDLERCHAIN_NAME = "HandlerChain@name";
+   String EJBGEN_EJB_NAME = "ejbgen:session@ejb-name";
+   String OPERATION_NAME = "WebOperation@name";
+   String ONEWAY = "WebOperation@oneway";
+   String WEBPARAM = "WebParam";
+   String WEBPARAM_NAME = "name";
+   String WEBPARAM_WSDLPARTNAME = "wsdlPartName";
+   String WEBPARAM_XMLTYPE_NAMESPACE = "xmlTypeNamespace";
+   String WEBPARAM_XMLTYPE_LOCALNAME = "xmlTypeLocalname";
+   String WEBPARAM_XMLELEMENT_NAMESPACE = "xmlElementNamespace";
+   String WEBPARAM_XMLELEMENT_LOCALNAME = "xmlElementLocalname";
+   String SOAP_BINDING_USE = "SOAPBinding@use";
+   String SOAP_ACTION = "SOAPOperation@soapAction";
+   String SOAP_TRANSPORT = "SOAPBinding@transport";
+   String SOAP_OUTPUT_NS = "SOAPOperation@outputNamespace";
+   String SOAP_INPUT_NS = "SOAPOperation@inputNamespace";
+   String POLICY_ANNOTATION_NAME = "Policy";
+   String INBOUND_POLICY_ANNOTATION_NAME = "InboundPolicy";
+   String OUTBOUND_POLICY_ANNOTATION_NAME = "OutboundPolicy";
+   String POLICY_ANNOTATION_NAME_ATTRIBUTE = "name";
+   String POLICY_ANNOTATION_URI_ATTRIBUTE = "uri";
+   String POLICY_ANNOTATION_JNDINAME_ATTRIBUTE = "jndiName";
+}

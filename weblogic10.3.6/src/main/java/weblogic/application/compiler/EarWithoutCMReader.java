@@ -1,0 +1,21 @@
+package weblogic.application.compiler;
+
+import weblogic.application.compiler.flow.ApplicationViewerFlow;
+import weblogic.application.compiler.flow.CleanupModulesFlow;
+import weblogic.application.compiler.flow.CompilerFlow;
+import weblogic.application.compiler.flow.DescriptorParsingFlow;
+import weblogic.application.compiler.flow.EarClassLoaderFlow;
+import weblogic.application.compiler.flow.InitModulesFlow;
+import weblogic.application.compiler.flow.MergeModuleFlow;
+import weblogic.application.compiler.flow.ModuleClassLoaderFlow;
+import weblogic.application.compiler.flow.PrepareModulesFlow;
+
+public class EarWithoutCMReader extends ReadOnlyEarMerger implements Merger {
+   public EarWithoutCMReader(CompilerCtx var1) {
+      super(var1);
+   }
+
+   protected CompilerFlow[] getFlows(CompilerCtx var1) {
+      return new CompilerFlow[]{new EarClassLoaderFlow(var1), new DescriptorParsingFlow(var1), new InitModulesFlow(var1), new PrepareModulesFlow(var1), new ModuleClassLoaderFlow(var1), new CleanupModulesFlow(var1), new MergeModuleFlow(var1), new ApplicationViewerFlow(var1)};
+   }
+}

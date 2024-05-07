@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<wsp:Policy
+        xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+        xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702"
+        >
+    <sp:SignedParts>
+        <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor"/>
+        <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06"/>
+        <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust"/>
+        <sp:Header Name="IssuedTokens" Namespace="http://docs.oasis-open.org/ws-sx/ws-trust/200512"/>
+    </sp:SignedParts>
+    <sp:EncryptedParts>
+        <sp:Header Name="CoordinationContext" Namespace="http://schemas.xmlsoap.org/ws/2004/10/wscoor"/>
+        <sp:Header Name="CoordinationContext" Namespace="http://docs.oasis-open.org/ws-tx/wscoor/2006/06"/>
+        <sp:Header Name="IssuedTokens" Namespace="http://schemas.xmlsoap.org/ws/2005/02/trust"/>
+        <sp:Header Name="IssuedTokens" Namespace="http://docs.oasis-open.org/ws-sx/ws-trust/200512"/>
+    </sp:EncryptedParts>
+</wsp:Policy>

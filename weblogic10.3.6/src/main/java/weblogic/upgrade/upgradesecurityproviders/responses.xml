@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-silent-responses>
+</plugin-silent-responses>
+
+<!--
+<plugin-silent-responses>
+  <group name="SecurityProviderUpgradeGroup">
+    <plugin name="SecurityProviderUpgradeStepOne">
+      <input-adapter name="IA">
+        <bind-property name="selectedFileNames">
+          <value>__INPUT_DIRECTORY__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+    <plugin name="SecurityProviderUpgradeStepTwo">
+      <input-adapter name="IA">
+        <bind-property name="selectedFileNames">
+          <value>__OUTPUT_DIRECTORY__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+</plugin-silent-responses>
+-->
+
+<!--
+  e.g. 
+  __INPUT_DIRECTORY__ = d:/bea/81sp3/weblogic81/server/lib/mbeantypes
+  __OUTPUT_DIRECTORY__ = d:/bea/90/weblogic90/server/lib/mbeantypes
+-->

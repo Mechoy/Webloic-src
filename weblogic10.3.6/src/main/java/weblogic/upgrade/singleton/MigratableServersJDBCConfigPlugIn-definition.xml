@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>MigratableServersJDBCConfigPlugIn</name>
+  <description>Create JDBC System Resources and Machines to support server migration</description>
+  <author>prasad@bea.com</author>
+  <class>weblogic.upgrade.singleton.MigratableServersJDBCConfigPlugIn</class>
+  <i18n>weblogic/upgrade/singleton/i18n_MigratableServersJDBCConfigPlugIn</i18n>
+  <input-adapter-definition>
+    <description>Allow username for JDBC connection pool</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIA</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Specify JDBC connection pool password</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIB</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Specify URL for JDBC Connection pool.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIC</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Specify JDBC driver name.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextID</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Allow user to provide additional JDBC connection pool properties.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIE</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+  </input-adapter-definition>
+</plugin-definition>

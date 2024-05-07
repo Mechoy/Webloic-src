@@ -1,0 +1,2461 @@
+<naics key="uuid:c0b9fe13-179f-413d-8a5b-5004db8e5bb2" name="ntis-gov:naics:1997" value="">
+  <level1 key="" name="Accommodation and Food Services" value="72">
+    <level2 key="" name="Accommodation" value="721">
+      <level3 key="" name="RV (Recreational Vehicle) Parks and Recreational Camps" value="7212">
+        <level4 key="" name="RV (Recreational Vehicle) Parks and Recreational Camp  s" value="72121">
+          <KeyedReference key="" name="RV (Recreational Vehicle) Parks and Campgrounds" value="721211"/>
+          <KeyedReference key="" name="Recreational and Vacation Camps (except Campgrounds)" value="721214"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Rooming and Boarding Houses" value="7213">
+        <KeyedReference key="" name="Rooming and Boarding Houses" value="72131"/>
+      </level3>
+      <level3 key="" name="Traveler Accommodation" value="7211">
+        <KeyedReference key="" name="Casino Hotels" value="72112"/>
+        <KeyedReference key="" name="Hotels (except Casino Hotels) and Motels" value="72111"/>
+        <level4 key="" name="Other Traveler Accommodation" value="72119">
+          <KeyedReference key="" name="All Other Traveler Accommodation" value="721199"/>
+          <KeyedReference key="" name="Bed-and-Breakfast Inns" value="721191"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Food Services and Drinking Places" value="722">
+      <level3 key="" name="Drinking Places (Alcoholic Beverages)" value="7224">
+        <KeyedReference key="" name="Drinking Places (Alcoholic Beverages)" value="72241"/>
+      </level3>
+      <level3 key="" name="Full-Service Restaurants" value="7221">
+        <KeyedReference key="" name="Full-Service Restaurants" value="72211"/>
+      </level3>
+      <level3 key="" name="Limited-Service Eating Places" value="7222">
+        <level4 key="" name="Limited-Service Eating Places" value="72221">
+          <KeyedReference key="" name="Cafeterias" value="722212"/>
+          <KeyedReference key="" name="Limited-Service Restaurants" value="722211"/>
+          <KeyedReference key="" name="Snack and Nonalcoholic Beverage Bars" value="722213"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Special Food Services" value="7223">
+        <KeyedReference key="" name="Caterers" value="72232"/>
+        <KeyedReference key="" name="Food Service Contractors" value="72231"/>
+        <KeyedReference key="" name="Mobile Food Services" value="72233"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Administrative and Support and Waste Management and Reme diation Services" value="56">
+    <level2 key="" name="Administrative and Support Services" value="561">
+      <level3 key="" name="Business Support Services" value="5614">
+        <level4 key="" name="Business Service Centers" value="56143">
+          <KeyedReference key="" name="Other Business Service Centers (including Copy Shops )" value="561439"/>
+          <KeyedReference key="" name="Private Mail Centers" value="561431"/>
+        </level4>
+        <KeyedReference key="" name="Collection Agencies" value="56144"/>
+        <KeyedReference key="" name="Credit Bureaus" value="56145"/>
+        <KeyedReference key="" name="Document Preparation Services" value="56141"/>
+        <level4 key="" name="Other Business Support Services" value="56149">
+          <KeyedReference key="" name="All Other Business Support Services" value="561499"/>
+          <KeyedReference key="" name="Court Reporting and Stenotype Services" value="561492"/>
+          <KeyedReference key="" name="Repossession Services" value="561491"/>
+        </level4>
+        <level4 key="" name="Telephone Call Centers" value="56142">
+          <KeyedReference key="" name="Telemarketing Bureaus" value="561422"/>
+          <KeyedReference key="" name="Telephone Answering Services" value="561421"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Employment Services" value="5613">
+        <KeyedReference key="" name="Employee Leasing Services" value="56133"/>
+        <KeyedReference key="" name="Employment Placement Agencies" value="56131"/>
+        <KeyedReference key="" name="Temporary Help Services" value="56132"/>
+      </level3>
+      <level3 key="" name="Facilities Support Services" value="5612">
+        <KeyedReference key="" name="Facilities Support Services" value="56121"/>
+      </level3>
+      <level3 key="" name="Investigation and Security Services" value="5616">
+        <level4 key="" name="Investigation, Guard, and Armored Car Services" value="56161">
+          <KeyedReference key="" name="Armored Car Services" value="561613"/>
+          <KeyedReference key="" name="Investigation Services" value="561611"/>
+          <KeyedReference key="" name="Security Guards and Patrol Services" value="561612"/>
+        </level4>
+        <level4 key="" name="Security Systems Services" value="56162">
+          <KeyedReference key="" name="Locksmiths" value="561622"/>
+          <KeyedReference key="" name="Security Systems Services (except Locksmiths)" value="561621"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Office Administrative Services" value="5611">
+        <KeyedReference key="" name="Office Administrative Services" value="56111"/>
+      </level3>
+      <level3 key="" name="Other Support Services" value="5619">
+        <KeyedReference key="" name="All Other Support Services" value="56199"/>
+        <KeyedReference key="" name="Convention and Trade Show Organizers" value="56192"/>
+        <KeyedReference key="" name="Packaging and Labeling Services" value="56191"/>
+      </level3>
+      <level3 key="" name="Services to Buildings and Dwellings" value="5617">
+        <KeyedReference key="" name="Carpet and Upholstery Cleaning Services" value="56174"/>
+        <KeyedReference key="" name="Exterminating and Pest Control Services" value="56171"/>
+        <KeyedReference key="" name="Janitorial Services" value="56172"/>
+        <KeyedReference key="" name="Landscaping Services" value="56173"/>
+        <KeyedReference key="" name="Other Services to Buildings and Dwellings" value="56179"/>
+      </level3>
+      <level3 key="" name="Travel Arrangement and Reservation Services" value="5615">
+        <level4 key="" name="Other Travel Arrangement and Reservation Services" value="56159">
+          <KeyedReference key="" name="All Other Travel Arrangement and Reservation Service s" value="561599"/>
+          <KeyedReference key="" name="Convention and Visitors Bureaus" value="561591"/>
+        </level4>
+        <KeyedReference key="" name="Tour Operators" value="56152"/>
+        <KeyedReference key="" name="Travel Agencies" value="56151"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Waste Management and Remediation Services" value="562">
+      <level3 key="" name="Remediation and Other Waste Management Services" value="5629">
+        <level4 key="" name="All Other Waste Management Services" value="56299">
+          <KeyedReference key="" name="All Other Miscellaneous Waste Management Services" value="562998"/>
+          <KeyedReference key="" name="Septic Tank and Related Services" value="562991"/>
+        </level4>
+        <KeyedReference key="" name="Materials Recovery Facilities" value="56292"/>
+        <KeyedReference key="" name="Remediation Services" value="56291"/>
+      </level3>
+      <level3 key="" name="Waste Collection" value="5621">
+        <level4 key="" name="Waste Collection" value="56211">
+          <KeyedReference key="" name="Hazardous Waste Collection" value="562112"/>
+          <KeyedReference key="" name="Other Waste Collection" value="562119"/>
+          <KeyedReference key="" name="Solid Waste Collection" value="562111"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Waste Treatment and Disposal" value="5622">
+        <level4 key="" name="Waste Treatment and Disposal" value="56221">
+          <KeyedReference key="" name="Hazardous Waste Treatment and Disposal" value="562211"/>
+          <KeyedReference key="" name="Other Nonhazardous Waste Treatment and Disposal" value="562219"/>
+          <KeyedReference key="" name="Solid Waste Combustors and Incinerators" value="562213"/>
+          <KeyedReference key="" name="Solid Waste Landfill" value="562212"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Agriculture, Forestry, Fishing and Hunting" value="11">
+    <level2 key="" name="Animal Production" value="112">
+      <level3 key="" name="Animal Aquaculture" value="1125">
+        <level4 key="" name="Animal Aquaculture" value="11251">
+          <KeyedReference key="" name="Finfish Farming and Fish Hatcheries" value="112511"/>
+          <KeyedReference key="" name="Other Animal Aquaculture" value="112519"/>
+          <KeyedReference key="" name="Shellfish Farming" value="112512"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Cattle Ranching and Farming" value="1121">
+        <level4 key="" name="Beef Cattle Ranching and Farming, including Feedlots" value="11211">
+          <KeyedReference key="" name="Beef Cattle Ranching and Farming" value="112111"/>
+          <KeyedReference key="" name="Cattle Feedlots" value="112112"/>
+        </level4>
+        <KeyedReference key="" name="Dairy Cattle and Milk Production" value="11212"/>
+        <KeyedReference key="" name="Dual Purpose Cattle Ranching and Farming" value="11213"/>
+      </level3>
+      <level3 key="" name="Hog and Pig Farming" value="1122">
+        <KeyedReference key="" name="Hog and Pig Farming" value="11221"/>
+      </level3>
+      <level3 key="" name="Other Animal Production" value="1129">
+        <KeyedReference key="" name="All Other Animal Production" value="11299"/>
+        <KeyedReference key="" name="Apiculture" value="11291"/>
+        <KeyedReference key="" name="Fur-Bearing Animal and Rabbit Production" value="11293"/>
+        <KeyedReference key="" name="Horse and Other Equine Production" value="11292"/>
+      </level3>
+      <level3 key="" name="Poultry and Egg Production" value="1123">
+        <KeyedReference key="" name="Broilers and Other Meat Type Chicken Production" value="11232"/>
+        <KeyedReference key="" name="Chicken Egg Production" value="11231"/>
+        <KeyedReference key="" name="Other Poultry Production" value="11239"/>
+        <KeyedReference key="" name="Poultry Hatcheries" value="11234"/>
+        <KeyedReference key="" name="Turkey Production" value="11233"/>
+      </level3>
+      <level3 key="" name="Sheep and Goat Farming" value="1124">
+        <KeyedReference key="" name="Goat Farming" value="11242"/>
+        <KeyedReference key="" name="Sheep Farming" value="11241"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Crop Production" value="111">
+      <level3 key="" name="Fruit and Tree Nut Farming" value="1113">
+        <KeyedReference key="" name="Citrus (except Orange) Groves" value="11132"/>
+        <level4 key="" name="Noncitrus Fruit and Tree Nut Farming" value="11133">
+          <KeyedReference key="" name="Apple Orchards" value="111331"/>
+          <KeyedReference key="" name="Berry (except Strawberry) Farming" value="111334"/>
+          <KeyedReference key="" name="Fruit and Tree Nut Combination Farming" value="111336"/>
+          <KeyedReference key="" name="Grape Vineyards" value="111332"/>
+          <KeyedReference key="" name="Other Noncitrus Fruit Farming" value="111339"/>
+          <KeyedReference key="" name="Strawberry Farming" value="111333"/>
+          <KeyedReference key="" name="Tree Nut Farming" value="111335"/>
+        </level4>
+        <KeyedReference key="" name="Orange Groves" value="11131"/>
+      </level3>
+      <level3 key="" name="Greenhouse, Nursery, and Floriculture Production" value="1114">
+        <level4 key="" name="Food Crops Grown Under Cover" value="11141">
+          <KeyedReference key="" name="Mushroom Production" value="111411"/>
+          <KeyedReference key="" name="Other Food Crops Grown Under Cover" value="111419"/>
+        </level4>
+        <level4 key="" name="Nursery and Floriculture Production" value="11142">
+          <KeyedReference key="" name="Floriculture Production" value="111422"/>
+          <KeyedReference key="" name="Nursery and Tree Production" value="111421"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Oilseed and Grain Farming" value="1111">
+        <KeyedReference key="" name="Corn Farming" value="11115"/>
+        <KeyedReference key="" name="Dry Pea and Bean Farming" value="11113"/>
+        <KeyedReference key="" name="Oilseed (except Soybean) Farming" value="11112"/>
+        <level4 key="" name="Other Grain Farming" value="11119">
+          <KeyedReference key="" name="All Other Grain Farming" value="111199"/>
+          <KeyedReference key="" name="Oilseed and Grain Combination Farming" value="111191"/>
+        </level4>
+        <KeyedReference key="" name="Rice Farming" value="11116"/>
+        <KeyedReference key="" name="Soybean Farming" value="11111"/>
+        <KeyedReference key="" name="Wheat Farming" value="11114"/>
+      </level3>
+      <level3 key="" name="Other Crop Farming" value="1119">
+        <level4 key="" name="All Other Crop Farming" value="11199">
+          <KeyedReference key="" name="All Other Miscellaneous Crop Farming" value="111998"/>
+          <KeyedReference key="" name="Peanut Farming" value="111992"/>
+          <KeyedReference key="" name="Sugar Beet Farming" value="111991"/>
+        </level4>
+        <KeyedReference key="" name="Cotton Farming" value="11192"/>
+        <KeyedReference key="" name="Hay Farming" value="11194"/>
+        <KeyedReference key="" name="Sugarcane Farming" value="11193"/>
+        <KeyedReference key="" name="Tobacco Farming" value="11191"/>
+      </level3>
+      <level3 key="" name="Vegetable and Melon Farming" value="1112">
+        <level4 key="" name="Vegetable and Melon Farming" value="11121">
+          <KeyedReference key="" name="Other Vegetable (except Potato) and Melon Farming" value="111219"/>
+          <KeyedReference key="" name="Potato Farming" value="111211"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Fishing, Hunting and Trapping" value="114">
+      <level3 key="" name="Fishing" value="1141">
+        <level4 key="" name="Fishing" value="11411">
+          <KeyedReference key="" name="Finfish Fishing" value="114111"/>
+          <KeyedReference key="" name="Other Marine Fishing" value="114119"/>
+          <KeyedReference key="" name="Shellfish Fishing" value="114112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Hunting and Trapping" value="1142">
+        <KeyedReference key="" name="Hunting and Trapping" value="11421"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Forestry and Logging" value="113">
+      <level3 key="" name="Forest Nurseries and Gathering of Forest Products" value="1132">
+        <KeyedReference key="" name="Forest Nurseries and Gathering of Forest Products" value="11321"/>
+      </level3>
+      <level3 key="" name="Logging" value="1133">
+        <KeyedReference key="" name="Logging" value="11331"/>
+      </level3>
+      <level3 key="" name="Timber Tract Operations" value="1131">
+        <KeyedReference key="" name="Timber Tract Operations" value="11311"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Support Activities for Agriculture and Forestry" value="115">
+      <level3 key="" name="Support Activities for Animal Production" value="1152">
+        <KeyedReference key="" name="Support Activities for Animal Production" value="11521"/>
+      </level3>
+      <level3 key="" name="Support Activities for Crop Production" value="1151">
+        <level4 key="" name="Support Activities for Crop Production" value="11511">
+          <KeyedReference key="" name="Cotton Ginning" value="115111"/>
+          <KeyedReference key="" name="Crop Harvesting, Primarily by Machine" value="115113"/>
+          <KeyedReference key="" name="Farm Labor Contractors and Crew Leaders" value="115115"/>
+          <KeyedReference key="" name="Farm Management Services" value="115116"/>
+          <KeyedReference key="" name="Postharvest Crop Activities (except Cotton Ginning)" value="115114"/>
+          <KeyedReference key="" name="Soil Preparation, Planting, and Cultivating" value="115112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Support Activities for Forestry" value="1153">
+        <KeyedReference key="" name="Support Activities for Forestry" value="11531"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Arts, Entertainment, and Recreation" value="71">
+    <level2 key="" name="Amusement, Gambling, and Recreation Industries" value="713">
+      <level3 key="" name="Amusement Parks and Arcades" value="7131">
+        <KeyedReference key="" name="Amusement Arcades" value="71312"/>
+        <KeyedReference key="" name="Amusement and Theme Parks" value="71311"/>
+      </level3>
+      <level3 key="" name="Gambling Industries" value="7132">
+        <KeyedReference key="" name="Casinos (except Casino Hotels)" value="71321"/>
+        <KeyedReference key="" name="Other Gambling Industries" value="71329"/>
+      </level3>
+      <level3 key="" name="Other Amusement and Recreation Industries" value="7139">
+        <KeyedReference key="" name="All Other Amusement and Recreation Industries" value="71399"/>
+        <KeyedReference key="" name="Bowling Centers" value="71395"/>
+        <KeyedReference key="" name="Fitness and Recreational Sports Centers" value="71394"/>
+        <KeyedReference key="" name="Golf Courses and Country Clubs" value="71391"/>
+        <KeyedReference key="" name="Marinas" value="71393"/>
+        <KeyedReference key="" name="Skiing Facilities" value="71392"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Museums, Historical Sites, and Similar Institutions" value="712">
+      <level3 key="" name="Museums, Historical Sites, and Similar Institutions" value="7121">
+        <KeyedReference key="" name="Historical Sites" value="71212"/>
+        <KeyedReference key="" name="Museums" value="71211"/>
+        <KeyedReference key="" name="Nature Parks and Other Similar Institutions" value="71219"/>
+        <KeyedReference key="" name="Zoos and Botanical Gardens" value="71213"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Performing Arts, Spectator Sports, and Related Industri    es" value="711">
+      <level3 key="" name="Agents and Managers for Artists, Athletes, Entertainer   s, and Other Public Figures" value="7114">
+        <KeyedReference key="" name="Agents and Managers for Artists, Athletes, Entertaine  rs, and Other Public Figures" value="71141"/>
+      </level3>
+      <level3 key="" name="Independent Artists, Writers, and Performers" value="7115">
+        <KeyedReference key="" name="Independent Artists, Writers, and Performers" value="71151"/>
+      </level3>
+      <level3 key="" name="Performing Arts Companies" value="7111">
+        <KeyedReference key="" name="Dance Companies" value="71112"/>
+        <KeyedReference key="" name="Musical Groups and Artists" value="71113"/>
+        <KeyedReference key="" name="Other Performing Arts Companies" value="71119"/>
+        <KeyedReference key="" name="Theater Companies and Dinner Theaters" value="71111"/>
+      </level3>
+      <level3 key="" name="Promoters of Performing Arts, Sports, and Similar Even   ts" value="7113">
+        <KeyedReference key="" name="Promoters of Performing Arts, Sports, and Similar Eve  nts with Facilities" value="71131"/>
+        <KeyedReference key="" name="Promoters of Performing Arts, Sports, and Similar Eve  nts without Facilities" value="71132"/>
+      </level3>
+      <level3 key="" name="Spectator Sports" value="7112">
+        <level4 key="" name="Spectator Sports" value="71121">
+          <KeyedReference key="" name="Other Spectator Sports" value="711219"/>
+          <KeyedReference key="" name="Racetracks" value="711212"/>
+          <KeyedReference key="" name="Sports Teams and Clubs" value="711211"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Construction" value="23">
+    <level2 key="" name="Building, Developing, and General Contracting" value="233">
+      <level3 key="" name="Land Subdivision and Land Development" value="2331">
+        <KeyedReference key="" name="Land Subdivision and Land Development" value="23311"/>
+      </level3>
+      <level3 key="" name="Nonresidential Building Construction" value="2333">
+        <KeyedReference key="" name="Commercial and Institutional Building Construction" value="23332"/>
+        <KeyedReference key="" name="Manufacturing and Industrial Building Construction" value="23331"/>
+      </level3>
+      <level3 key="" name="Residential Building Construction" value="2332">
+        <KeyedReference key="" name="Multifamily Housing Construction" value="23322"/>
+        <KeyedReference key="" name="Single Family Housing Construction" value="23321"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Heavy Construction" value="234">
+      <level3 key="" name="Highway, Street, Bridge, and Tunnel Construction" value="2341">
+        <KeyedReference key="" name="Bridge and Tunnel Construction" value="23412"/>
+        <KeyedReference key="" name="Highway and Street Construction" value="23411"/>
+      </level3>
+      <level3 key="" name="Other Heavy Construction" value="2349">
+        <KeyedReference key="" name="All Other Heavy Construction" value="23499"/>
+        <KeyedReference key="" name="Industrial Nonbuilding Structure Construction" value="23493"/>
+        <KeyedReference key="" name="Power and Communication Transmission Line Constructio  n" value="23492"/>
+        <KeyedReference key="" name="Water, Sewer, and Pipeline Construction" value="23491"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Special Trade Contractors" value="235">
+      <level3 key="" name="Carpentry and Floor Contractors" value="2355">
+        <KeyedReference key="" name="Carpentry Contractors" value="23551"/>
+        <KeyedReference key="" name="Floor Laying and Other Floor Contractors" value="23552"/>
+      </level3>
+      <level3 key="" name="Concrete Contractors" value="2357">
+        <KeyedReference key="" name="Concrete Contractors" value="23571"/>
+      </level3>
+      <level3 key="" name="Electrical Contractors" value="2353">
+        <KeyedReference key="" name="Electrical Contractors" value="23531"/>
+      </level3>
+      <level3 key="" name="Masonry, Drywall, Insulation, and Tile Contractors" value="2354">
+        <KeyedReference key="" name="Drywall, Plastering, Acoustical, and Insulation Contr  actors" value="23542"/>
+        <KeyedReference key="" name="Masonry and Stone Contractors" value="23541"/>
+        <KeyedReference key="" name="Tile, Marble, Terrazzo, and Mosaic Contractors" value="23543"/>
+      </level3>
+      <level3 key="" name="Other Special Trade Contractors" value="2359">
+        <KeyedReference key="" name="All Other Special Trade Contractors" value="23599"/>
+        <KeyedReference key="" name="Building Equipment and Other Machinery Installation C  ontractors" value="23595"/>
+        <KeyedReference key="" name="Excavation Contractors" value="23593"/>
+        <KeyedReference key="" name="Glass and Glazing Contractors" value="23592"/>
+        <KeyedReference key="" name="Structural Steel Erection Contractors" value="23591"/>
+        <KeyedReference key="" name="Wrecking and Demolition Contractors" value="23594"/>
+      </level3>
+      <level3 key="" name="Painting and Wall Covering Contractors" value="2352">
+        <KeyedReference key="" name="Painting and Wall Covering Contractors" value="23521"/>
+      </level3>
+      <level3 key="" name="Plumbing, Heating, and Air-Conditioning Contractors" value="2351">
+        <KeyedReference key="" name="Plumbing, Heating, and Air-Conditioning Contractors" value="23511"/>
+      </level3>
+      <level3 key="" name="Roofing, Siding, and Sheet Metal Contractors" value="2356">
+        <KeyedReference key="" name="Roofing, Siding, and Sheet Metal Contractors" value="23561"/>
+      </level3>
+      <level3 key="" name="Water Well Drilling Contractors" value="2358">
+        <KeyedReference key="" name="Water Well Drilling Contractors" value="23581"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Educational Services" value="61">
+    <level2 key="" name="Educational Services" value="611">
+      <level3 key="" name="Business Schools and Computer and Management Training" value="6114">
+        <KeyedReference key="" name="Business and Secretarial Schools" value="61141"/>
+        <KeyedReference key="" name="Computer Training" value="61142"/>
+        <KeyedReference key="" name="Professional and Management Development Training" value="61143"/>
+      </level3>
+      <level3 key="" name="Colleges, Universities, and Professional Schools" value="6113">
+        <KeyedReference key="" name="Colleges, Universities, and Professional Schools" value="61131"/>
+      </level3>
+      <level3 key="" name="Educational Support Services" value="6117">
+        <KeyedReference key="" name="Educational Support Services" value="61171"/>
+      </level3>
+      <level3 key="" name="Elementary and Secondary Schools" value="6111">
+        <KeyedReference key="" name="Elementary and Secondary Schools" value="61111"/>
+      </level3>
+      <level3 key="" name="Junior Colleges" value="6112">
+        <KeyedReference key="" name="Junior Colleges" value="61121"/>
+      </level3>
+      <level3 key="" name="Other Schools and Instruction" value="6116">
+        <level4 key="" name="All Other Schools and Instruction" value="61169">
+          <KeyedReference key="" name="All Other Miscellaneous Schools and Instruction" value="611699"/>
+          <KeyedReference key="" name="Automobile Driving Schools" value="611692"/>
+          <KeyedReference key="" name="Exam Preparation and Tutoring" value="611691"/>
+        </level4>
+        <KeyedReference key="" name="Fine Arts Schools" value="61161"/>
+        <KeyedReference key="" name="Language Schools" value="61163"/>
+        <KeyedReference key="" name="Sports and Recreation Instruction" value="61162"/>
+      </level3>
+      <level3 key="" name="Technical and Trade Schools" value="6115">
+        <level4 key="" name="Technical and Trade Schools" value="61151">
+          <KeyedReference key="" name="Apprenticeship Training" value="611513"/>
+          <KeyedReference key="" name="Cosmetology and Barber Schools" value="611511"/>
+          <KeyedReference key="" name="Flight Training" value="611512"/>
+          <KeyedReference key="" name="Other Technical and Trade Schools" value="611519"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Finance and Insurance" value="52">
+    <level2 key="" name="Credit Intermediation and Related Activities" value="522">
+      <level3 key="" name="Activities Related to Credit Intermediation" value="5223">
+        <KeyedReference key="" name="Financial Transactions Processing, Reserve, and Clear  inghouse Activities" value="52232"/>
+        <KeyedReference key="" name="Mortgage and Nonmortgage Loan Brokers" value="52231"/>
+        <KeyedReference key="" name="Other Activities Related to Credit Intermediation" value="52239"/>
+      </level3>
+      <level3 key="" name="Depository Credit Intermediation" value="5221">
+        <KeyedReference key="" name="Commercial Banking" value="52211"/>
+        <KeyedReference key="" name="Credit Unions" value="52213"/>
+        <KeyedReference key="" name="Other Depository Credit Intermediation" value="52219"/>
+        <KeyedReference key="" name="Savings Institutions" value="52212"/>
+      </level3>
+      <level3 key="" name="Nondepository Credit Intermediation" value="5222">
+        <KeyedReference key="" name="Credit Card Issuing" value="52221"/>
+        <level4 key="" name="Other Nondepository Credit Intermediation" value="52229">
+          <KeyedReference key="" name="All Other Nondepository Credit Intermediation" value="522298"/>
+          <KeyedReference key="" name="Consumer Lending" value="522291"/>
+          <KeyedReference key="" name="International Trade Financing" value="522293"/>
+          <KeyedReference key="" name="Real Estate Credit" value="522292"/>
+          <KeyedReference key="" name="Secondary Market Financing" value="522294"/>
+        </level4>
+        <KeyedReference key="" name="Sales Financing" value="52222"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Funds, Trusts, and Other Financial Vehicles" value="525">
+      <level3 key="" name="Insurance and Employee Benefit Funds" value="5251">
+        <KeyedReference key="" name="Health and Welfare Funds" value="52512"/>
+        <KeyedReference key="" name="Other Insurance Funds" value="52519"/>
+        <KeyedReference key="" name="Pension Funds" value="52511"/>
+      </level3>
+      <level3 key="" name="Other Investment Pools and Funds" value="5259">
+        <KeyedReference key="" name="Open-End Investment Funds" value="52591"/>
+        <KeyedReference key="" name="Other Financial Vehicles" value="52599"/>
+        <KeyedReference key="" name="Real Estate Investment Trusts" value="52593"/>
+        <KeyedReference key="" name="Trusts, Estates, and Agency Accounts" value="52592"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Insurance Carriers and Related Activities" value="524">
+      <level3 key="" name="Agencies, Brokerages, and Other Insurance Related Acti   vities" value="5242">
+        <KeyedReference key="" name="Insurance Agencies and Brokerages" value="52421"/>
+        <level4 key="" name="Other Insurance Related Activities" value="52429">
+          <KeyedReference key="" name="All Other Insurance Related Activities" value="524298"/>
+          <KeyedReference key="" name="Claims Adjusting" value="524291"/>
+          <KeyedReference key="" name="Third Party Administration of Insurance and Pension  Funds" value="524292"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Insurance Carriers" value="5241">
+        <level4 key="" name="Direct Insurance (except Life, Health, and Medical) C  arriers" value="52412">
+          <KeyedReference key="" name="Direct Property and Casualty Insurance Carriers" value="524126"/>
+          <KeyedReference key="" name="Direct Title Insurance Carriers" value="524127"/>
+          <KeyedReference key="" name="Other Direct Insurance (except Life, Health, and Med ical) Carriers" value="524128"/>
+        </level4>
+        <level4 key="" name="Direct Life, Health, and Medical Insurance Carriers" value="52411">
+          <KeyedReference key="" name="Direct Health and Medical Insurance Carriers" value="524114"/>
+          <KeyedReference key="" name="Direct Life Insurance Carriers" value="524113"/>
+        </level4>
+        <KeyedReference key="" name="Reinsurance Carriers" value="52413"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Monetary Authorities - Central Bank" value="521">
+      <level3 key="" name="Monetary Authorities - Central Bank" value="5211">
+        <KeyedReference key="" name="Monetary Authorities - Central Bank" value="52111"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Securities, Commodity Contracts, and Other Financial In    vestments and Related Activities" value="523">
+      <level3 key="" name="Other Financial Investment Activities" value="5239">
+        <level4 key="" name="All Other Financial Investment Activities" value="52399">
+          <KeyedReference key="" name="Miscellaneous Financial Investment Activities" value="523999"/>
+          <KeyedReference key="" name="Trust, Fiduciary, and Custody Activities" value="523991"/>
+        </level4>
+        <KeyedReference key="" name="Investment Advice" value="52393"/>
+        <KeyedReference key="" name="Miscellaneous Intermediation" value="52391"/>
+        <KeyedReference key="" name="Portfolio Management" value="52392"/>
+      </level3>
+      <level3 key="" name="Securities and Commodity Contracts Intermediation and    Brokerage" value="5231">
+        <KeyedReference key="" name="Commodity Contracts Brokerage" value="52314"/>
+        <KeyedReference key="" name="Commodity Contracts Dealing" value="52313"/>
+        <KeyedReference key="" name="Investment Banking and Securities Dealing" value="52311"/>
+        <KeyedReference key="" name="Securities Brokerage" value="52312"/>
+      </level3>
+      <level3 key="" name="Securities and Commodity Exchanges" value="5232">
+        <KeyedReference key="" name="Securities and Commodity Exchanges" value="52321"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Health Care and Social Assistance" value="62">
+    <level2 key="" name="Ambulatory Health Care Services" value="621">
+      <level3 key="" name="Home Health Care Services" value="6216">
+        <KeyedReference key="" name="Home Health Care Services" value="62161"/>
+      </level3>
+      <level3 key="" name="Medical and Diagnostic Laboratories" value="6215">
+        <level4 key="" name="Medical and Diagnostic Laboratories" value="62151">
+          <KeyedReference key="" name="Diagnostic Imaging Centers" value="621512"/>
+          <KeyedReference key="" name="Medical Laboratories" value="621511"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Offices of Dentists" value="6212">
+        <KeyedReference key="" name="Offices of Dentists" value="62121"/>
+      </level3>
+      <level3 key="" name="Offices of Other Health Practitioners" value="6213">
+        <level4 key="" name="Offices of All Other Health Practitioners" value="62139">
+          <KeyedReference key="" name="Offices of All Other Miscellaneous Health Practition ers" value="621399"/>
+          <KeyedReference key="" name="Offices of Podiatrists" value="621391"/>
+        </level4>
+        <KeyedReference key="" name="Offices of Chiropractors" value="62131"/>
+        <KeyedReference key="" name="Offices of Mental Health Practitioners (except Physic  ians)" value="62133"/>
+        <KeyedReference key="" name="Offices of Optometrists" value="62132"/>
+        <KeyedReference key="" name="Offices of Physical, Occupational and Speech Therapis  ts, and Audiologists" value="62134"/>
+      </level3>
+      <level3 key="" name="Offices of Physicians" value="6211">
+        <level4 key="" name="Offices of Physicians" value="62111">
+          <KeyedReference key="" name="Offices of Physicians (except Mental Health Speciali sts)" value="621111"/>
+          <KeyedReference key="" name="Offices of Physicians, Mental Health Specialists" value="621112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Ambulatory Health Care Services" value="6219">
+        <level4 key="" name="All Other Ambulatory Health Care Services" value="62199">
+          <KeyedReference key="" name="All Other Miscellaneous Ambulatory Health Care Servi ces" value="621999"/>
+          <KeyedReference key="" name="Blood and Organ Banks" value="621991"/>
+        </level4>
+        <KeyedReference key="" name="Ambulance Services" value="62191"/>
+      </level3>
+      <level3 key="" name="Outpatient Care Centers" value="6214">
+        <KeyedReference key="" name="Family Planning Centers" value="62141"/>
+        <level4 key="" name="Other Outpatient Care Centers" value="62149">
+          <KeyedReference key="" name="All Other Outpatient Care Centers" value="621498"/>
+          <KeyedReference key="" name="Freestanding Ambulatory Surgical and Emergency Cente rs" value="621493"/>
+          <KeyedReference key="" name="HMO Medical Centers" value="621491"/>
+          <KeyedReference key="" name="Kidney Dialysis Centers" value="621492"/>
+        </level4>
+        <KeyedReference key="" name="Outpatient Mental Health and Substance Abuse Centers" value="62142"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Hospitals" value="622">
+      <level3 key="" name="General Medical and Surgical Hospitals" value="6221">
+        <KeyedReference key="" name="General Medical and Surgical Hospitals" value="62211"/>
+      </level3>
+      <level3 key="" name="Psychiatric and Substance Abuse Hospitals" value="6222">
+        <KeyedReference key="" name="Psychiatric and Substance Abuse Hospitals" value="62221"/>
+      </level3>
+      <level3 key="" name="Specialty (except Psychiatric and Substance Abuse) Hos   pitals" value="6223">
+        <KeyedReference key="" name="Specialty (except Psychiatric and Substance Abuse) Ho  spitals" value="62231"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Nursing and Residential Care Facilities" value="623">
+      <level3 key="" name="Community Care Facilities for the Elderly" value="6233">
+        <level4 key="" name="Community Care Facilities for the Elderly" value="62331">
+          <KeyedReference key="" name="Continuing Care Retirement Communities" value="623311"/>
+          <KeyedReference key="" name="Homes for the Elderly" value="623312"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Nursing Care Facilities" value="6231">
+        <KeyedReference key="" name="Nursing Care Facilities" value="62311"/>
+      </level3>
+      <level3 key="" name="Other Residential Care Facilities" value="6239">
+        <KeyedReference key="" name="Other Residential Care Facilities" value="62399"/>
+      </level3>
+      <level3 key="" name="Residential Mental Retardation, Mental Health and Subs   tance Abuse Facilities" value="6232">
+        <KeyedReference key="" name="Residential Mental Health and Substance Abuse Facilit  ies" value="62322"/>
+        <KeyedReference key="" name="Residential Mental Retardation Facilities" value="62321"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Social Assistance" value="624">
+      <level3 key="" name="Child Day Care Services" value="6244">
+        <KeyedReference key="" name="Child Day Care Services" value="62441"/>
+      </level3>
+      <level3 key="" name="Community Food and Housing, and Emergency and Other Re   lief Services" value="6242">
+        <KeyedReference key="" name="Community Food Services" value="62421"/>
+        <level4 key="" name="Community Housing Services" value="62422">
+          <KeyedReference key="" name="Other Community Housing Services" value="624229"/>
+          <KeyedReference key="" name="Temporary Shelters" value="624221"/>
+        </level4>
+        <KeyedReference key="" name="Emergency and Other Relief Services" value="62423"/>
+      </level3>
+      <level3 key="" name="Individual and Family Services" value="6241">
+        <KeyedReference key="" name="Child and Youth Services" value="62411"/>
+        <KeyedReference key="" name="Other Individual and Family Services" value="62419"/>
+        <KeyedReference key="" name="Services for the Elderly and Persons with Disabilitie  s" value="62412"/>
+      </level3>
+      <level3 key="" name="Vocational Rehabilitation Services" value="6243">
+        <KeyedReference key="" name="Vocational Rehabilitation Services" value="62431"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Information" value="51">
+    <level2 key="" name="Broadcasting and Telecommunications" value="513">
+      <level3 key="" name="Cable Networks and Program Distribution" value="5132">
+        <KeyedReference key="" name="Cable Networks" value="51321"/>
+        <KeyedReference key="" name="Cable and Other Program Distribution" value="51322"/>
+      </level3>
+      <level3 key="" name="Radio and Television Broadcasting" value="5131">
+        <level4 key="" name="Radio Broadcasting" value="51311">
+          <KeyedReference key="" name="Radio Networks" value="513111"/>
+          <KeyedReference key="" name="Radio Stations" value="513112"/>
+        </level4>
+        <KeyedReference key="" name="Television Broadcasting" value="51312"/>
+      </level3>
+      <level3 key="" name="Telecommunications" value="5133">
+        <KeyedReference key="" name="Other Telecommunications" value="51339"/>
+        <KeyedReference key="" name="Satellite Telecommunications" value="51334"/>
+        <KeyedReference key="" name="Telecommunications Resellers" value="51333"/>
+        <KeyedReference key="" name="Wired Telecommunications Carriers" value="51331"/>
+        <level4 key="" name="Wireless Telecommunications Carriers (except Satellit  e)" value="51332">
+          <KeyedReference key="" name="Cellular and Other Wireless Telecommunications" value="513322"/>
+          <KeyedReference key="" name="Paging" value="513321"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Information Services and Data Processing Services" value="514">
+      <level3 key="" name="Data Processing Services" value="5142">
+        <KeyedReference key="" name="Data Processing Services" value="51421"/>
+      </level3>
+      <level3 key="" name="Information Services" value="5141">
+        <KeyedReference key="" name="Libraries and Archives" value="51412"/>
+        <KeyedReference key="" name="News Syndicates" value="51411"/>
+        <level4 key="" name="Other Information Services" value="51419">
+          <KeyedReference key="" name="All Other Information Services" value="514199"/>
+          <KeyedReference key="" name="On-Line Information Services" value="514191"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Motion Picture and Sound Recording Industries" value="512">
+      <level3 key="" name="Motion Picture and Video Industries" value="5121">
+        <KeyedReference key="" name="Motion Picture and Video Distribution" value="51212"/>
+        <level4 key="" name="Motion Picture and Video Exhibition" value="51213">
+          <KeyedReference key="" name="Drive-In Motion Picture Theaters" value="512132"/>
+          <KeyedReference key="" name="Motion Picture Theaters (except Drive-Ins)" value="512131"/>
+        </level4>
+        <KeyedReference key="" name="Motion Picture and Video Production" value="51211"/>
+        <level4 key="" name="Postproduction Services and Other Motion Picture and   Video Industries" value="51219">
+          <KeyedReference key="" name="Other Motion Picture and Video Industries" value="512199"/>
+          <KeyedReference key="" name="Teleproduction and Other Postproduction Services" value="512191"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Sound Recording Industries" value="5122">
+        <KeyedReference key="" name="Integrated Record Production/Distribution" value="51222"/>
+        <KeyedReference key="" name="Music Publishers" value="51223"/>
+        <KeyedReference key="" name="Other Sound Recording Industries" value="51229"/>
+        <KeyedReference key="" name="Record Production" value="51221"/>
+        <KeyedReference key="" name="Sound Recording Studios" value="51224"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Publishing Industries" value="511">
+      <level3 key="" name="Newspaper, Periodical, Book, and Database Publishers" value="5111">
+        <KeyedReference key="" name="Book Publishers" value="51113"/>
+        <KeyedReference key="" name="Database and Directory Publishers" value="51114"/>
+        <KeyedReference key="" name="Newspaper Publishers" value="51111"/>
+        <level4 key="" name="Other Publishers" value="51119">
+          <KeyedReference key="" name="All Other Publishers" value="511199"/>
+          <KeyedReference key="" name="Greeting Card Publishers" value="511191"/>
+        </level4>
+        <KeyedReference key="" name="Periodical Publishers" value="51112"/>
+      </level3>
+      <level3 key="" name="Software Publishers" value="5112">
+        <KeyedReference key="" name="Software Publishers" value="51121"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Management of Companies and Enterprises" value="55">
+    <level2 key="" name="Management of Companies and Enterprises" value="551">
+      <level3 key="" name="Management of Companies and Enterprises" value="5511">
+        <level4 key="" name="Management of Companies and Enterprises" value="55111">
+          <KeyedReference key="" name="Corporate, Subsidiary, and Regional Managing Offices" value="551114"/>
+          <KeyedReference key="" name="Offices of Bank Holding Companies" value="551111"/>
+          <KeyedReference key="" name="Offices of Other Holding Companies" value="551112"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Manufacturing" value="31">
+    <level2 key="" name="Apparel Manufacturing" value="315">
+      <level3 key="" name="Apparel Accessories and Other Apparel Manufacturing" value="3159">
+        <level4 key="" name="Apparel Accessories and Other Apparel Manufacturing" value="31599">
+          <KeyedReference key="" name="Glove and Mitten Manufacturing" value="315992"/>
+          <KeyedReference key="" name="Hat, Cap, and Millinery Manufacturing" value="315991"/>
+          <KeyedReference key="" name="Men's and Boys' Neckwear Manufacturing" value="315993"/>
+          <KeyedReference key="" name="Other Apparel Accessories and Other Apparel Manufact uring" value="315999"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Apparel Knitting Mills" value="3151">
+        <level4 key="" name="Hosiery and Sock Mills" value="31511">
+          <KeyedReference key="" name="Other Hosiery and Sock Mills" value="315119"/>
+          <KeyedReference key="" name="Sheer Hosiery Mills" value="315111"/>
+        </level4>
+        <level4 key="" name="Other Apparel Knitting Mills" value="31519">
+          <KeyedReference key="" name="Outerwear Knitting Mills" value="315191"/>
+          <KeyedReference key="" name="Underwear and Nightwear Knitting Mills" value="315192"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Cut and Sew Apparel Manufacturing" value="3152">
+        <level4 key="" name="Cut and Sew Apparel Contractors" value="31521">
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Apparel Contractors" value="315211"/>
+          <KeyedReference key="" name="Women's, Girls', and Infants' Cut and Sew Apparel Co ntractors" value="315212"/>
+        </level4>
+        <level4 key="" name="Men's and Boys' Cut and Sew Apparel Manufacturing" value="31522">
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Other Outerwear Manufact uring" value="315228"/>
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Shirt (except Work Shirt ) Manufacturing" value="315223"/>
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Suit, Coat, and Overcoat Manufacturing" value="315222"/>
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Trouser, Slack, and Jean Manufacturing" value="315224"/>
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Underwear and Nightwear  Manufacturing" value="315221"/>
+          <KeyedReference key="" name="Men's and Boys' Cut and Sew Work Clothing Manufactur ing" value="315225"/>
+        </level4>
+        <level4 key="" name="Other Cut and Sew Apparel Manufacturing" value="31529">
+          <KeyedReference key="" name="All Other Cut and Sew Apparel Manufacturing" value="315299"/>
+          <KeyedReference key="" name="Fur and Leather Apparel Manufacturing" value="315292"/>
+          <KeyedReference key="" name="Infants' Cut and Sew Apparel Manufacturing" value="315291"/>
+        </level4>
+        <level4 key="" name="Women's and Girls' Cut and Sew Apparel Manufacturing" value="31523">
+          <KeyedReference key="" name="Women's and Girls' Cut and Sew Blouse and Shirt Manu facturing" value="315232"/>
+          <KeyedReference key="" name="Women's and Girls' Cut and Sew Dress Manufacturing" value="315233"/>
+          <KeyedReference key="" name="Women's and Girls' Cut and Sew Lingerie, Loungewear, and Nightwear Manufacturing" value="315231"/>
+          <KeyedReference key="" name="Women's and Girls' Cut and Sew Other Outerwear Manuf acturing" value="315239"/>
+          <KeyedReference key="" name="Women's and Girls' Cut and Sew Suit, Coat, Tailored  Jacket, and Skirt Manufacturing" value="315234"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Beverage and Tobacco Product Manufacturing" value="312">
+      <level3 key="" name="Beverage Manufacturing" value="3121">
+        <KeyedReference key="" name="Breweries" value="31212"/>
+        <KeyedReference key="" name="Distilleries" value="31214"/>
+        <level4 key="" name="Soft Drink and Ice Manufacturing" value="31211">
+          <KeyedReference key="" name="Bottled Water Manufacturing" value="312112"/>
+          <KeyedReference key="" name="Ice Manufacturing" value="312113"/>
+          <KeyedReference key="" name="Soft Drink Manufacturing" value="312111"/>
+        </level4>
+        <KeyedReference key="" name="Wineries" value="31213"/>
+      </level3>
+      <level3 key="" name="Tobacco Manufacturing" value="3122">
+        <level4 key="" name="Tobacco Product Manufacturing" value="31222">
+          <KeyedReference key="" name="Cigarette Manufacturing" value="312221"/>
+          <KeyedReference key="" name="Other Tobacco Product Manufacturing" value="312229"/>
+        </level4>
+        <KeyedReference key="" name="Tobacco Stemming and Redrying" value="31221"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Food Manufacturing" value="311">
+      <level3 key="" name="Animal Food Manufacturing" value="3111">
+        <level4 key="" name="Animal Food Manufacturing" value="31111">
+          <KeyedReference key="" name="Dog and Cat Food Manufacturing" value="311111"/>
+          <KeyedReference key="" name="Other Animal Food Manufacturing" value="311119"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Animal Slaughtering and Processing" value="3116">
+        <level4 key="" name="Animal Slaughtering and Processing" value="31161">
+          <KeyedReference key="" name="Animal (except Poultry) Slaughtering" value="311611"/>
+          <KeyedReference key="" name="Meat Processed from Carcasses" value="311612"/>
+          <KeyedReference key="" name="Poultry Processing" value="311615"/>
+          <KeyedReference key="" name="Rendering and Meat Byproduct Processing" value="311613"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Bakeries and Tortilla Manufacturing" value="3118">
+        <level4 key="" name="Bread and Bakery Product Manufacturing" value="31181">
+          <KeyedReference key="" name="Commercial Bakeries" value="311812"/>
+          <KeyedReference key="" name="Frozen Cakes, Pies, and Other Pastries Manufacturing" value="311813"/>
+          <KeyedReference key="" name="Retail Bakeries" value="311811"/>
+        </level4>
+        <level4 key="" name="Cookie, Cracker, and Pasta Manufacturing" value="31182">
+          <KeyedReference key="" name="Cookie and Cracker Manufacturing" value="311821"/>
+          <KeyedReference key="" name="Dry Pasta Manufacturing" value="311823"/>
+          <KeyedReference key="" name="Flour Mixes and Dough Manufacturing from Purchased F lour" value="311822"/>
+        </level4>
+        <KeyedReference key="" name="Tortilla Manufacturing" value="31183"/>
+      </level3>
+      <level3 key="" name="Dairy Product Manufacturing" value="3115">
+        <level4 key="" name="Dairy Product (except Frozen) Manufacturing" value="31151">
+          <KeyedReference key="" name="Cheese Manufacturing" value="311513"/>
+          <KeyedReference key="" name="Creamery Butter Manufacturing" value="311512"/>
+          <KeyedReference key="" name="Dry, Condensed, and Evaporated Dairy Product Manufac turing" value="311514"/>
+          <KeyedReference key="" name="Fluid Milk Manufacturing" value="311511"/>
+        </level4>
+        <KeyedReference key="" name="Ice Cream and Frozen Dessert Manufacturing" value="31152"/>
+      </level3>
+      <level3 key="" name="Fruit and Vegetable Preserving and Specialty Food Manu   facturing" value="3114">
+        <level4 key="" name="Frozen Food Manufacturing" value="31141">
+          <KeyedReference key="" name="Frozen Fruit, Juice, and Vegetable Manufacturing" value="311411"/>
+          <KeyedReference key="" name="Frozen Specialty Food Manufacturing" value="311412"/>
+        </level4>
+        <level4 key="" name="Fruit and Vegetable Canning, Pickling, and Drying" value="31142">
+          <KeyedReference key="" name="Dried and Dehydrated Food Manufacturing" value="311423"/>
+          <KeyedReference key="" name="Fruit and Vegetable Canning" value="311421"/>
+          <KeyedReference key="" name="Specialty Canning" value="311422"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Grain and Oilseed Milling" value="3112">
+        <KeyedReference key="" name="Breakfast Cereal Manufacturing" value="31123"/>
+        <level4 key="" name="Flour Milling and Malt Manufacturing" value="31121">
+          <KeyedReference key="" name="Flour Milling" value="311211"/>
+          <KeyedReference key="" name="Malt Manufacturing" value="311213"/>
+          <KeyedReference key="" name="Rice Milling" value="311212"/>
+        </level4>
+        <level4 key="" name="Starch and Vegetable Fats and Oils Manufacturing" value="31122">
+          <KeyedReference key="" name="Fats and Oils Refining and Blending" value="311225"/>
+          <KeyedReference key="" name="Other Oilseed Processing" value="311223"/>
+          <KeyedReference key="" name="Soybean Processing" value="311222"/>
+          <KeyedReference key="" name="Wet Corn Milling" value="311221"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Food Manufacturing" value="3119">
+        <level4 key="" name="All Other Food Manufacturing" value="31199">
+          <KeyedReference key="" name="All Other Miscellaneous Food Manufacturing" value="311999"/>
+          <KeyedReference key="" name="Perishable Prepared Food Manufacturing" value="311991"/>
+        </level4>
+        <KeyedReference key="" name="Coffee and Tea Manufacturing" value="31192"/>
+        <KeyedReference key="" name="Flavoring Syrup and Concentrate Manufacturing" value="31193"/>
+        <level4 key="" name="Seasoning and Dressing Manufacturing" value="31194">
+          <KeyedReference key="" name="Mayonnaise, Dressing, and Other Prepared Sauce Manuf acturing" value="311941"/>
+          <KeyedReference key="" name="Spice and Extract Manufacturing" value="311942"/>
+        </level4>
+        <level4 key="" name="Snack Food Manufacturing" value="31191">
+          <KeyedReference key="" name="Other Snack Food Manufacturing" value="311919"/>
+          <KeyedReference key="" name="Roasted Nuts and Peanut Butter Manufacturing" value="311911"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Seafood Product Preparation and Packaging" value="3117">
+        <level4 key="" name="Seafood Product Preparation and Packaging" value="31171">
+          <KeyedReference key="" name="Fresh and Frozen Seafood Processing" value="311712"/>
+          <KeyedReference key="" name="Seafood Canning" value="311711"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Sugar and Confectionery Product Manufacturing" value="3113">
+        <KeyedReference key="" name="Chocolate and Confectionery Manufacturing from Cacao   Beans" value="31132"/>
+        <KeyedReference key="" name="Confectionery Manufacturing from Purchased Chocolate" value="31133"/>
+        <KeyedReference key="" name="Nonchocolate Confectionery Manufacturing" value="31134"/>
+        <level4 key="" name="Sugar Manufacturing" value="31131">
+          <KeyedReference key="" name="Beet Sugar Manufacturing" value="311313"/>
+          <KeyedReference key="" name="Cane Sugar Refining" value="311312"/>
+          <KeyedReference key="" name="Sugarcane Mills" value="311311"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Leather and Allied Product Manufacturing" value="316">
+      <level3 key="" name="Footwear Manufacturing" value="3162">
+        <level4 key="" name="Footwear Manufacturing" value="31621">
+          <KeyedReference key="" name="House Slipper Manufacturing" value="316212"/>
+          <KeyedReference key="" name="Men's Footwear (except Athletic) Manufacturing" value="316213"/>
+          <KeyedReference key="" name="Other Footwear Manufacturing" value="316219"/>
+          <KeyedReference key="" name="Rubber and Plastics Footwear Manufacturing" value="316211"/>
+          <KeyedReference key="" name="Women's Footwear (except Athletic) Manufacturing" value="316214"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Leather and Hide Tanning and Finishing" value="3161">
+        <KeyedReference key="" name="Leather and Hide Tanning and Finishing" value="31611"/>
+      </level3>
+      <level3 key="" name="Other Leather and Allied Product Manufacturing" value="3169">
+        <level4 key="" name="Other Leather and Allied Product Manufacturing" value="31699">
+          <KeyedReference key="" name="All Other Leather Good Manufacturing" value="316999"/>
+          <KeyedReference key="" name="Luggage Manufacturing" value="316991"/>
+          <KeyedReference key="" name="Personal Leather Good (except Women's Handbag and Pu rse) Manufacturing" value="316993"/>
+          <KeyedReference key="" name="Women's Handbag and Purse Manufacturing" value="316992"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Textile Mills" value="313">
+      <level3 key="" name="Fabric Mills" value="3132">
+        <KeyedReference key="" name="Broadwoven Fabric Mills" value="31321"/>
+        <level4 key="" name="Knit Fabric Mills" value="31324">
+          <KeyedReference key="" name="Other Knit Fabric and Lace Mills" value="313249"/>
+          <KeyedReference key="" name="Weft Knit Fabric Mills" value="313241"/>
+        </level4>
+        <level4 key="" name="Narrow Fabric Mills and Schiffli Machine Embroidery" value="31322">
+          <KeyedReference key="" name="Narrow Fabric Mills" value="313221"/>
+          <KeyedReference key="" name="Schiffli Machine Embroidery" value="313222"/>
+        </level4>
+        <KeyedReference key="" name="Nonwoven Fabric Mills" value="31323"/>
+      </level3>
+      <level3 key="" name="Fiber, Yarn, and Thread Mills" value="3131">
+        <level4 key="" name="Fiber, Yarn, and Thread Mills" value="31311">
+          <KeyedReference key="" name="Thread Mills" value="313113"/>
+          <KeyedReference key="" name="Yarn Spinning Mills" value="313111"/>
+          <KeyedReference key="" name="Yarn Texturizing, Throwing, and Twisting Mills" value="313112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Textile and Fabric Finishing and Fabric Coating Mills" value="3133">
+        <KeyedReference key="" name="Fabric Coating Mills" value="31332"/>
+        <level4 key="" name="Textile and Fabric Finishing Mills" value="31331">
+          <KeyedReference key="" name="Broadwoven Fabric Finishing Mills" value="313311"/>
+          <KeyedReference key="" name="Textile and Fabric Finishing (except Broadwoven Fabr ic) Mills" value="313312"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Textile Product Mills" value="314">
+      <level3 key="" name="Other Textile Product Mills" value="3149">
+        <level4 key="" name="All Other Textile Product Mills" value="31499">
+          <KeyedReference key="" name="All Other Miscellaneous Textile Product Mills" value="314999"/>
+          <KeyedReference key="" name="Rope, Cordage, and Twine Mills" value="314991"/>
+          <KeyedReference key="" name="Tire Cord and Tire Fabric Mills" value="314992"/>
+        </level4>
+        <level4 key="" name="Textile Bag and Canvas Mills" value="31491">
+          <KeyedReference key="" name="Canvas and Related Product Mills" value="314912"/>
+          <KeyedReference key="" name="Textile Bag Mills" value="314911"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Textile Furnishings Mills" value="3141">
+        <KeyedReference key="" name="Carpet and Rug Mills" value="31411"/>
+        <level4 key="" name="Curtain and Linen Mills" value="31412">
+          <KeyedReference key="" name="Curtain and Drapery Mills" value="314121"/>
+          <KeyedReference key="" name="Other Household Textile Product Mills" value="314129"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Manufacturing" value="32">
+    <level2 key="" name="Chemical Manufacturing" value="325">
+      <level3 key="" name="Basic Chemical Manufacturing" value="3251">
+        <KeyedReference key="" name="Industrial Gas Manufacturing" value="32512"/>
+        <level4 key="" name="Other Basic Inorganic Chemical Manufacturing" value="32518">
+          <KeyedReference key="" name="Alkalies and Chlorine Manufacturing" value="325181"/>
+          <KeyedReference key="" name="All Other Basic Inorganic Chemical Manufacturing" value="325188"/>
+          <KeyedReference key="" name="Carbon Black Manufacturing" value="325182"/>
+        </level4>
+        <level4 key="" name="Other Basic Organic Chemical Manufacturing" value="32519">
+          <KeyedReference key="" name="All Other Basic Organic Chemical Manufacturing" value="325199"/>
+          <KeyedReference key="" name="Cyclic Crude and Intermediate Manufacturing" value="325192"/>
+          <KeyedReference key="" name="Ethyl Alcohol Manufacturing" value="325193"/>
+          <KeyedReference key="" name="Gum and Wood Chemical Manufacturing" value="325191"/>
+        </level4>
+        <KeyedReference key="" name="Petrochemical Manufacturing" value="32511"/>
+        <level4 key="" name="Synthetic Dye and Pigment Manufacturing" value="32513">
+          <KeyedReference key="" name="Inorganic Dye and Pigment Manufacturing" value="325131"/>
+          <KeyedReference key="" name="Synthetic Organic Dye and Pigment Manufacturing" value="325132"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Chemical Product and Preparation Manufacturing" value="3259">
+        <level4 key="" name="All Other Chemical Product and Preparation Manufactur  ing" value="32599">
+          <KeyedReference key="" name="All Other Miscellaneous Chemical Product and Prepara tion Manufacturing" value="325998"/>
+          <KeyedReference key="" name="Custom Compounding of Purchased Resins" value="325991"/>
+          <KeyedReference key="" name="Photographic Film, Paper, Plate, and Chemical Manufa cturing" value="325992"/>
+        </level4>
+        <KeyedReference key="" name="Explosives Manufacturing" value="32592"/>
+        <KeyedReference key="" name="Printing Ink Manufacturing" value="32591"/>
+      </level3>
+      <level3 key="" name="Paint, Coating, and Adhesive Manufacturing" value="3255">
+        <KeyedReference key="" name="Adhesive Manufacturing" value="32552"/>
+        <KeyedReference key="" name="Paint and Coating Manufacturing" value="32551"/>
+      </level3>
+      <level3 key="" name="Pesticide, Fertilizer, and Other Agricultural Chemical   Manufacturing" value="3253">
+        <level4 key="" name="Fertilizer Manufacturing" value="32531">
+          <KeyedReference key="" name="Fertilizer (Mixing Only) Manufacturing" value="325314"/>
+          <KeyedReference key="" name="Nitrogenous Fertilizer Manufacturing" value="325311"/>
+          <KeyedReference key="" name="Phosphatic Fertilizer Manufacturing" value="325312"/>
+        </level4>
+        <KeyedReference key="" name="Pesticide and Other Agricultural Chemical Manufacturi  ng" value="32532"/>
+      </level3>
+      <level3 key="" name="Pharmaceutical and Medicine Manufacturing" value="3254">
+        <level4 key="" name="Pharmaceutical and Medicine Manufacturing" value="32541">
+          <KeyedReference key="" name="Biological Product (except Diagnostic) Manufacturing" value="325414"/>
+          <KeyedReference key="" name="In-Vitro Diagnostic Substance Manufacturing" value="325413"/>
+          <KeyedReference key="" name="Medicinal and Botanical Manufacturing" value="325411"/>
+          <KeyedReference key="" name="Pharmaceutical Preparation Manufacturing" value="325412"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Resin, Synthetic Rubber, and Artificial and Synthetic    Fibers and Filaments Manufacturing" value="3252">
+        <level4 key="" name="Artificial and Synthetic Fibers and Filaments Manufac  turing" value="32522">
+          <KeyedReference key="" name="Cellulosic Organic Fiber Manufacturing" value="325221"/>
+          <KeyedReference key="" name="Noncellulosic Organic Fiber Manufacturing" value="325222"/>
+        </level4>
+        <level4 key="" name="Resin and Synthetic Rubber Manufacturing" value="32521">
+          <KeyedReference key="" name="Plastics Material and Resin Manufacturing" value="325211"/>
+          <KeyedReference key="" name="Synthetic Rubber Manufacturing" value="325212"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Soap, Cleaning Compound, and Toilet Preparation Manufa   cturing" value="3256">
+        <level4 key="" name="Soap and Cleaning Compound Manufacturing" value="32561">
+          <KeyedReference key="" name="Polish and Other Sanitation Good Manufacturing" value="325612"/>
+          <KeyedReference key="" name="Soap and Other Detergent Manufacturing" value="325611"/>
+          <KeyedReference key="" name="Surface Active Agent Manufacturing" value="325613"/>
+        </level4>
+        <KeyedReference key="" name="Toilet Preparation Manufacturing" value="32562"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Nonmetallic Mineral Product Manufacturing" value="327">
+      <level3 key="" name="Cement and Concrete Product Manufacturing" value="3273">
+        <KeyedReference key="" name="Cement Manufacturing" value="32731"/>
+        <level4 key="" name="Concrete Pipe, Brick, and Block Manufacturing" value="32733">
+          <KeyedReference key="" name="Concrete Block and Brick Manufacturing" value="327331"/>
+          <KeyedReference key="" name="Concrete Pipe Manufacturing" value="327332"/>
+        </level4>
+        <KeyedReference key="" name="Other Concrete Product Manufacturing" value="32739"/>
+        <KeyedReference key="" name="Ready-Mix Concrete Manufacturing" value="32732"/>
+      </level3>
+      <level3 key="" name="Clay Product and Refractory Manufacturing" value="3271">
+        <level4 key="" name="Clay Building Material and Refractories Manufacturing" value="32712">
+          <KeyedReference key="" name="Brick and Structural Clay Tile Manufacturing" value="327121"/>
+          <KeyedReference key="" name="Ceramic Wall and Floor Tile Manufacturing" value="327122"/>
+          <KeyedReference key="" name="Clay Refractory Manufacturing" value="327124"/>
+          <KeyedReference key="" name="Nonclay Refractory Manufacturing" value="327125"/>
+          <KeyedReference key="" name="Other Structural Clay Product Manufacturing" value="327123"/>
+        </level4>
+        <level4 key="" name="Pottery, Ceramics, and Plumbing Fixture Manufacturing" value="32711">
+          <KeyedReference key="" name="Porcelain Electrical Supply Manufacturing" value="327113"/>
+          <KeyedReference key="" name="Vitreous China Plumbing Fixture and China and Earthe nware Bathroom Accessories Manufacturing" value="327111"/>
+          <KeyedReference key="" name="Vitreous China, Fine Earthenware, and Other Pottery  Product Manufacturing" value="327112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Glass and Glass Product Manufacturing" value="3272">
+        <level4 key="" name="Glass and Glass Product Manufacturing" value="32721">
+          <KeyedReference key="" name="Flat Glass Manufacturing" value="327211"/>
+          <KeyedReference key="" name="Glass Container Manufacturing" value="327213"/>
+          <KeyedReference key="" name="Glass Product Manufacturing Made of Purchased Glass" value="327215"/>
+          <KeyedReference key="" name="Other Pressed and Blown Glass and Glassware Manufact uring" value="327212"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Lime and Gypsum Product Manufacturing" value="3274">
+        <KeyedReference key="" name="Gypsum Product Manufacturing" value="32742"/>
+        <KeyedReference key="" name="Lime Manufacturing" value="32741"/>
+      </level3>
+      <level3 key="" name="Other Nonmetallic Mineral Product Manufacturing" value="3279">
+        <KeyedReference key="" name="Abrasive Product Manufacturing" value="32791"/>
+        <level4 key="" name="All Other Nonmetallic Mineral Product Manufacturing" value="32799">
+          <KeyedReference key="" name="All Other Miscellaneous Nonmetallic Mineral Product  Manufacturing" value="327999"/>
+          <KeyedReference key="" name="Cut Stone and Stone Product Manufacturing" value="327991"/>
+          <KeyedReference key="" name="Ground or Treated Mineral and Earth Manufacturing" value="327992"/>
+          <KeyedReference key="" name="Mineral Wool Manufacturing" value="327993"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Paper Manufacturing" value="322">
+      <level3 key="" name="Converted Paper Product Manufacturing" value="3222">
+        <level4 key="" name="Other Converted Paper Product Manufacturing" value="32229">
+          <KeyedReference key="" name="All Other Converted Paper Product Manufacturing" value="322299"/>
+          <KeyedReference key="" name="Sanitary Paper Product Manufacturing" value="322291"/>
+        </level4>
+        <level4 key="" name="Paper Bag and Coated and Treated Paper Manufacturing" value="32222">
+          <KeyedReference key="" name="Coated and Laminated Packaging Paper and Plastics Fi lm Manufacturing" value="322221"/>
+          <KeyedReference key="" name="Coated and Laminated Paper Manufacturing" value="322222"/>
+          <KeyedReference key="" name="Laminated Aluminum Foil Manufacturing for Flexible P ackaging Uses" value="322225"/>
+          <KeyedReference key="" name="Plastics, Foil, and Coated Paper Bag Manufacturing" value="322223"/>
+          <KeyedReference key="" name="Surface-Coated Paperboard Manufacturing" value="322226"/>
+          <KeyedReference key="" name="Uncoated Paper and Multiwall Bag Manufacturing" value="322224"/>
+        </level4>
+        <level4 key="" name="Paperboard Container Manufacturing" value="32221">
+          <KeyedReference key="" name="Corrugated and Solid Fiber Box Manufacturing" value="322211"/>
+          <KeyedReference key="" name="Fiber Can, Tube, Drum, and Similar Products Manufact uring" value="322214"/>
+          <KeyedReference key="" name="Folding Paperboard Box Manufacturing" value="322212"/>
+          <KeyedReference key="" name="Nonfolding Sanitary Food Container Manufacturing" value="322215"/>
+          <KeyedReference key="" name="Setup Paperboard Box Manufacturing" value="322213"/>
+        </level4>
+        <level4 key="" name="Stationery Product Manufacturing" value="32223">
+          <KeyedReference key="" name="Die-Cut Paper and Paperboard Office Supplies Manufac turing" value="322231"/>
+          <KeyedReference key="" name="Envelope Manufacturing" value="322232"/>
+          <KeyedReference key="" name="Stationery, Tablet, and Related Product Manufacturin g" value="322233"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Pulp, Paper, and Paperboard Mills" value="3221">
+        <level4 key="" name="Paper Mills" value="32212">
+          <KeyedReference key="" name="Newsprint Mills" value="322122"/>
+          <KeyedReference key="" name="Paper (except Newsprint) Mills" value="322121"/>
+        </level4>
+        <KeyedReference key="" name="Paperboard Mills" value="32213"/>
+        <KeyedReference key="" name="Pulp Mills" value="32211"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Petroleum and Coal Products Manufacturing" value="324">
+      <level3 key="" name="Petroleum and Coal Products Manufacturing" value="3241">
+        <level4 key="" name="Asphalt Paving, Roofing, and Saturated Materials Manu  facturing" value="32412">
+          <KeyedReference key="" name="Asphalt Paving Mixture and Block Manufacturing" value="324121"/>
+          <KeyedReference key="" name="Asphalt Shingle and Coating Materials Manufacturing" value="324122"/>
+        </level4>
+        <level4 key="" name="Other Petroleum and Coal Products Manufacturing" value="32419">
+          <KeyedReference key="" name="All Other Petroleum and Coal Products Manufacturing" value="324199"/>
+          <KeyedReference key="" name="Petroleum Lubricating Oil and Grease Manufacturing" value="324191"/>
+        </level4>
+        <KeyedReference key="" name="Petroleum Refineries" value="32411"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Plastics and Rubber Products Manufacturing" value="326">
+      <level3 key="" name="Plastics Product Manufacturing" value="3261">
+        <KeyedReference key="" name="Laminated Plastics Plate, Sheet, and Shape Manufactur  ing" value="32613"/>
+        <level4 key="" name="Other Plastics Product Manufacturing" value="32619">
+          <KeyedReference key="" name="All Other Plastics Product Manufacturing" value="326199"/>
+          <KeyedReference key="" name="Plastics Plumbing Fixture Manufacturing" value="326191"/>
+          <KeyedReference key="" name="Resilient Floor Covering Manufacturing" value="326192"/>
+        </level4>
+        <KeyedReference key="" name="Plastics Bottle Manufacturing" value="32616"/>
+        <level4 key="" name="Plastics Pipe, Pipe Fitting, and Unsupported Profile   Shape Manufacturing" value="32612">
+          <KeyedReference key="" name="Plastics Pipe and Pipe Fitting Manufacturing" value="326122"/>
+          <KeyedReference key="" name="Unsupported Plastics Profile Shape Manufacturing" value="326121"/>
+        </level4>
+        <KeyedReference key="" name="Polystyrene Foam Product Manufacturing" value="32614"/>
+        <level4 key="" name="Unsupported Plastics Film, Sheet, and Bag Manufacturi  ng" value="32611">
+          <KeyedReference key="" name="Unsupported Plastics Bag Manufacturing" value="326111"/>
+          <KeyedReference key="" name="Unsupported Plastics Film and Sheet (except Packagin g) Manufacturing" value="326113"/>
+          <KeyedReference key="" name="Unsupported Plastics Packaging Film and Sheet Manufa cturing" value="326112"/>
+        </level4>
+        <KeyedReference key="" name="Urethane and Other Foam Product (except Polystyrene)   Manufacturing" value="32615"/>
+      </level3>
+      <level3 key="" name="Rubber Product Manufacturing" value="3262">
+        <level4 key="" name="Other Rubber Product Manufacturing" value="32629">
+          <KeyedReference key="" name="All Other Rubber Product Manufacturing" value="326299"/>
+          <KeyedReference key="" name="Rubber Product Manufacturing for Mechanical Use" value="326291"/>
+        </level4>
+        <KeyedReference key="" name="Rubber and Plastics Hoses and Belting Manufacturing" value="32622"/>
+        <level4 key="" name="Tire Manufacturing" value="32621">
+          <KeyedReference key="" name="Tire Manufacturing (except Retreading)" value="326211"/>
+          <KeyedReference key="" name="Tire Retreading" value="326212"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Printing and Related Support Activities" value="323">
+      <level3 key="" name="Printing and Related Support Activities" value="3231">
+        <level4 key="" name="Printing" value="32311">
+          <KeyedReference key="" name="Blankbook, Looseleaf Binders, and Devices Manufactur ing" value="323118"/>
+          <KeyedReference key="" name="Books Printing" value="323117"/>
+          <KeyedReference key="" name="Commercial Flexographic Printing" value="323112"/>
+          <KeyedReference key="" name="Commercial Gravure Printing" value="323111"/>
+          <KeyedReference key="" name="Commercial Lithographic Printing" value="323110"/>
+          <KeyedReference key="" name="Commercial Screen Printing" value="323113"/>
+          <KeyedReference key="" name="Digital Printing" value="323115"/>
+          <KeyedReference key="" name="Manifold Business Forms Printing" value="323116"/>
+          <KeyedReference key="" name="Other Commercial Printing" value="323119"/>
+          <KeyedReference key="" name="Quick Printing" value="323114"/>
+        </level4>
+        <level4 key="" name="Support Activities for Printing" value="32312">
+          <KeyedReference key="" name="Prepress Services" value="323122"/>
+          <KeyedReference key="" name="Tradebinding and Related Work" value="323121"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Wood Product Manufacturing" value="321">
+      <level3 key="" name="Other Wood Product Manufacturing" value="3219">
+        <level4 key="" name="All Other Wood Product Manufacturing" value="32199">
+          <KeyedReference key="" name="All Other Miscellaneous Wood Product Manufacturing" value="321999"/>
+          <KeyedReference key="" name="Manufactured Home (Mobile Home) Manufacturing" value="321991"/>
+          <KeyedReference key="" name="Prefabricated Wood Building Manufacturing" value="321992"/>
+        </level4>
+        <level4 key="" name="Millwork" value="32191">
+          <KeyedReference key="" name="Cut Stock, Resawing Lumber, and Planing" value="321912"/>
+          <KeyedReference key="" name="Other Millwork (including Flooring)" value="321918"/>
+          <KeyedReference key="" name="Wood Window and Door Manufacturing" value="321911"/>
+        </level4>
+        <KeyedReference key="" name="Wood Container and Pallet Manufacturing" value="32192"/>
+      </level3>
+      <level3 key="" name="Sawmills and Wood Preservation" value="3211">
+        <level4 key="" name="Sawmills and Wood Preservation" value="32111">
+          <KeyedReference key="" name="Sawmills" value="321113"/>
+          <KeyedReference key="" name="Wood Preservation" value="321114"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Veneer, Plywood, and Engineered Wood Product Manufactu   ring" value="3212">
+        <level4 key="" name="Veneer, Plywood, and Engineered Wood Product Manufact  uring" value="32121">
+          <KeyedReference key="" name="Engineered Wood Member (except Truss) Manufacturing" value="321213"/>
+          <KeyedReference key="" name="Hardwood Veneer and Plywood Manufacturing" value="321211"/>
+          <KeyedReference key="" name="Reconstituted Wood Product Manufacturing" value="321219"/>
+          <KeyedReference key="" name="Softwood Veneer and Plywood Manufacturing" value="321212"/>
+          <KeyedReference key="" name="Truss Manufacturing" value="321214"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Manufacturing" value="33">
+    <level2 key="" name="Computer and Electronic Product Manufacturing" value="334">
+      <level3 key="" name="Audio and Video Equipment Manufacturing" value="3343">
+        <KeyedReference key="" name="Audio and Video Equipment Manufacturing" value="33431"/>
+      </level3>
+      <level3 key="" name="Communications Equipment Manufacturing" value="3342">
+        <KeyedReference key="" name="Other Communications Equipment Manufacturing" value="33429"/>
+        <KeyedReference key="" name="Radio and Television Broadcasting and Wireless Commun  ications Equipment Manufacturing" value="33422"/>
+        <KeyedReference key="" name="Telephone Apparatus Manufacturing" value="33421"/>
+      </level3>
+      <level3 key="" name="Computer and Peripheral Equipment Manufacturing" value="3341">
+        <level4 key="" name="Computer and Peripheral Equipment Manufacturing" value="33411">
+          <KeyedReference key="" name="Computer Storage Device Manufacturing" value="334112"/>
+          <KeyedReference key="" name="Computer Terminal Manufacturing" value="334113"/>
+          <KeyedReference key="" name="Electronic Computer Manufacturing" value="334111"/>
+          <KeyedReference key="" name="Other Computer Peripheral Equipment Manufacturing" value="334119"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Manufacturing and Reproducing Magnetic and Optical Med   ia" value="3346">
+        <level4 key="" name="Manufacturing and Reproducing Magnetic and Optical Me  dia" value="33461">
+          <KeyedReference key="" name="Magnetic and Optical Recording Media Manufacturing" value="334613"/>
+          <KeyedReference key="" name="Prerecorded Compact Disc (except Software), Tape, an d Record Reproducing" value="334612"/>
+          <KeyedReference key="" name="Software Reproducing" value="334611"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Navigational, Measuring, Electromedical, and Control I   nstruments Manufacturing" value="3345">
+        <level4 key="" name="Navigational, Measuring, Electromedical, and Control   Instruments Manufacturing" value="33451">
+          <KeyedReference key="" name="Analytical Laboratory Instrument Manufacturing" value="334516"/>
+          <KeyedReference key="" name="Automatic Environmental Control Manufacturing for Re sidential, Commercial, and Appliance Use" value="334512"/>
+          <KeyedReference key="" name="Electromedical and Electrotherapeutic Apparatus Manu facturing" value="334510"/>
+          <KeyedReference key="" name="Instrument Manufacturing for Measuring and Testing E lectricity and Electrical Signals" value="334515"/>
+          <KeyedReference key="" name="Instruments and Related Products Manufacturing for M easuring, Displaying, and Controlling Industrial Process Variables" value="334513"/>
+          <KeyedReference key="" name="Irradiation Apparatus Manufacturing" value="334517"/>
+          <KeyedReference key="" name="Other Measuring and Controlling Device Manufacturing" value="334519"/>
+          <KeyedReference key="" name="Search, Detection, Navigation, Guidance, Aeronautica l, and Nautical System and Instrument Manufacturing" value="334511"/>
+          <KeyedReference key="" name="Totalizing Fluid Meter and Counting Device Manufactu ring" value="334514"/>
+          <KeyedReference key="" name="Watch, Clock, and Part Manufacturing" value="334518"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Semiconductor and Other Electronic Component Manufactu   ring" value="3344">
+        <level4 key="" name="Semiconductor and Other Electronic Component Manufact  uring" value="33441">
+          <KeyedReference key="" name="Bare Printed Circuit Board Manufacturing" value="334412"/>
+          <KeyedReference key="" name="Electron Tube Manufacturing" value="334411"/>
+          <KeyedReference key="" name="Electronic Capacitor Manufacturing" value="334414"/>
+          <KeyedReference key="" name="Electronic Coil, Transformer, and Other Inductor Man ufacturing" value="334416"/>
+          <KeyedReference key="" name="Electronic Connector Manufacturing" value="334417"/>
+          <KeyedReference key="" name="Electronic Resistor Manufacturing" value="334415"/>
+          <KeyedReference key="" name="Other Electronic Component Manufacturing" value="334419"/>
+          <KeyedReference key="" name="Printed Circuit Assembly (Electronic Assembly) Manuf acturing" value="334418"/>
+          <KeyedReference key="" name="Semiconductor and Related Device Manufacturing" value="334413"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Electrical Equipment, Appliance, and Component Manufact    uring" value="335">
+      <level3 key="" name="Electric Lighting Equipment Manufacturing" value="3351">
+        <KeyedReference key="" name="Electric Lamp Bulb and Part Manufacturing" value="33511"/>
+        <level4 key="" name="Lighting Fixture Manufacturing" value="33512">
+          <KeyedReference key="" name="Commercial, Industrial, and Institutional Electric L ighting Fixture Manufacturing" value="335122"/>
+          <KeyedReference key="" name="Other Lighting Equipment Manufacturing" value="335129"/>
+          <KeyedReference key="" name="Residential Electric Lighting Fixture Manufacturing" value="335121"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Electrical Equipment Manufacturing" value="3353">
+        <level4 key="" name="Electrical Equipment Manufacturing" value="33531">
+          <KeyedReference key="" name="Motor and Generator Manufacturing" value="335312"/>
+          <KeyedReference key="" name="Power, Distribution, and Specialty Transformer Manuf acturing" value="335311"/>
+          <KeyedReference key="" name="Relay and Industrial Control Manufacturing" value="335314"/>
+          <KeyedReference key="" name="Switchgear and Switchboard Apparatus Manufacturing" value="335313"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Household Appliance Manufacturing" value="3352">
+        <level4 key="" name="Major Appliance Manufacturing" value="33522">
+          <KeyedReference key="" name="Household Cooking Appliance Manufacturing" value="335221"/>
+          <KeyedReference key="" name="Household Laundry Equipment Manufacturing" value="335224"/>
+          <KeyedReference key="" name="Household Refrigerator and Home Freezer Manufacturin g" value="335222"/>
+          <KeyedReference key="" name="Other Major Household Appliance Manufacturing" value="335228"/>
+        </level4>
+        <level4 key="" name="Small Electrical Appliance Manufacturing" value="33521">
+          <KeyedReference key="" name="Electric Housewares and Household Fan Manufacturing" value="335211"/>
+          <KeyedReference key="" name="Household Vacuum Cleaner Manufacturing" value="335212"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Electrical Equipment and Component Manufacturing" value="3359">
+        <level4 key="" name="All Other Electrical Equipment and Component Manufact  uring" value="33599">
+          <KeyedReference key="" name="All Other Miscellaneous Electrical Equipment and Com ponent Manufacturing" value="335999"/>
+          <KeyedReference key="" name="Carbon and Graphite Product Manufacturing" value="335991"/>
+        </level4>
+        <level4 key="" name="Battery Manufacturing" value="33591">
+          <KeyedReference key="" name="Primary Battery Manufacturing" value="335912"/>
+          <KeyedReference key="" name="Storage Battery Manufacturing" value="335911"/>
+        </level4>
+        <level4 key="" name="Communication and Energy Wire and Cable Manufacturing" value="33592">
+          <KeyedReference key="" name="Fiber Optic Cable Manufacturing" value="335921"/>
+          <KeyedReference key="" name="Other Communication and Energy Wire Manufacturing" value="335929"/>
+        </level4>
+        <level4 key="" name="Wiring Device Manufacturing" value="33593">
+          <KeyedReference key="" name="Current-Carrying Wiring Device Manufacturing" value="335931"/>
+          <KeyedReference key="" name="Noncurrent-Carrying Wiring Device Manufacturing" value="335932"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Fabricated Metal Product Manufacturing" value="332">
+      <level3 key="" name="Architectural and Structural Metals Manufacturing" value="3323">
+        <level4 key="" name="Ornamental and Architectural Metal Products Manufactu  ring" value="33232">
+          <KeyedReference key="" name="Metal Window and Door Manufacturing" value="332321"/>
+          <KeyedReference key="" name="Ornamental and Architectural Metal Work Manufacturin g" value="332323"/>
+          <KeyedReference key="" name="Sheet Metal Work Manufacturing" value="332322"/>
+        </level4>
+        <level4 key="" name="Plate Work and Fabricated Structural Product Manufact  uring" value="33231">
+          <KeyedReference key="" name="Fabricated Structural Metal Manufacturing" value="332312"/>
+          <KeyedReference key="" name="Plate Work Manufacturing" value="332313"/>
+          <KeyedReference key="" name="Prefabricated Metal Building and Component Manufactu ring" value="332311"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Boiler, Tank, and Shipping Container Manufacturing" value="3324">
+        <level4 key="" name="Metal Can, Box, and Other Metal Container (Light Gaug  e) Manufacturing" value="33243">
+          <KeyedReference key="" name="Metal Can Manufacturing" value="332431"/>
+          <KeyedReference key="" name="Other Metal Container Manufacturing" value="332439"/>
+        </level4>
+        <KeyedReference key="" name="Metal Tank (Heavy Gauge) Manufacturing" value="33242"/>
+        <KeyedReference key="" name="Power Boiler and Heat Exchanger Manufacturing" value="33241"/>
+      </level3>
+      <level3 key="" name="Coating, Engraving, Heat Treating, and Allied Activiti   es" value="3328">
+        <level4 key="" name="Coating, Engraving, Heat Treating, and Allied Activit  ies" value="33281">
+          <KeyedReference key="" name="Electroplating, Plating, Polishing, Anodizing, and C oloring" value="332813"/>
+          <KeyedReference key="" name="Metal Coating, Engraving (except Jewelry and Silverw are), and Allied Services to Manufacturers" value="332812"/>
+          <KeyedReference key="" name="Metal Heat Treating" value="332811"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Cutlery and Handtool Manufacturing" value="3322">
+        <level4 key="" name="Cutlery and Handtool Manufacturing" value="33221">
+          <KeyedReference key="" name="Cutlery and Flatware (except Precious) Manufacturing" value="332211"/>
+          <KeyedReference key="" name="Hand and Edge Tool Manufacturing" value="332212"/>
+          <KeyedReference key="" name="Kitchen Utensil, Pot, and Pan Manufacturing" value="332214"/>
+          <KeyedReference key="" name="Saw Blade and Handsaw Manufacturing" value="332213"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Forging and Stamping" value="3321">
+        <level4 key="" name="Forging and Stamping" value="33211">
+          <KeyedReference key="" name="Crown and Closure Manufacturing" value="332115"/>
+          <KeyedReference key="" name="Custom Roll Forming" value="332114"/>
+          <KeyedReference key="" name="Iron and Steel Forging" value="332111"/>
+          <KeyedReference key="" name="Metal Stamping" value="332116"/>
+          <KeyedReference key="" name="Nonferrous Forging" value="332112"/>
+          <KeyedReference key="" name="Powder Metallurgy Part Manufacturing" value="332117"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Hardware Manufacturing" value="3325">
+        <KeyedReference key="" name="Hardware Manufacturing" value="33251"/>
+      </level3>
+      <level3 key="" name="Machine Shops; Turned Product; and Screw, Nut, and Bol   t Manufacturing" value="3327">
+        <KeyedReference key="" name="Machine Shops" value="33271"/>
+        <level4 key="" name="Turned Product and Screw, Nut, and Bolt Manufacturing" value="33272">
+          <KeyedReference key="" name="Bolt, Nut, Screw, Rivet, and Washer Manufacturing" value="332722"/>
+          <KeyedReference key="" name="Precision Turned Product Manufacturing" value="332721"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Fabricated Metal Product Manufacturing" value="3329">
+        <level4 key="" name="All Other Fabricated Metal Product Manufacturing" value="33299">
+          <KeyedReference key="" name="All Other Miscellaneous Fabricated Metal Product Man ufacturing" value="332999"/>
+          <KeyedReference key="" name="Ammunition (except Small Arms) Manufacturing" value="332993"/>
+          <KeyedReference key="" name="Ball and Roller Bearing Manufacturing" value="332991"/>
+          <KeyedReference key="" name="Enameled Iron and Metal Sanitary Ware Manufacturing" value="332998"/>
+          <KeyedReference key="" name="Fabricated Pipe and Pipe Fitting Manufacturing" value="332996"/>
+          <KeyedReference key="" name="Industrial Pattern Manufacturing" value="332997"/>
+          <KeyedReference key="" name="Other Ordnance and Accessories Manufacturing" value="332995"/>
+          <KeyedReference key="" name="Small Arms Ammunition Manufacturing" value="332992"/>
+          <KeyedReference key="" name="Small Arms Manufacturing" value="332994"/>
+        </level4>
+        <level4 key="" name="Metal Valve Manufacturing" value="33291">
+          <KeyedReference key="" name="Fluid Power Valve and Hose Fitting Manufacturing" value="332912"/>
+          <KeyedReference key="" name="Industrial Valve Manufacturing" value="332911"/>
+          <KeyedReference key="" name="Other Metal Valve and Pipe Fitting Manufacturing" value="332919"/>
+          <KeyedReference key="" name="Plumbing Fixture Fitting and Trim Manufacturing" value="332913"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Spring and Wire Product Manufacturing" value="3326">
+        <level4 key="" name="Spring and Wire Product Manufacturing" value="33261">
+          <KeyedReference key="" name="Other Fabricated Wire Product Manufacturing" value="332618"/>
+          <KeyedReference key="" name="Spring (Heavy Gauge) Manufacturing" value="332611"/>
+          <KeyedReference key="" name="Spring (Light Gauge) Manufacturing" value="332612"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Furniture and Related Product Manufacturing" value="337">
+      <level3 key="" name="Household and Institutional Furniture and Kitchen Cabi   net Manufacturing" value="3371">
+        <level4 key="" name="Household and Institutional Furniture Manufacturing" value="33712">
+          <KeyedReference key="" name="Household Furniture (except Wood and Metal) Manufact uring" value="337125"/>
+          <KeyedReference key="" name="Institutional Furniture Manufacturing" value="337127"/>
+          <KeyedReference key="" name="Metal Household Furniture Manufacturing" value="337124"/>
+          <KeyedReference key="" name="Nonupholstered Wood Household Furniture Manufacturin g" value="337122"/>
+          <KeyedReference key="" name="Upholstered Household Furniture Manufacturing" value="337121"/>
+          <KeyedReference key="" name="Wood Television, Radio, and Sewing Machine Cabinet M anufacturing" value="337129"/>
+        </level4>
+        <KeyedReference key="" name="Wood Kitchen Cabinet and Countertop Manufacturing" value="33711"/>
+      </level3>
+      <level3 key="" name="Office Furniture (including Fixtures) Manufacturing" value="3372">
+        <level4 key="" name="Office Furniture (including Fixtures) Manufacturing" value="33721">
+          <KeyedReference key="" name="Custom Architectural Woodwork and Millwork Manufactu ring" value="337212"/>
+          <KeyedReference key="" name="Office Furniture (except Wood) Manufacturing" value="337214"/>
+          <KeyedReference key="" name="Showcase, Partition, Shelving, and Locker Manufactur ing" value="337215"/>
+          <KeyedReference key="" name="Wood Office Furniture Manufacturing" value="337211"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Furniture Related Product Manufacturing" value="3379">
+        <KeyedReference key="" name="Blind and Shade Manufacturing" value="33792"/>
+        <KeyedReference key="" name="Mattress Manufacturing" value="33791"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Machinery Manufacturing" value="333">
+      <level3 key="" name="Agriculture, Construction, and Mining Machinery Manufa   cturing" value="3331">
+        <level4 key="" name="Agricultural Implement Manufacturing" value="33311">
+          <KeyedReference key="" name="Farm Machinery and Equipment Manufacturing" value="333111"/>
+          <KeyedReference key="" name="Lawn and Garden Tractor and Home Lawn and Garden Equ ipment Manufacturing" value="333112"/>
+        </level4>
+        <KeyedReference key="" name="Construction Machinery Manufacturing" value="33312"/>
+        <level4 key="" name="Mining and Oil and Gas Field Machinery Manufacturing" value="33313">
+          <KeyedReference key="" name="Mining Machinery and Equipment Manufacturing" value="333131"/>
+          <KeyedReference key="" name="Oil and Gas Field Machinery and Equipment Manufactur ing" value="333132"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Commercial and Service Industry Machinery Manufacturin   g" value="3333">
+        <level4 key="" name="Commercial and Service Industry Machinery Manufacturi  ng" value="33331">
+          <KeyedReference key="" name="Automatic Vending Machine Manufacturing" value="333311"/>
+          <KeyedReference key="" name="Commercial Laundry, Drycleaning, and Pressing Machin e Manufacturing" value="333312"/>
+          <KeyedReference key="" name="Office Machinery Manufacturing" value="333313"/>
+          <KeyedReference key="" name="Optical Instrument and Lens Manufacturing" value="333314"/>
+          <KeyedReference key="" name="Other Commercial and Service Industry Machinery Manu facturing" value="333319"/>
+          <KeyedReference key="" name="Photographic and Photocopying Equipment Manufacturin g" value="333315"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Engine, Turbine, and Power Transmission Equipment Manu   facturing" value="3336">
+        <level4 key="" name="Engine, Turbine, and Power Transmission Equipment Man  ufacturing" value="33361">
+          <KeyedReference key="" name="Mechanical Power Transmission Equipment Manufacturin g" value="333613"/>
+          <KeyedReference key="" name="Other Engine Equipment Manufacturing" value="333618"/>
+          <KeyedReference key="" name="Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing" value="333612"/>
+          <KeyedReference key="" name="Turbine and Turbine Generator Set Units Manufacturin g" value="333611"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Industrial Machinery Manufacturing" value="3332">
+        <level4 key="" name="Other Industrial Machinery Manufacturing" value="33329">
+          <KeyedReference key="" name="All Other Industrial Machinery Manufacturing" value="333298"/>
+          <KeyedReference key="" name="Food Product Machinery Manufacturing" value="333294"/>
+          <KeyedReference key="" name="Paper Industry Machinery Manufacturing" value="333291"/>
+          <KeyedReference key="" name="Printing Machinery and Equipment Manufacturing" value="333293"/>
+          <KeyedReference key="" name="Semiconductor Machinery Manufacturing" value="333295"/>
+          <KeyedReference key="" name="Textile Machinery Manufacturing" value="333292"/>
+        </level4>
+        <KeyedReference key="" name="Plastics and Rubber Industry Machinery Manufacturing" value="33322"/>
+        <KeyedReference key="" name="Sawmill and Woodworking Machinery Manufacturing" value="33321"/>
+      </level3>
+      <level3 key="" name="Metalworking Machinery Manufacturing" value="3335">
+        <level4 key="" name="Metalworking Machinery Manufacturing" value="33351">
+          <KeyedReference key="" name="Cutting Tool and Machine Tool Accessory Manufacturin g" value="333515"/>
+          <KeyedReference key="" name="Industrial Mold Manufacturing" value="333511"/>
+          <KeyedReference key="" name="Machine Tool (Metal Cutting Types) Manufacturing" value="333512"/>
+          <KeyedReference key="" name="Machine Tool (Metal Forming Types) Manufacturing" value="333513"/>
+          <KeyedReference key="" name="Other Metalworking Machinery Manufacturing" value="333518"/>
+          <KeyedReference key="" name="Rolling Mill Machinery and Equipment Manufacturing" value="333516"/>
+          <KeyedReference key="" name="Special Die and Tool, Die Set, Jig, and Fixture Manu facturing" value="333514"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other General Purpose Machinery Manufacturing" value="3339">
+        <level4 key="" name="All Other General Purpose Machinery Manufacturing" value="33399">
+          <KeyedReference key="" name="All Other Miscellaneous General Purpose Machinery Ma nufacturing" value="333999"/>
+          <KeyedReference key="" name="Fluid Power Cylinder and Actuator Manufacturing" value="333995"/>
+          <KeyedReference key="" name="Fluid Power Pump and Motor Manufacturing" value="333996"/>
+          <KeyedReference key="" name="Industrial Process Furnace and Oven Manufacturing" value="333994"/>
+          <KeyedReference key="" name="Packaging Machinery Manufacturing" value="333993"/>
+          <KeyedReference key="" name="Power-Driven Handtool Manufacturing" value="333991"/>
+          <KeyedReference key="" name="Scale and Balance (except Laboratory) Manufacturing" value="333997"/>
+          <KeyedReference key="" name="Welding and Soldering Equipment Manufacturing" value="333992"/>
+        </level4>
+        <level4 key="" name="Material Handling Equipment Manufacturing" value="33392">
+          <KeyedReference key="" name="Conveyor and Conveying Equipment Manufacturing" value="333922"/>
+          <KeyedReference key="" name="Elevator and Moving Stairway Manufacturing" value="333921"/>
+          <KeyedReference key="" name="Industrial Truck, Tractor, Trailer, and Stacker Mach inery Manufacturing" value="333924"/>
+          <KeyedReference key="" name="Overhead Traveling Crane, Hoist, and Monorail System Manufacturing" value="333923"/>
+        </level4>
+        <level4 key="" name="Pump and Compressor Manufacturing" value="33391">
+          <KeyedReference key="" name="Air and Gas Compressor Manufacturing" value="333912"/>
+          <KeyedReference key="" name="Measuring and Dispensing Pump Manufacturing" value="333913"/>
+          <KeyedReference key="" name="Pump and Pumping Equipment Manufacturing" value="333911"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Ventilation, Heating, Air-Conditioning, and Commercial   Refrigeration Equipment Manufacturing" value="3334">
+        <level4 key="" name="Ventilation, Heating, Air-Conditioning, and Commercia  l Refrigeration Equipment Manufacturing" value="33341">
+          <KeyedReference key="" name="Air Purification Equipment Manufacturing" value="333411"/>
+          <KeyedReference key="" name="Air-Conditioning and Warm Air Heating Equipment and  Commercial and Industrial Refrigeration Equipment Manufacturing" value="333415"/>
+          <KeyedReference key="" name="Heating Equipment (except Warm Air Furnaces) Manufac turing" value="333414"/>
+          <KeyedReference key="" name="Industrial and Commercial Fan and Blower Manufacturi ng" value="333412"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Miscellaneous Manufacturing" value="339">
+      <level3 key="" name="Medical Equipment and Supplies Manufacturing" value="3391">
+        <level4 key="" name="Medical Equipment and Supplies Manufacturing" value="33911">
+          <KeyedReference key="" name="Dental Equipment and Supplies Manufacturing" value="339114"/>
+          <KeyedReference key="" name="Dental Laboratories" value="339116"/>
+          <KeyedReference key="" name="Laboratory Apparatus and Furniture Manufacturing" value="339111"/>
+          <KeyedReference key="" name="Ophthalmic Goods Manufacturing" value="339115"/>
+          <KeyedReference key="" name="Surgical Appliance and Supplies Manufacturing" value="339113"/>
+          <KeyedReference key="" name="Surgical and Medical Instrument Manufacturing" value="339112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Miscellaneous Manufacturing" value="3399">
+        <level4 key="" name="All Other Miscellaneous Manufacturing" value="33999">
+          <KeyedReference key="" name="All Other Miscellaneous Manufacturing" value="339999"/>
+          <KeyedReference key="" name="Broom, Brush, and Mop Manufacturing" value="339994"/>
+          <KeyedReference key="" name="Burial Casket Manufacturing" value="339995"/>
+          <KeyedReference key="" name="Fastener, Button, Needle, and Pin Manufacturing" value="339993"/>
+          <KeyedReference key="" name="Gasket, Packing, and Sealing Device Manufacturing" value="339991"/>
+          <KeyedReference key="" name="Musical Instrument Manufacturing" value="339992"/>
+        </level4>
+        <level4 key="" name="Doll, Toy, and Game Manufacturing" value="33993">
+          <KeyedReference key="" name="Doll and Stuffed Toy Manufacturing" value="339931"/>
+          <KeyedReference key="" name="Game, Toy, and Children's Vehicle Manufacturing" value="339932"/>
+        </level4>
+        <level4 key="" name="Jewelry and Silverware Manufacturing" value="33991">
+          <KeyedReference key="" name="Costume Jewelry and Novelty Manufacturing" value="339914"/>
+          <KeyedReference key="" name="Jewelers' Material and Lapidary Work Manufacturing" value="339913"/>
+          <KeyedReference key="" name="Jewelry (except Costume) Manufacturing" value="339911"/>
+          <KeyedReference key="" name="Silverware and Hollowware Manufacturing" value="339912"/>
+        </level4>
+        <level4 key="" name="Office Supplies (except Paper) Manufacturing" value="33994">
+          <KeyedReference key="" name="Carbon Paper and Inked Ribbon Manufacturing" value="339944"/>
+          <KeyedReference key="" name="Lead Pencil and Art Good Manufacturing" value="339942"/>
+          <KeyedReference key="" name="Marking Device Manufacturing" value="339943"/>
+          <KeyedReference key="" name="Pen and Mechanical Pencil Manufacturing" value="339941"/>
+        </level4>
+        <KeyedReference key="" name="Sign Manufacturing" value="33995"/>
+        <KeyedReference key="" name="Sporting and Athletic Goods Manufacturing" value="33992"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Primary Metal Manufacturing" value="331">
+      <level3 key="" name="Alumina and Aluminum Production and Processing" value="3313">
+        <level4 key="" name="Alumina and Aluminum Production and Processing" value="33131">
+          <KeyedReference key="" name="Alumina Refining" value="331311"/>
+          <KeyedReference key="" name="Aluminum Extruded Product Manufacturing" value="331316"/>
+          <KeyedReference key="" name="Aluminum Sheet, Plate, and Foil Manufacturing" value="331315"/>
+          <KeyedReference key="" name="Other Aluminum Rolling and Drawing" value="331319"/>
+          <KeyedReference key="" name="Primary Aluminum Production" value="331312"/>
+          <KeyedReference key="" name="Secondary Smelting and Alloying of Aluminum" value="331314"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Foundries" value="3315">
+        <level4 key="" name="Ferrous Metal Foundries" value="33151">
+          <KeyedReference key="" name="Iron Foundries" value="331511"/>
+          <KeyedReference key="" name="Steel Foundries (except Investment)" value="331513"/>
+          <KeyedReference key="" name="Steel Investment Foundries" value="331512"/>
+        </level4>
+        <level4 key="" name="Nonferrous Metal Foundries" value="33152">
+          <KeyedReference key="" name="Aluminum Die-Casting Foundries" value="331521"/>
+          <KeyedReference key="" name="Aluminum Foundries (except Die-Casting)" value="331524"/>
+          <KeyedReference key="" name="Copper Foundries (except Die-Casting)" value="331525"/>
+          <KeyedReference key="" name="Nonferrous (except Aluminum) Die-Casting Foundries" value="331522"/>
+          <KeyedReference key="" name="Other Nonferrous Foundries (except Die-Casting)" value="331528"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Iron and Steel Mills and Ferroalloy Manufacturing" value="3311">
+        <level4 key="" name="Iron and Steel Mills and Ferroalloy Manufacturing" value="33111">
+          <KeyedReference key="" name="Electrometallurgical Ferroalloy Product Manufacturin g" value="331112"/>
+          <KeyedReference key="" name="Iron and Steel Mills" value="331111"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Nonferrous Metal (except Aluminum) Production and Proc   essing" value="3314">
+        <level4 key="" name="Copper Rolling, Drawing, Extruding, and Alloying" value="33142">
+          <KeyedReference key="" name="Copper Rolling, Drawing, and Extruding" value="331421"/>
+          <KeyedReference key="" name="Copper Wire (except Mechanical) Drawing" value="331422"/>
+          <KeyedReference key="" name="Secondary Smelting, Refining, and Alloying of Copper" value="331423"/>
+        </level4>
+        <level4 key="" name="Nonferrous Metal (except Aluminum) Smelting and Refin  ing" value="33141">
+          <KeyedReference key="" name="Primary Smelting and Refining of Copper" value="331411"/>
+          <KeyedReference key="" name="Primary Smelting and Refining of Nonferrous Metal (e xcept Copper and Aluminum)" value="331419"/>
+        </level4>
+        <level4 key="" name="Nonferrous Metal (except Copper and Aluminum) Rolling  , Drawing, Extruding, and Alloying" value="33149">
+          <KeyedReference key="" name="Nonferrous Metal (except Copper and Aluminum) Rollin g, Drawing, and Extruding" value="331491"/>
+          <KeyedReference key="" name="Secondary Smelting, Refining, and Alloying of Nonfer rous Metal (except Copper and Aluminum)" value="331492"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Steel Product Manufacturing from Purchased Steel" value="3312">
+        <KeyedReference key="" name="Iron and Steel Pipe and Tube Manufacturing from Purch  ased Steel" value="33121"/>
+        <level4 key="" name="Rolling and Drawing of Purchased Steel" value="33122">
+          <KeyedReference key="" name="Rolled Steel Shape Manufacturing" value="331221"/>
+          <KeyedReference key="" name="Steel Wire Drawing" value="331222"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Transportation Equipment Manufacturing" value="336">
+      <level3 key="" name="Aerospace Product and Parts Manufacturing" value="3364">
+        <level4 key="" name="Aerospace Product and Parts Manufacturing" value="33641">
+          <KeyedReference key="" name="Aircraft Engine and Engine Parts Manufacturing" value="336412"/>
+          <KeyedReference key="" name="Aircraft Manufacturing" value="336411"/>
+          <KeyedReference key="" name="Guided Missile and Space Vehicle Manufacturing" value="336414"/>
+          <KeyedReference key="" name="Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing" value="336415"/>
+          <KeyedReference key="" name="Other Aircraft Parts and Auxiliary Equipment Manufac turing" value="336413"/>
+          <KeyedReference key="" name="Other Guided Missile and Space Vehicle Parts and Aux iliary Equipment Manufacturing" value="336419"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Motor Vehicle Body and Trailer Manufacturing" value="3362">
+        <level4 key="" name="Motor Vehicle Body and Trailer Manufacturing" value="33621">
+          <KeyedReference key="" name="Motor Home Manufacturing" value="336213"/>
+          <KeyedReference key="" name="Motor Vehicle Body Manufacturing" value="336211"/>
+          <KeyedReference key="" name="Travel Trailer and Camper Manufacturing" value="336214"/>
+          <KeyedReference key="" name="Truck Trailer Manufacturing" value="336212"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Motor Vehicle Manufacturing" value="3361">
+        <level4 key="" name="Automobile and Light Duty Motor Vehicle Manufacturing" value="33611">
+          <KeyedReference key="" name="Automobile Manufacturing" value="336111"/>
+          <KeyedReference key="" name="Light Truck and Utility Vehicle Manufacturing" value="336112"/>
+        </level4>
+        <KeyedReference key="" name="Heavy Duty Truck Manufacturing" value="33612"/>
+      </level3>
+      <level3 key="" name="Motor Vehicle Parts Manufacturing" value="3363">
+        <KeyedReference key="" name="Motor Vehicle Brake System Manufacturing" value="33634"/>
+        <level4 key="" name="Motor Vehicle Electrical and Electronic Equipment Man  ufacturing" value="33632">
+          <KeyedReference key="" name="Other Motor Vehicle Electrical and Electronic Equipm ent Manufacturing" value="336322"/>
+          <KeyedReference key="" name="Vehicular Lighting Equipment Manufacturing" value="336321"/>
+        </level4>
+        <level4 key="" name="Motor Vehicle Gasoline Engine and Engine Parts Manufa  cturing" value="33631">
+          <KeyedReference key="" name="Carburetor, Piston, Piston Ring, and Valve Manufactu ring" value="336311"/>
+          <KeyedReference key="" name="Gasoline Engine and Engine Parts Manufacturing" value="336312"/>
+        </level4>
+        <KeyedReference key="" name="Motor Vehicle Metal Stamping" value="33637"/>
+        <KeyedReference key="" name="Motor Vehicle Seating and Interior Trim Manufacturing" value="33636"/>
+        <KeyedReference key="" name="Motor Vehicle Steering and Suspension Components (exc  ept Spring) Manufacturing" value="33633"/>
+        <KeyedReference key="" name="Motor Vehicle Transmission and Power Train Parts Manu  facturing" value="33635"/>
+        <level4 key="" name="Other Motor Vehicle Parts Manufacturing" value="33639">
+          <KeyedReference key="" name="All Other Motor Vehicle Parts Manufacturing" value="336399"/>
+          <KeyedReference key="" name="Motor Vehicle Air-Conditioning Manufacturing" value="336391"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Transportation Equipment Manufacturing" value="3369">
+        <level4 key="" name="Other Transportation Equipment Manufacturing" value="33699">
+          <KeyedReference key="" name="All Other Transportation Equipment Manufacturing" value="336999"/>
+          <KeyedReference key="" name="Military Armored Vehicle, Tank, and Tank Component M anufacturing" value="336992"/>
+          <KeyedReference key="" name="Motorcycle, Bicycle, and Parts Manufacturing" value="336991"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Railroad Rolling Stock Manufacturing" value="3365">
+        <KeyedReference key="" name="Railroad Rolling Stock Manufacturing" value="33651"/>
+      </level3>
+      <level3 key="" name="Ship and Boat Building" value="3366">
+        <level4 key="" name="Ship and Boat Building" value="33661">
+          <KeyedReference key="" name="Boat Building" value="336612"/>
+          <KeyedReference key="" name="Ship Building and Repairing" value="336611"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Mining" value="21">
+    <level2 key="" name="Mining (except Oil and Gas)" value="212">
+      <level3 key="" name="Coal Mining" value="2121">
+        <level4 key="" name="Coal Mining" value="21211">
+          <KeyedReference key="" name="Anthracite Mining" value="212113"/>
+          <KeyedReference key="" name="Bituminous Coal Underground Mining" value="212112"/>
+          <KeyedReference key="" name="Bituminous Coal and Lignite Surface Mining" value="212111"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Metal Ore Mining" value="2122">
+        <level4 key="" name="Copper, Nickel, Lead, and Zinc Mining" value="21223">
+          <KeyedReference key="" name="Copper Ore and Nickel Ore Mining" value="212234"/>
+          <KeyedReference key="" name="Lead Ore and Zinc Ore Mining" value="212231"/>
+        </level4>
+        <level4 key="" name="Gold Ore and Silver Ore Mining" value="21222">
+          <KeyedReference key="" name="Gold Ore Mining" value="212221"/>
+          <KeyedReference key="" name="Silver Ore Mining" value="212222"/>
+        </level4>
+        <KeyedReference key="" name="Iron Ore Mining" value="21221"/>
+        <level4 key="" name="Other Metal Ore Mining" value="21229">
+          <KeyedReference key="" name="All Other Metal Ore Mining" value="212299"/>
+          <KeyedReference key="" name="Uranium-Radium-Vanadium Ore Mining" value="212291"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Nonmetallic Mineral Mining and Quarrying" value="2123">
+        <level4 key="" name="Other Nonmetallic Mineral Mining and Quarrying" value="21239">
+          <KeyedReference key="" name="All Other Nonmetallic Mineral Mining" value="212399"/>
+          <KeyedReference key="" name="Other Chemical and Fertilizer Mineral Mining" value="212393"/>
+          <KeyedReference key="" name="Phosphate Rock Mining" value="212392"/>
+          <KeyedReference key="" name="Potash, Soda, and Borate Mineral Mining" value="212391"/>
+        </level4>
+        <level4 key="" name="Sand, Gravel, Clay, and Ceramic and Refractory Minera  ls Mining and Quarrying" value="21232">
+          <KeyedReference key="" name="Clay and Ceramic and Refractory Minerals Mining" value="212325"/>
+          <KeyedReference key="" name="Construction Sand and Gravel Mining" value="212321"/>
+          <KeyedReference key="" name="Industrial Sand Mining" value="212322"/>
+          <KeyedReference key="" name="Kaolin and Ball Clay Mining" value="212324"/>
+        </level4>
+        <level4 key="" name="Stone Mining and Quarrying" value="21231">
+          <KeyedReference key="" name="Crushed and Broken Granite Mining and Quarrying" value="212313"/>
+          <KeyedReference key="" name="Crushed and Broken Limestone Mining and Quarrying" value="212312"/>
+          <KeyedReference key="" name="Dimension Stone Mining and Quarrying" value="212311"/>
+          <KeyedReference key="" name="Other Crushed and Broken Stone Mining and Quarrying" value="212319"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Oil and Gas Extraction" value="211">
+      <level3 key="" name="Oil and Gas Extraction" value="2111">
+        <level4 key="" name="Oil and Gas Extraction" value="21111">
+          <KeyedReference key="" name="Crude Petroleum and Natural Gas Extraction" value="211111"/>
+          <KeyedReference key="" name="Natural Gas Liquid Extraction" value="211112"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Support Activities for Mining" value="213">
+      <level3 key="" name="Support Activities for Mining" value="2131">
+        <level4 key="" name="Support Activities for Mining" value="21311">
+          <KeyedReference key="" name="Drilling Oil and Gas Wells" value="213111"/>
+          <KeyedReference key="" name="Support Activities for Coal Mining" value="213113"/>
+          <KeyedReference key="" name="Support Activities for Metal Mining" value="213114"/>
+          <KeyedReference key="" name="Support Activities for Nonmetallic Minerals (except  Fuels)" value="213115"/>
+          <KeyedReference key="" name="Support Activities for Oil and Gas Operations" value="213112"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Other Services (except Public Administration)" value="81">
+    <level2 key="" name="Personal and Laundry Services" value="812">
+      <level3 key="" name="Death Care Services" value="8122">
+        <KeyedReference key="" name="Cemeteries and Crematories" value="81222"/>
+        <KeyedReference key="" name="Funeral Homes and Funeral Services" value="81221"/>
+      </level3>
+      <level3 key="" name="Drycleaning and Laundry Services" value="8123">
+        <KeyedReference key="" name="Coin-Operated Laundries and Drycleaners" value="81231"/>
+        <KeyedReference key="" name="Drycleaning and Laundry Services (except Coin-Operate  d)" value="81232"/>
+        <level4 key="" name="Linen and Uniform Supply" value="81233">
+          <KeyedReference key="" name="Industrial Launderers" value="812332"/>
+          <KeyedReference key="" name="Linen Supply" value="812331"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Other Personal Services" value="8129">
+        <KeyedReference key="" name="All Other Personal Services" value="81299"/>
+        <KeyedReference key="" name="Parking Lots and Garages" value="81293"/>
+        <KeyedReference key="" name="Pet Care (except Veterinary) Services" value="81291"/>
+        <level4 key="" name="Photofinishing" value="81292">
+          <KeyedReference key="" name="One-Hour Photofinishing" value="812922"/>
+          <KeyedReference key="" name="Photofinishing Laboratories (except One-Hour)" value="812921"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Personal Care Services" value="8121">
+        <level4 key="" name="Hair, Nail, and Skin Care Services" value="81211">
+          <KeyedReference key="" name="Barber Shops" value="812111"/>
+          <KeyedReference key="" name="Beauty Salons" value="812112"/>
+          <KeyedReference key="" name="Nail Salons" value="812113"/>
+        </level4>
+        <level4 key="" name="Other Personal Care Services" value="81219">
+          <KeyedReference key="" name="Diet and Weight Reducing Centers" value="812191"/>
+          <KeyedReference key="" name="Other Personal Care Services" value="812199"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Private Households" value="814">
+      <level3 key="" name="Private Households" value="8141">
+        <KeyedReference key="" name="Private Households" value="81411"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Religious, Grantmaking, Civic, Professional, and Simila    r Organizations" value="813">
+      <level3 key="" name="Business, Professional, Labor, Political, and Similar    Organizations" value="8139">
+        <KeyedReference key="" name="Business Associations" value="81391"/>
+        <KeyedReference key="" name="Labor Unions and Similar Labor Organizations" value="81393"/>
+        <KeyedReference key="" name="Other Similar Organizations (except Business, Profess  ional, Labor, and Political Organizations)" value="81399"/>
+        <KeyedReference key="" name="Political Organizations" value="81394"/>
+        <KeyedReference key="" name="Professional Organizations" value="81392"/>
+      </level3>
+      <level3 key="" name="Civic and Social Organizations" value="8134">
+        <KeyedReference key="" name="Civic and Social Organizations" value="81341"/>
+      </level3>
+      <level3 key="" name="Grantmaking and Giving Services" value="8132">
+        <level4 key="" name="Grantmaking and Giving Services" value="81321">
+          <KeyedReference key="" name="Grantmaking Foundations" value="813211"/>
+          <KeyedReference key="" name="Other Grantmaking and Giving Services" value="813219"/>
+          <KeyedReference key="" name="Voluntary Health Organizations" value="813212"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Religious Organizations" value="8131">
+        <KeyedReference key="" name="Religious Organizations" value="81311"/>
+      </level3>
+      <level3 key="" name="Social Advocacy Organizations" value="8133">
+        <level4 key="" name="Social Advocacy Organizations" value="81331">
+          <KeyedReference key="" name="Environment, Conservation and Wildlife Organizations" value="813312"/>
+          <KeyedReference key="" name="Human Rights Organizations" value="813311"/>
+          <KeyedReference key="" name="Other Social Advocacy Organizations" value="813319"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Repair and Maintenance" value="811">
+      <level3 key="" name="Automotive Repair and Maintenance" value="8111">
+        <level4 key="" name="Automotive Body, Paint, Interior, and Glass Repair" value="81112">
+          <KeyedReference key="" name="Automotive Body, Paint, and Interior Repair and Main tenance" value="811121"/>
+          <KeyedReference key="" name="Automotive Glass Replacement Shops" value="811122"/>
+        </level4>
+        <level4 key="" name="Automotive Mechanical and Electrical Repair and Maint  enance" value="81111">
+          <KeyedReference key="" name="Automotive Exhaust System Repair" value="811112"/>
+          <KeyedReference key="" name="Automotive Transmission Repair" value="811113"/>
+          <KeyedReference key="" name="General Automotive Repair" value="811111"/>
+          <KeyedReference key="" name="Other Automotive Mechanical and Electrical Repair an d Maintenance" value="811118"/>
+        </level4>
+        <level4 key="" name="Other Automotive Repair and Maintenance" value="81119">
+          <KeyedReference key="" name="All Other Automotive Repair and Maintenance" value="811198"/>
+          <KeyedReference key="" name="Automotive Oil Change and Lubrication Shops" value="811191"/>
+          <KeyedReference key="" name="Car Washes" value="811192"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Commercial and Industrial Machinery and Equipment (exc   ept Automotive and Electronic) Repair and Maintenance" value="8113">
+        <KeyedReference key="" name="Commercial and Industrial Machinery and Equipment (ex  cept Automotive and Electronic) Repair and Maintenance" value="81131"/>
+      </level3>
+      <level3 key="" name="Electronic and Precision Equipment Repair and Maintena   nce" value="8112">
+        <level4 key="" name="Electronic and Precision Equipment Repair and Mainten  ance" value="81121">
+          <KeyedReference key="" name="Communication Equipment Repair and Maintenance" value="811213"/>
+          <KeyedReference key="" name="Computer and Office Machine Repair and Maintenance" value="811212"/>
+          <KeyedReference key="" name="Consumer Electronics Repair and Maintenance" value="811211"/>
+          <KeyedReference key="" name="Other Electronic and Precision Equipment Repair and  Maintenance" value="811219"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Personal and Household Goods Repair and Maintenance" value="8114">
+        <KeyedReference key="" name="Footwear and Leather Goods Repair" value="81143"/>
+        <level4 key="" name="Home and Garden Equipment and Appliance Repair and Ma  intenance" value="81141">
+          <KeyedReference key="" name="Appliance Repair and Maintenance" value="811412"/>
+          <KeyedReference key="" name="Home and Garden Equipment Repair and Maintenance" value="811411"/>
+        </level4>
+        <KeyedReference key="" name="Other Personal and Household Goods Repair and Mainten  ance" value="81149"/>
+        <KeyedReference key="" name="Reupholstery and Furniture Repair" value="81142"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Professional, Scientific, and Technical Services" value="54">
+    <level2 key="" name="Professional, Scientific, and Technical Services" value="541">
+      <level3 key="" name="Accounting, Tax Preparation, Bookkeeping, and Payroll    Services" value="5412">
+        <level4 key="" name="Accounting, Tax Preparation, Bookkeeping, and Payroll  Services" value="54121">
+          <KeyedReference key="" name="Offices of Certified Public Accountants" value="541211"/>
+          <KeyedReference key="" name="Other Accounting Services" value="541219"/>
+          <KeyedReference key="" name="Payroll Services" value="541214"/>
+          <KeyedReference key="" name="Tax Preparation Services" value="541213"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Advertising and Related Services" value="5418">
+        <KeyedReference key="" name="Advertising Agencies" value="54181"/>
+        <KeyedReference key="" name="Advertising Material Distribution Services" value="54187"/>
+        <KeyedReference key="" name="Direct Mail Advertising" value="54186"/>
+        <KeyedReference key="" name="Display Advertising" value="54185"/>
+        <KeyedReference key="" name="Media Buying Agencies" value="54183"/>
+        <KeyedReference key="" name="Media Representatives" value="54184"/>
+        <KeyedReference key="" name="Other Services Related to Advertising" value="54189"/>
+        <KeyedReference key="" name="Public Relations Agencies" value="54182"/>
+      </level3>
+      <level3 key="" name="Architectural, Engineering, and Related Services" value="5413">
+        <KeyedReference key="" name="Architectural Services" value="54131"/>
+        <KeyedReference key="" name="Building Inspection Services" value="54135"/>
+        <KeyedReference key="" name="Drafting Services" value="54134"/>
+        <KeyedReference key="" name="Engineering Services" value="54133"/>
+        <KeyedReference key="" name="Geophysical Surveying and Mapping Services" value="54136"/>
+        <KeyedReference key="" name="Landscape Architectural Services" value="54132"/>
+        <KeyedReference key="" name="Surveying and Mapping (except Geophysical) Services" value="54137"/>
+        <KeyedReference key="" name="Testing Laboratories" value="54138"/>
+      </level3>
+      <level3 key="" name="Computer Systems Design and Related Services" value="5415">
+        <level4 key="" name="Computer Systems Design and Related Services" value="54151">
+          <KeyedReference key="" name="Computer Facilities Management Services" value="541513"/>
+          <KeyedReference key="" name="Computer Systems Design Services" value="541512"/>
+          <KeyedReference key="" name="Custom Computer Programming Services" value="541511"/>
+          <KeyedReference key="" name="Other Computer Related Services" value="541519"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Legal Services" value="5411">
+        <KeyedReference key="" name="Offices of Lawyers" value="54111"/>
+        <KeyedReference key="" name="Offices of Notaries" value="54112"/>
+        <level4 key="" name="Other Legal Services" value="54119">
+          <KeyedReference key="" name="All Other Legal Services" value="541199"/>
+          <KeyedReference key="" name="Title Abstract and Settlement Offices" value="541191"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Management, Scientific, and Technical Consulting Servi   ces" value="5416">
+        <KeyedReference key="" name="Environmental Consulting Services" value="54162"/>
+        <level4 key="" name="Management Consulting Services" value="54161">
+          <KeyedReference key="" name="Administrative Management and General Management Con sulting Services" value="541611"/>
+          <KeyedReference key="" name="Human Resources and Executive Search Consulting Serv ices" value="541612"/>
+          <KeyedReference key="" name="Marketing Consulting Services" value="541613"/>
+          <KeyedReference key="" name="Other Management Consulting Services" value="541618"/>
+          <KeyedReference key="" name="Process, Physical Distribution, and Logistics Consul ting Services" value="541614"/>
+        </level4>
+        <KeyedReference key="" name="Other Scientific and Technical Consulting Services" value="54169"/>
+      </level3>
+      <level3 key="" name="Other Professional, Scientific, and Technical Services" value="5419">
+        <KeyedReference key="" name="All Other Professional, Scientific, and Technical Ser  vices" value="54199"/>
+        <KeyedReference key="" name="Marketing Research and Public Opinion Polling" value="54191"/>
+        <level4 key="" name="Photographic Services" value="54192">
+          <KeyedReference key="" name="Commercial Photography" value="541922"/>
+          <KeyedReference key="" name="Photography Studios, Portrait" value="541921"/>
+        </level4>
+        <KeyedReference key="" name="Translation and Interpretation Services" value="54193"/>
+        <KeyedReference key="" name="Veterinary Services" value="54194"/>
+      </level3>
+      <level3 key="" name="Scientific Research and Development Services" value="5417">
+        <KeyedReference key="" name="Research and Development in the Physical, Engineering  , and Life Sciences" value="54171"/>
+        <KeyedReference key="" name="Research and Development in the Social Sciences and H  umanities" value="54172"/>
+      </level3>
+      <level3 key="" name="Specialized Design Services" value="5414">
+        <KeyedReference key="" name="Graphic Design Services" value="54143"/>
+        <KeyedReference key="" name="Industrial Design Services" value="54142"/>
+        <KeyedReference key="" name="Interior Design Services" value="54141"/>
+        <KeyedReference key="" name="Other Specialized Design Services" value="54149"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Public Administration" value="92">
+    <level2 key="" name="Administration of Economic Programs" value="926">
+      <level3 key="" name="Administration of Economic Programs" value="9261">
+        <KeyedReference key="" name="Administration of General Economic Programs" value="92611"/>
+        <KeyedReference key="" name="Regulation and Administration of Communications, Elec  tric, Gas, and Other Utilities" value="92613"/>
+        <KeyedReference key="" name="Regulation and Administration of Transportation Progr  ams" value="92612"/>
+        <KeyedReference key="" name="Regulation of Agricultural Marketing and Commodities" value="92614"/>
+        <KeyedReference key="" name="Regulation, Licensing, and Inspection of Miscellaneou  s Commercial Sectors" value="92615"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Administration of Environmental Quality Programs" value="924">
+      <level3 key="" name="Administration of Environmental Quality Programs" value="9241">
+        <KeyedReference key="" name="Administration of Air and Water Resource and Solid Wa  ste Management Programs" value="92411"/>
+        <KeyedReference key="" name="Administration of Conservation Programs" value="92412"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Administration of Housing Programs, Urban Planning, and    Community Development" value="925">
+      <level3 key="" name="Administration of Housing Programs, Urban Planning, an   d Community Development" value="9251">
+        <KeyedReference key="" name="Administration of Housing Programs" value="92511"/>
+        <KeyedReference key="" name="Administration of Urban Planning and Community and Ru  ral Development" value="92512"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Administration of Human Resource Programs" value="923">
+      <level3 key="" name="Administration of Human Resource Programs" value="9231">
+        <KeyedReference key="" name="Administration of Education Programs" value="92311"/>
+        <KeyedReference key="" name="Administration of Human Resource Programs (except Edu  cation, Public Health, and Veterans' Affairs Programs)" value="92313"/>
+        <KeyedReference key="" name="Administration of Public Health Programs" value="92312"/>
+        <KeyedReference key="" name="Administration of Veterans' Affairs" value="92314"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Executive, Legislative, and Other General Government Su    pport" value="921">
+      <level3 key="" name="Executive, Legislative, and Other General Government S   upport" value="9211">
+        <KeyedReference key="" name="American Indian and Alaska Native Tribal Governments" value="92115"/>
+        <KeyedReference key="" name="Executive Offices" value="92111"/>
+        <KeyedReference key="" name="Executive and Legislative Offices, Combined" value="92114"/>
+        <KeyedReference key="" name="Legislative Bodies" value="92112"/>
+        <KeyedReference key="" name="Other General Government Support" value="92119"/>
+        <KeyedReference key="" name="Public Finance Activities" value="92113"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Justice, Public Order, and Safety Activities" value="922">
+      <level3 key="" name="Justice, Public Order, and Safety Activities" value="9221">
+        <KeyedReference key="" name="Correctional Institutions" value="92214"/>
+        <KeyedReference key="" name="Courts" value="92211"/>
+        <KeyedReference key="" name="Fire Protection" value="92216"/>
+        <KeyedReference key="" name="Legal Counsel and Prosecution" value="92213"/>
+        <KeyedReference key="" name="Other Justice, Public Order, and Safety Activities" value="92219"/>
+        <KeyedReference key="" name="Parole Offices and Probation Offices" value="92215"/>
+        <KeyedReference key="" name="Police Protection" value="92212"/>
+      </level3>
+    </level2>
+    <level2 key="" name="National Security and International Affairs" value="928">
+      <level3 key="" name="National Security and International Affairs" value="9281">
+        <KeyedReference key="" name="International Affairs" value="92812"/>
+        <KeyedReference key="" name="National Security" value="92811"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Space Research and Technology" value="927">
+      <level3 key="" name="Space Research and Technology" value="9271">
+        <KeyedReference key="" name="Space Research and Technology" value="92711"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Real Estate and Rental and Leasing" value="53">
+    <level2 key="" name="Lessors of Nonfinancial Intangible Assets (except Copyr    ighted Works)" value="533">
+      <level3 key="" name="Lessors of Nonfinancial Intangible Assets (except Copy   righted Works)" value="5331">
+        <KeyedReference key="" name="Lessors of Nonfinancial Intangible Assets (except Cop  yrighted Works)" value="53311"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Real Estate" value="531">
+      <level3 key="" name="Activities Related to Real Estate" value="5313">
+        <KeyedReference key="" name="Offices of Real Estate Appraisers" value="53132"/>
+        <KeyedReference key="" name="Other Activities Related to Real Estate" value="53139"/>
+        <level4 key="" name="Real Estate Property Managers" value="53131">
+          <KeyedReference key="" name="Nonresidential Property Managers" value="531312"/>
+          <KeyedReference key="" name="Residential Property Managers" value="531311"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Lessors of Real Estate" value="5311">
+        <KeyedReference key="" name="Lessors of Miniwarehouses and Self-Storage Units" value="53113"/>
+        <KeyedReference key="" name="Lessors of Nonresidential Buildings (except Miniwareh  ouses)" value="53112"/>
+        <KeyedReference key="" name="Lessors of Other Real Estate Property" value="53119"/>
+        <KeyedReference key="" name="Lessors of Residential Buildings and Dwellings" value="53111"/>
+      </level3>
+      <level3 key="" name="Offices of Real Estate Agents and Brokers" value="5312">
+        <KeyedReference key="" name="Offices of Real Estate Agents and Brokers" value="53121"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Rental and Leasing Services" value="532">
+      <level3 key="" name="Automotive Equipment Rental and Leasing" value="5321">
+        <level4 key="" name="Passenger Car Rental and Leasing" value="53211">
+          <KeyedReference key="" name="Passenger Car Leasing" value="532112"/>
+          <KeyedReference key="" name="Passenger Car Rental" value="532111"/>
+        </level4>
+        <KeyedReference key="" name="Truck, Utility Trailer, and RV (Recreational Vehicle)  Rental and Leasing" value="53212"/>
+      </level3>
+      <level3 key="" name="Commercial and Industrial Machinery and Equipment Rent   al and Leasing" value="5324">
+        <level4 key="" name="Construction, Transportation, Mining, and Forestry Ma  chinery and Equipment Rental and Leasing" value="53241">
+          <KeyedReference key="" name="Commercial Air, Rail, and Water Transportation Equip ment Rental and Leasing" value="532411"/>
+          <KeyedReference key="" name="Construction, Mining, and Forestry Machinery and Equ ipment Rental and Leasing" value="532412"/>
+        </level4>
+        <KeyedReference key="" name="Office Machinery and Equipment Rental and Leasing" value="53242"/>
+        <KeyedReference key="" name="Other Commercial and Industrial Machinery and Equipme  nt Rental and Leasing" value="53249"/>
+      </level3>
+      <level3 key="" name="Consumer Goods Rental" value="5322">
+        <KeyedReference key="" name="Consumer Electronics and Appliances Rental" value="53221"/>
+        <KeyedReference key="" name="Formal Wear and Costume Rental" value="53222"/>
+        <level4 key="" name="Other Consumer Goods Rental" value="53229">
+          <KeyedReference key="" name="All Other Consumer Goods Rental" value="532299"/>
+          <KeyedReference key="" name="Home Health Equipment Rental" value="532291"/>
+          <KeyedReference key="" name="Recreational Goods Rental" value="532292"/>
+        </level4>
+        <KeyedReference key="" name="Video Tape and Disc Rental" value="53223"/>
+      </level3>
+      <level3 key="" name="General Rental Centers" value="5323">
+        <KeyedReference key="" name="General Rental Centers" value="53231"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Retail Trade" value="44">
+    <level2 key="" name="Building Material and Garden Equipment and Supplies Dea    lers" value="444">
+      <level3 key="" name="Building Material and Supplies Dealers" value="4441">
+        <KeyedReference key="" name="Hardware Stores" value="44413"/>
+        <KeyedReference key="" name="Home Centers" value="44411"/>
+        <KeyedReference key="" name="Other Building Material Dealers" value="44419"/>
+        <KeyedReference key="" name="Paint and Wallpaper Stores" value="44412"/>
+      </level3>
+      <level3 key="" name="Lawn and Garden Equipment and Supplies Stores" value="4442">
+        <KeyedReference key="" name="Nursery and Garden Centers" value="44422"/>
+        <KeyedReference key="" name="Outdoor Power Equipment Stores" value="44421"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Clothing and Clothing Accessories Stores" value="448">
+      <level3 key="" name="Clothing Stores" value="4481">
+        <KeyedReference key="" name="Children's and Infants' Clothing Stores" value="44813"/>
+        <KeyedReference key="" name="Clothing Accessories Stores" value="44815"/>
+        <KeyedReference key="" name="Family Clothing Stores" value="44814"/>
+        <KeyedReference key="" name="Men's Clothing Stores" value="44811"/>
+        <KeyedReference key="" name="Other Clothing Stores" value="44819"/>
+        <KeyedReference key="" name="Women's Clothing Stores" value="44812"/>
+      </level3>
+      <level3 key="" name="Jewelry, Luggage, and Leather Goods Stores" value="4483">
+        <KeyedReference key="" name="Jewelry Stores" value="44831"/>
+        <KeyedReference key="" name="Luggage and Leather Goods Stores" value="44832"/>
+      </level3>
+      <level3 key="" name="Shoe Stores" value="4482">
+        <KeyedReference key="" name="Shoe Stores" value="44821"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Electronics and Appliance Stores" value="443">
+      <level3 key="" name="Electronics and Appliance Stores" value="4431">
+        <level4 key="" name="Appliance, Television, and Other Electronics Stores" value="44311">
+          <KeyedReference key="" name="Household Appliance Stores" value="443111"/>
+          <KeyedReference key="" name="Radio, Television, and Other Electronics Stores" value="443112"/>
+        </level4>
+        <KeyedReference key="" name="Camera and Photographic Supplies Stores" value="44313"/>
+        <KeyedReference key="" name="Computer and Software Stores" value="44312"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Food and Beverage Stores" value="445">
+      <level3 key="" name="Beer, Wine, and Liquor Stores" value="4453">
+        <KeyedReference key="" name="Beer, Wine, and Liquor Stores" value="44531"/>
+      </level3>
+      <level3 key="" name="Grocery Stores" value="4451">
+        <KeyedReference key="" name="Convenience Stores" value="44512"/>
+        <KeyedReference key="" name="Supermarkets and Other Grocery (except Convenience) S  tores" value="44511"/>
+      </level3>
+      <level3 key="" name="Specialty Food Stores" value="4452">
+        <KeyedReference key="" name="Fish and Seafood Markets" value="44522"/>
+        <KeyedReference key="" name="Fruit and Vegetable Markets" value="44523"/>
+        <KeyedReference key="" name="Meat Markets" value="44521"/>
+        <level4 key="" name="Other Specialty Food Stores" value="44529">
+          <KeyedReference key="" name="All Other Specialty Food Stores" value="445299"/>
+          <KeyedReference key="" name="Baked Goods Stores" value="445291"/>
+          <KeyedReference key="" name="Confectionery and Nut Stores" value="445292"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Furniture and Home Furnishings Stores" value="442">
+      <level3 key="" name="Furniture Stores" value="4421">
+        <KeyedReference key="" name="Furniture Stores" value="44211"/>
+      </level3>
+      <level3 key="" name="Home Furnishings Stores" value="4422">
+        <KeyedReference key="" name="Floor Covering Stores" value="44221"/>
+        <level4 key="" name="Other Home Furnishings Stores" value="44229">
+          <KeyedReference key="" name="All Other Home Furnishings Stores" value="442299"/>
+          <KeyedReference key="" name="Window Treatment Stores" value="442291"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Gasoline Stations" value="447">
+      <level3 key="" name="Gasoline Stations" value="4471">
+        <KeyedReference key="" name="Gasoline Stations with Convenience Stores" value="44711"/>
+        <KeyedReference key="" name="Other Gasoline Stations" value="44719"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Health and Personal Care Stores" value="446">
+      <level3 key="" name="Health and Personal Care Stores" value="4461">
+        <KeyedReference key="" name="Cosmetics, Beauty Supplies, and Perfume Stores" value="44612"/>
+        <KeyedReference key="" name="Optical Goods Stores" value="44613"/>
+        <level4 key="" name="Other Health and Personal Care Stores" value="44619">
+          <KeyedReference key="" name="All Other Health and Personal Care Stores" value="446199"/>
+          <KeyedReference key="" name="Food (Health) Supplement Stores" value="446191"/>
+        </level4>
+        <KeyedReference key="" name="Pharmacies and Drug Stores" value="44611"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Motor Vehicle and Parts Dealers" value="441">
+      <level3 key="" name="Automobile Dealers" value="4411">
+        <KeyedReference key="" name="New Car Dealers" value="44111"/>
+        <KeyedReference key="" name="Used Car Dealers" value="44112"/>
+      </level3>
+      <level3 key="" name="Automotive Parts, Accessories, and Tire Stores" value="4413">
+        <KeyedReference key="" name="Automotive Parts and Accessories Stores" value="44131"/>
+        <KeyedReference key="" name="Tire Dealers" value="44132"/>
+      </level3>
+      <level3 key="" name="Other Motor Vehicle Dealers" value="4412">
+        <level4 key="" name="Motorcycle, Boat, and Other Motor Vehicle Dealers" value="44122">
+          <KeyedReference key="" name="All Other Motor Vehicle Dealers" value="441229"/>
+          <KeyedReference key="" name="Boat Dealers" value="441222"/>
+          <KeyedReference key="" name="Motorcycle Dealers" value="441221"/>
+        </level4>
+        <KeyedReference key="" name="Recreational Vehicle Dealers" value="44121"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Retail Trade" value="45">
+    <level2 key="" name="General Merchandise Stores" value="452">
+      <level3 key="" name="Department Stores" value="4521">
+        <KeyedReference key="" name="Department Stores" value="45211"/>
+      </level3>
+      <level3 key="" name="Other General Merchandise Stores" value="4529">
+        <KeyedReference key="" name="All Other General Merchandise Stores" value="45299"/>
+        <KeyedReference key="" name="Warehouse Clubs and Superstores" value="45291"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Miscellaneous Store Retailers" value="453">
+      <level3 key="" name="Florists" value="4531">
+        <KeyedReference key="" name="Florists" value="45311"/>
+      </level3>
+      <level3 key="" name="Office Supplies, Stationery, and Gift Stores" value="4532">
+        <KeyedReference key="" name="Gift, Novelty, and Souvenir Stores" value="45322"/>
+        <KeyedReference key="" name="Office Supplies and Stationery Stores" value="45321"/>
+      </level3>
+      <level3 key="" name="Other Miscellaneous Store Retailers" value="4539">
+        <level4 key="" name="All Other Miscellaneous Store Retailers" value="45399">
+          <KeyedReference key="" name="All Other Miscellaneous Store Retailers (except Toba cco Stores)" value="453998"/>
+          <KeyedReference key="" name="Tobacco Stores" value="453991"/>
+        </level4>
+        <KeyedReference key="" name="Art Dealers" value="45392"/>
+        <KeyedReference key="" name="Manufactured (Mobile) Home Dealers" value="45393"/>
+        <KeyedReference key="" name="Pet and Pet Supplies Stores" value="45391"/>
+      </level3>
+      <level3 key="" name="Used Merchandise Stores" value="4533">
+        <KeyedReference key="" name="Used Merchandise Stores" value="45331"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Nonstore Retailers" value="454">
+      <level3 key="" name="Direct Selling Establishments" value="4543">
+        <level4 key="" name="Fuel Dealers" value="45431">
+          <KeyedReference key="" name="Heating Oil Dealers" value="454311"/>
+          <KeyedReference key="" name="Liquefied Petroleum Gas (Bottled Gas) Dealers" value="454312"/>
+          <KeyedReference key="" name="Other Fuel Dealers" value="454319"/>
+        </level4>
+        <KeyedReference key="" name="Other Direct Selling Establishments" value="45439"/>
+      </level3>
+      <level3 key="" name="Electronic Shopping and Mail-Order Houses" value="4541">
+        <KeyedReference key="" name="Electronic Shopping and Mail-Order Houses" value="45411"/>
+      </level3>
+      <level3 key="" name="Vending Machine Operators" value="4542">
+        <KeyedReference key="" name="Vending Machine Operators" value="45421"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Sporting Goods, Hobby, Book, and Music Stores" value="451">
+      <level3 key="" name="Book, Periodical, and Music Stores" value="4512">
+        <level4 key="" name="Book Stores and News Dealers" value="45121">
+          <KeyedReference key="" name="Book Stores" value="451211"/>
+          <KeyedReference key="" name="News Dealers and Newsstands" value="451212"/>
+        </level4>
+        <KeyedReference key="" name="Prerecorded Tape, Compact Disc, and Record Stores" value="45122"/>
+      </level3>
+      <level3 key="" name="Sporting Goods, Hobby, and Musical Instrument Stores" value="4511">
+        <KeyedReference key="" name="Hobby, Toy, and Game Stores" value="45112"/>
+        <KeyedReference key="" name="Musical Instrument and Supplies Stores" value="45114"/>
+        <KeyedReference key="" name="Sewing, Needlework, and Piece Goods Stores" value="45113"/>
+        <KeyedReference key="" name="Sporting Goods Stores" value="45111"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Transportation and Warehousing" value="48">
+    <level2 key="" name="Air Transportation" value="481">
+      <level3 key="" name="Nonscheduled Air Transportation" value="4812">
+        <level4 key="" name="Nonscheduled Air Transportation" value="48121">
+          <KeyedReference key="" name="Nonscheduled Chartered Freight Air Transportation" value="481212"/>
+          <KeyedReference key="" name="Nonscheduled Chartered Passenger Air Transportation" value="481211"/>
+          <KeyedReference key="" name="Other Nonscheduled Air Transportation" value="481219"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Scheduled Air Transportation" value="4811">
+        <level4 key="" name="Scheduled Air Transportation" value="48111">
+          <KeyedReference key="" name="Scheduled Freight Air Transportation" value="481112"/>
+          <KeyedReference key="" name="Scheduled Passenger Air Transportation" value="481111"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Pipeline Transportation" value="486">
+      <level3 key="" name="Other Pipeline Transportation" value="4869">
+        <KeyedReference key="" name="All Other Pipeline Transportation" value="48699"/>
+        <KeyedReference key="" name="Pipeline Transportation of Refined Petroleum Products" value="48691"/>
+      </level3>
+      <level3 key="" name="Pipeline Transportation of Crude Oil" value="4861">
+        <KeyedReference key="" name="Pipeline Transportation of Crude Oil" value="48611"/>
+      </level3>
+      <level3 key="" name="Pipeline Transportation of Natural Gas" value="4862">
+        <KeyedReference key="" name="Pipeline Transportation of Natural Gas" value="48621"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Rail Transportation" value="482">
+      <level3 key="" name="Rail Transportation" value="4821">
+        <level4 key="" name="Rail Transportation" value="48211">
+          <KeyedReference key="" name="Line-Haul Railroads" value="482111"/>
+          <KeyedReference key="" name="Short Line Railroads" value="482112"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Scenic and Sightseeing Transportation" value="487">
+      <level3 key="" name="Scenic and Sightseeing Transportation, Land" value="4871">
+        <KeyedReference key="" name="Scenic and Sightseeing Transportation, Land" value="48711"/>
+      </level3>
+      <level3 key="" name="Scenic and Sightseeing Transportation, Other" value="4879">
+        <KeyedReference key="" name="Scenic and Sightseeing Transportation, Other" value="48799"/>
+      </level3>
+      <level3 key="" name="Scenic and Sightseeing Transportation, Water" value="4872">
+        <KeyedReference key="" name="Scenic and Sightseeing Transportation, Water" value="48721"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Support Activities for Transportation" value="488">
+      <level3 key="" name="Freight Transportation Arrangement" value="4885">
+        <KeyedReference key="" name="Freight Transportation Arrangement" value="48851"/>
+      </level3>
+      <level3 key="" name="Other Support Activities for Transportation" value="4889">
+        <level4 key="" name="Other Support Activities for Transportation" value="48899">
+          <KeyedReference key="" name="All Other Support Activities for Transportation" value="488999"/>
+          <KeyedReference key="" name="Packing and Crating" value="488991"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Support Activities for Air Transportation" value="4881">
+        <level4 key="" name="Airport Operations" value="48811">
+          <KeyedReference key="" name="Air Traffic Control" value="488111"/>
+          <KeyedReference key="" name="Other Airport Operations" value="488119"/>
+        </level4>
+        <KeyedReference key="" name="Other Support Activities for Air Transportation" value="48819"/>
+      </level3>
+      <level3 key="" name="Support Activities for Rail Transportation" value="4882">
+        <KeyedReference key="" name="Support Activities for Rail Transportation" value="48821"/>
+      </level3>
+      <level3 key="" name="Support Activities for Road Transportation" value="4884">
+        <KeyedReference key="" name="Motor Vehicle Towing" value="48841"/>
+        <KeyedReference key="" name="Other Support Activities for Road Transportation" value="48849"/>
+      </level3>
+      <level3 key="" name="Support Activities for Water Transportation" value="4883">
+        <KeyedReference key="" name="Marine Cargo Handling" value="48832"/>
+        <KeyedReference key="" name="Navigational Services to Shipping" value="48833"/>
+        <KeyedReference key="" name="Other Support Activities for Water Transportation" value="48839"/>
+        <KeyedReference key="" name="Port and Harbor Operations" value="48831"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Transit and Ground Passenger Transportation" value="485">
+      <level3 key="" name="Charter Bus Industry" value="4855">
+        <KeyedReference key="" name="Charter Bus Industry" value="48551"/>
+      </level3>
+      <level3 key="" name="Interurban and Rural Bus Transportation" value="4852">
+        <KeyedReference key="" name="Interurban and Rural Bus Transportation" value="48521"/>
+      </level3>
+      <level3 key="" name="Other Transit and Ground Passenger Transportation" value="4859">
+        <level4 key="" name="Other Transit and Ground Passenger Transportation" value="48599">
+          <KeyedReference key="" name="All Other Transit and Ground Passenger Transportatio n" value="485999"/>
+          <KeyedReference key="" name="Special Needs Transportation" value="485991"/>
+        </level4>
+      </level3>
+      <level3 key="" name="School and Employee Bus Transportation" value="4854">
+        <KeyedReference key="" name="School and Employee Bus Transportation" value="48541"/>
+      </level3>
+      <level3 key="" name="Taxi and Limousine Service" value="4853">
+        <KeyedReference key="" name="Limousine Service" value="48532"/>
+        <KeyedReference key="" name="Taxi Service" value="48531"/>
+      </level3>
+      <level3 key="" name="Urban Transit Systems" value="4851">
+        <level4 key="" name="Urban Transit Systems" value="48511">
+          <KeyedReference key="" name="Bus and Other Motor Vehicle Transit Systems" value="485113"/>
+          <KeyedReference key="" name="Commuter Rail Systems" value="485112"/>
+          <KeyedReference key="" name="Mixed Mode Transit Systems" value="485111"/>
+          <KeyedReference key="" name="Other Urban Transit Systems" value="485119"/>
+        </level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Truck Transportation" value="484">
+      <level3 key="" name="General Freight Trucking" value="4841">
+        <KeyedReference key="" name="General Freight Trucking, Local" value="48411"/>
+        <level4 key="" name="General Freight Trucking, Long-Distance" value="48412">
+          <KeyedReference key="" name="General Freight Trucking, Long-Distance, Less Than T ruckload" value="484122"/>
+          <KeyedReference key="" name="General Freight Trucking, Long-Distance, Truckload" value="484121"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Specialized Freight Trucking" value="4842">
+        <KeyedReference key="" name="Specialized Freight (except Used Goods) Trucking, Loc  al" value="48422"/>
+        <KeyedReference key="" name="Specialized Freight (except Used Goods) Trucking, Lon  g-Distance" value="48423"/>
+        <KeyedReference key="" name="Used Household and Office Goods Moving" value="48421"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Water Transportation" value="483">
+      <level3 key="" name="Deep Sea, Coastal, and Great Lakes Water Transportatio   n" value="4831">
+        <level4 key="" name="Deep Sea, Coastal, and Great Lakes Water Transportati  on" value="48311">
+          <KeyedReference key="" name="Coastal and Great Lakes Freight Transportation" value="483113"/>
+          <KeyedReference key="" name="Coastal and Great Lakes Passenger Transportation" value="483114"/>
+          <KeyedReference key="" name="Deep Sea Freight Transportation" value="483111"/>
+          <KeyedReference key="" name="Deep Sea Passenger Transportation" value="483112"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Inland Water Transportation" value="4832">
+        <level4 key="" name="Inland Water Transportation" value="48321">
+          <KeyedReference key="" name="Inland Water Freight Transportation" value="483211"/>
+          <KeyedReference key="" name="Inland Water Passenger Transportation" value="483212"/>
+        </level4>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Transportation and Warehousing" value="49">
+    <level2 key="" name="Couriers and Messengers" value="492">
+      <level3 key="" name="Couriers" value="4921">
+        <KeyedReference key="" name="Couriers" value="49211"/>
+      </level3>
+      <level3 key="" name="Local Messengers and Local Delivery" value="4922">
+        <KeyedReference key="" name="Local Messengers and Local Delivery" value="49221"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Postal Service" value="491">
+      <level3 key="" name="Postal Service" value="4911">
+        <KeyedReference key="" name="Postal Service" value="49111"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Warehousing and Storage" value="493">
+      <level3 key="" name="Warehousing and Storage" value="4931">
+        <KeyedReference key="" name="Farm Product Warehousing and Storage" value="49313"/>
+        <KeyedReference key="" name="General Warehousing and Storage" value="49311"/>
+        <KeyedReference key="" name="Other Warehousing and Storage" value="49319"/>
+        <KeyedReference key="" name="Refrigerated Warehousing and Storage" value="49312"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Utilities" value="22">
+    <level2 key="" name="Utilities" value="221">
+      <level3 key="" name="Electric Power Generation, Transmission and Distributi   on" value="2211">
+        <level4 key="" name="Electric Power Generation" value="22111">
+          <KeyedReference key="" name="Fossil Fuel Electric Power Generation" value="221112"/>
+          <KeyedReference key="" name="Hydroelectric Power Generation" value="221111"/>
+          <KeyedReference key="" name="Nuclear Electric Power Generation" value="221113"/>
+          <KeyedReference key="" name="Other Electric Power Generation" value="221119"/>
+        </level4>
+        <level4 key="" name="Electric Power Transmission, Control, and Distributio  n" value="22112">
+          <KeyedReference key="" name="Electric Bulk Power Transmission and Control" value="221121"/>
+          <KeyedReference key="" name="Electric Power Distribution" value="221122"/>
+        </level4>
+      </level3>
+      <level3 key="" name="Natural Gas Distribution" value="2212">
+        <KeyedReference key="" name="Natural Gas Distribution" value="22121"/>
+      </level3>
+      <level3 key="" name="Water, Sewage and Other Systems" value="2213">
+        <KeyedReference key="" name="Sewage Treatment Facilities" value="22132"/>
+        <KeyedReference key="" name="Steam and Air-Conditioning Supply" value="22133"/>
+        <KeyedReference key="" name="Water Supply and Irrigation Systems" value="22131"/>
+      </level3>
+    </level2>
+  </level1>
+  <level1 key="" name="Wholesale Trade" value="42">
+    <level2 key="" name="Wholesale Trade, Durable Goods" value="421">
+      <level3 key="" name="Electrical Goods Wholesalers" value="4216">
+        <KeyedReference key="" name="Electrical Apparatus and Equipment, Wiring Supplies,   and Construction Material Wholesalers" value="42161"/>
+        <KeyedReference key="" name="Electrical Appliance, Television, and Radio Set Whole  salers" value="42162"/>
+        <KeyedReference key="" name="Other Electronic Parts and Equipment Wholesalers" value="42169"/>
+      </level3>
+      <level3 key="" name="Furniture and Home Furnishing Wholesalers" value="4212">
+        <KeyedReference key="" name="Furniture Wholesalers" value="42121"/>
+        <KeyedReference key="" name="Home Furnishing Wholesalers" value="42122"/>
+      </level3>
+      <level3 key="" name="Hardware, and Plumbing and Heating Equipment and Suppl   ies Wholesalers" value="4217">
+        <KeyedReference key="" name="Hardware Wholesalers" value="42171"/>
+        <KeyedReference key="" name="Plumbing and Heating Equipment and Supplies (Hydronic  s) Wholesalers" value="42172"/>
+        <KeyedReference key="" name="Refrigeration Equipment and Supplies Wholesalers" value="42174"/>
+        <KeyedReference key="" name="Warm Air Heating and Air-Conditioning Equipment and S  upplies Wholesalers" value="42173"/>
+      </level3>
+      <level3 key="" name="Lumber and Other Construction Materials Wholesalers" value="4213">
+        <KeyedReference key="" name="Brick, Stone, and Related Construction Material Whole  salers" value="42132"/>
+        <KeyedReference key="" name="Lumber, Plywood, Millwork, and Wood Panel Wholesalers" value="42131"/>
+        <KeyedReference key="" name="Other Construction Material Wholesalers" value="42139"/>
+        <KeyedReference key="" name="Roofing, Siding, and Insulation Material Wholesalers" value="42133"/>
+      </level3>
+      <level3 key="" name="Machinery, Equipment, and Supplies Wholesalers" value="4218">
+        <KeyedReference key="" name="Construction and Mining (except Oil Well) Machinery a  nd Equipment Wholesalers" value="42181"/>
+        <KeyedReference key="" name="Farm and Garden Machinery and Equipment Wholesalers" value="42182"/>
+        <KeyedReference key="" name="Industrial Machinery and Equipment Wholesalers" value="42183"/>
+        <KeyedReference key="" name="Industrial Supplies Wholesalers" value="42184"/>
+        <KeyedReference key="" name="Service Establishment Equipment and Supplies Wholesal  ers" value="42185"/>
+        <KeyedReference key="" name="Transportation Equipment and Supplies (except Motor V  ehicle) Wholesalers" value="42186"/>
+      </level3>
+      <level3 key="" name="Metal and Mineral (except Petroleum) Wholesalers" value="4215">
+        <KeyedReference key="" name="Coal and Other Mineral and Ore Wholesalers" value="42152"/>
+        <KeyedReference key="" name="Metal Service Centers and Offices" value="42151"/>
+      </level3>
+      <level3 key="" name="Miscellaneous Durable Goods Wholesalers" value="4219">
+        <KeyedReference key="" name="Jewelry, Watch, Precious Stone, and Precious Metal Wh  olesalers" value="42194"/>
+        <KeyedReference key="" name="Other Miscellaneous Durable Goods Wholesalers" value="42199"/>
+        <KeyedReference key="" name="Recyclable Material Wholesalers" value="42193"/>
+        <KeyedReference key="" name="Sporting and Recreational Goods and Supplies Wholesal  ers" value="42191"/>
+        <KeyedReference key="" name="Toy and Hobby Goods and Supplies Wholesalers" value="42192"/>
+      </level3>
+      <level3 key="" name="Motor Vehicle and Motor Vehicle Parts and Supplies Who   lesalers" value="4211">
+        <KeyedReference key="" name="Automobile and Other Motor Vehicle Wholesalers" value="42111"/>
+        <KeyedReference key="" name="Motor Vehicle Parts (Used) Wholesalers" value="42114"/>
+        <KeyedReference key="" name="Motor Vehicle Supplies and New Parts Wholesalers" value="42112"/>
+        <KeyedReference key="" name="Tire and Tube Wholesalers" value="42113"/>
+      </level3>
+      <level3 key="" name="Professional and Commercial Equipment and Supplies Who   lesalers" value="4214">
+        <KeyedReference key="" name="Computer and Computer Peripheral Equipment and Softwa  re Wholesalers" value="42143"/>
+        <KeyedReference key="" name="Medical, Dental, and Hospital Equipment and Supplies   Wholesalers" value="42145"/>
+        <KeyedReference key="" name="Office Equipment Wholesalers" value="42142"/>
+        <KeyedReference key="" name="Ophthalmic Goods Wholesalers" value="42146"/>
+        <KeyedReference key="" name="Other Commercial Equipment Wholesalers" value="42144"/>
+        <KeyedReference key="" name="Other Professional Equipment and Supplies Wholesalers" value="42149"/>
+        <KeyedReference key="" name="Photographic Equipment and Supplies Wholesalers" value="42141"/>
+      </level3>
+    </level2>
+    <level2 key="" name="Wholesale Trade, Nondurable Goods" value="422">
+      <level3 key="" name="Apparel, Piece Goods, and Notions Wholesalers" value="4223">
+        <KeyedReference key="" name="Footwear Wholesalers" value="42234"/>
+        <KeyedReference key="" name="Men's and Boys' Clothing and Furnishings Wholesalers" value="42232"/>
+        <KeyedReference key="" name="Piece Goods, Notions, and Other Dry Goods Wholesalers" value="42231"/>
+        <KeyedReference key="" name="Women's, Children's, and Infants' Clothing and Access  ories Wholesalers" value="42233"/>
+      </level3>
+      <level3 key="" name="Beer, Wine, and Distilled Alcoholic Beverage Wholesale   rs" value="4228">
+        <KeyedReference key="" name="Beer and Ale Wholesalers" value="42281"/>
+        <KeyedReference key="" name="Wine and Distilled Alcoholic Beverage Wholesalers" value="42282"/>
+      </level3>
+      <level3 key="" name="Chemical and Allied Products Wholesalers" value="4226">
+        <KeyedReference key="" name="Other Chemical and Allied Products Wholesalers" value="42269"/>
+        <KeyedReference key="" name="Plastics Materials and Basic Forms and Shapes Wholesa  lers" value="42261"/>
+      </level3>
+      <level3 key="" name="Drugs and Druggists' Sundries Wholesalers" value="4222">
+        <KeyedReference key="" name="Drugs and Druggists' Sundries Wholesalers" value="42221"/>
+      </level3>
+      <level3 key="" name="Farm Product Raw Material Wholesalers" value="4225">
+        <KeyedReference key="" name="Grain and Field Bean Wholesalers" value="42251"/>
+        <KeyedReference key="" name="Livestock Wholesalers" value="42252"/>
+        <KeyedReference key="" name="Other Farm Product Raw Material Wholesalers" value="42259"/>
+      </level3>
+      <level3 key="" name="Grocery and Related Product Wholesalers" value="4224">
+        <KeyedReference key="" name="Confectionery Wholesalers" value="42245"/>
+        <KeyedReference key="" name="Dairy Product (except Dried or Canned) Wholesalers" value="42243"/>
+        <KeyedReference key="" name="Fish and Seafood Wholesalers" value="42246"/>
+        <KeyedReference key="" name="Fresh Fruit and Vegetable Wholesalers" value="42248"/>
+        <KeyedReference key="" name="General Line Grocery Wholesalers" value="42241"/>
+        <KeyedReference key="" name="Meat and Meat Product Wholesalers" value="42247"/>
+        <KeyedReference key="" name="Other Grocery and Related Products Wholesalers" value="42249"/>
+        <KeyedReference key="" name="Packaged Frozen Food Wholesalers" value="42242"/>
+        <KeyedReference key="" name="Poultry and Poultry Product Wholesalers" value="42244"/>
+      </level3>
+      <level3 key="" name="Miscellaneous Nondurable Goods Wholesalers" value="4229">
+        <KeyedReference key="" name="Book, Periodical, and Newspaper Wholesalers" value="42292"/>
+        <KeyedReference key="" name="Farm Supplies Wholesalers" value="42291"/>
+        <KeyedReference key="" name="Flower, Nursery Stock, and Florists' Supplies Wholesa  lers" value="42293"/>
+        <KeyedReference key="" name="Other Miscellaneous Nondurable Goods Wholesalers" value="42299"/>
+        <KeyedReference key="" name="Paint, Varnish, and Supplies Wholesalers" value="42295"/>
+        <KeyedReference key="" name="Tobacco and Tobacco Product Wholesalers" value="42294"/>
+      </level3>
+      <level3 key="" name="Paper and Paper Product Wholesalers" value="4221">
+        <KeyedReference key="" name="Industrial and Personal Service Paper Wholesalers" value="42213"/>
+        <KeyedReference key="" name="Printing and Writing Paper Wholesalers" value="42211"/>
+        <KeyedReference key="" name="Stationery and Office Supplies Wholesalers" value="42212"/>
+      </level3>
+      <level3 key="" name="Petroleum and Petroleum Products Wholesalers" value="4227">
+        <KeyedReference key="" name="Petroleum Bulk Stations and Terminals" value="42271"/>
+        <KeyedReference key="" name="Petroleum and Petroleum Products Wholesalers (except   Bulk Stations and Terminals)" value="42272"/>
+      </level3>
+    </level2>
+  </level1>
+</naics>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Crutcher (BEA Systems, Inc.) -->
+<xs:schema targetNamespace="http://www.bea.com/2003/03/wlw/config/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.bea.com/2003/03/wlw/config/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="wlw-config">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="common-run-time-parms"/>
+        <xs:group ref="common-compile-time-parms"/>
+        <xs:element name="web-tier-controls" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="class-name" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="component-group" type="component-group-type" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="service" type="compile-time-service-type" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="wlw-runtime-config">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="wlw-config" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="common-run-time-parms"/>
+              <xs:element name="component-group" type="component-group-type" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="service" type="run-time-service-type" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="application-name" type="xs:string" use="required"/>
+            <xs:attribute name="context-path" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="wlw-manifest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="project" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="async-request-queue" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>JNDI name of async request queue.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="async-request-error-queue" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>JNDI name of async error queue.  This  queue is configured as the error destination for the async-request-queue.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="top-level-component" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>Top-level components are a JWS, JPD, or control called from the web tier.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="conversation-state-table" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>Name of the conversational table used to hold state for this top-level component.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:attribute name="table-name" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="external-callbacks" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>Defines the nested controls that can received external callbacks.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                          <xs:element name="control" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="role-name" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:annotation>
+                                    <xs:documentation>Roles that are authorized to make external callbacks.</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="control-path" type="xs:string" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="security-roles" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="role-name" type="xs:string" maxOccurs="unbounded">
+                            <xs:annotation>
+                              <xs:documentation>Roles authorized or referenced</xs:documentation>
+                            </xs:annotation>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="topic-subscription-table" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>There is one table per top-level container that contains JMS Controls with Topic Subscription.  The columns are CG_ID and CG_CONTROL.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:attribute name="table-name" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="class-name" type="xs:string" use="required"/>
+                  <xs:attribute name="component-type" type="wlw-component-type" use="required"/>
+                  <xs:attribute name="run-as-role" type="xs:string" use="optional"/>
+                  <xs:attribute name="run-as-principal" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="common-compile-time-parms">
+    <xs:sequence>
+      <xs:element name="transaction-isolation-level" type="txn-isolation-type" nillable="false" minOccurs="0"/>
+      <xs:element name="transaction-timeout" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="message-transaction-timeout" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="ejb-concurrency-strategy" type="concurrency-type" nillable="false" minOccurs="0"/>
+      <xs:element name="max-beans-in-cache" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="idle-timeout-seconds" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="read-timeout-seconds" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="initial-beans-in-free-pool" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="max-beans-in-free-pool" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="common-run-time-parms">
+    <xs:sequence>
+      <xs:element name="hostname" nillable="false" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="protocol" type="protocol-type" nillable="false" minOccurs="0"/>
+      <xs:element name="http-port" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+      <xs:element name="https-port" type="xs:positiveInteger" nillable="false" minOccurs="0"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="component-group-type">
+    <xs:sequence>
+      <xs:element name="component" type="component-type" nillable="false" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="URI" type="xs:string" use="required"/>
+    <xs:attribute name="protocol" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="component-type">
+    <xs:attribute name="URI" type="xs:string" use="required"/>
+    <xs:attribute name="default" type="xs:boolean" use="optional" default="false"/>
+  </xs:complexType>
+  <xs:complexType name="run-time-service-type">
+    <xs:sequence>
+      <xs:element name="class-name" nillable="false">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="protocol" type="protocol-type" nillable="false"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="compile-time-service-type">
+    <xs:complexContent>
+      <xs:extension base="run-time-service-type"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="txn-isolation-type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="TRANSACTION_READ_COMMITTED"/>
+      <xs:enumeration value="TRANSACTION_READ_UNCOMMITTED"/>
+      <xs:enumeration value="TRANSACTION_REPEATABLE_READ"/>
+      <xs:enumeration value="TRANSACTION_SERIALIZABLE"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="protocol-type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http"/>
+      <xs:enumeration value="https"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="concurrency-type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Exclusive"/>
+      <xs:enumeration value="Optimistic"/>
+      <xs:enumeration value="Database"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="wlw-component-type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="JWS"/>
+      <xs:enumeration value="JPD"/>
+      <xs:enumeration value="Control"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

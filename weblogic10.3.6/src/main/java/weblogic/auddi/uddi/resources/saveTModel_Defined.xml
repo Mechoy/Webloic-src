@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+
+    <Body>
+        <save_tModel generic="2.0" xmlns="urn:uddi-org:api_v2" >
+
+            <authInfo>$$auth_token$$</authInfo>
+        <!-- Start of UDDI registry tModels -->
+
+            <tModel tModelKey="uuid:AC104DCC-D623-452F-88A7-F8ACD94D9B2B">
+                <name>
+                    uddi-org:inquiry_v2
+                </name>
+                <description>
+                    UDDI Inquiry API V 2.0- Core 
+                    Specification
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the inquiry API 
+                        calls for interacting with the UDDI 
+                        registry.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:4CD7E4BC-648B-426D-9936-443EAAC8AE23" >
+                <name>
+                    uddi-org:inquiry
+                </name>
+                <description>
+                    UDDI Inquiry API - Core Specification
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the inquiry API 
+                        calls for interacting with the UDDI 
+                        registry.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:64C756D1-3374-4E00-AE83-EE12E38FAE63" >
+                <name>
+                    uddi-org:publication
+                </name>
+                <description>
+                    UDDI Publication API - Core 
+                    Specification
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the publication API 
+                        calls for interacting with the UDDI 
+                        registry.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+
+            <tModel tModelKey="uuid:A2F36B65-2D66-4088-ABC7-914D0E05EB9E" >
+                <name>
+                    uddi-org:publication_v2
+                </name>
+                <description>
+                    UDDI Publication API V2.0 - Core 
+                    Specification
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the publication API 
+                        calls for interacting with the UDDI 
+                        registry.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+
+            <tModel tModelKey="uuid:3FB66FB7-5FC3-462F-A351-C140D9BD8304" >
+                <name>
+                    uddi-org:taxonomy
+                </name>
+                <description>
+                    UDDI Taxonomy API
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the validate_values 
+                        API call used for checked taxonomy and 
+                        identifier system validation.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:1E3E9CBC-F8CE-41ab-8F99-88326BAD324A" >
+                <name>
+                    uddi-org:taxonomy_v2
+                </name>
+                <description>
+                    UDDI validate_values API
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the taxonomy 
+                        maintenance API calls for interacting 
+                        with the UDDI registry.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Registry_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="xmlSpec"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4"  keyName="uddi-org:types" keyValue="soapSpec"></keyedReference>
+                </categoryBag>
+            </tModel>
+    <!-- end of UDDI registry tModels -->
+    <!--Start of UDDI core tModels Taxonomy -->
+            <tModel tModelKey="uuid:4064C064-6D14-4F35-8953-9652106476A9">
+                <name>
+                    uddi-org:owningBusiness
+                </name>
+                <description>
+                    A pointer to a businessEntity that owns 
+                    the categorized data. (Version 3.1)
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel identifies the 
+                        businessEntity that published or owns 
+                        the tagged information. Used with 
+                        tModels to establish an &quot;owned&quot; 
+                        relationship with a registered 
+                        businessEntity. The referred-to 
+                        businessEntity must exist and must have 
+                        been published by the publisher that 
+                        publishes the tagged information.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="identifier" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:4E49A8D6-D5A2-4FC2-93A0-0411D8D19E88">
+                <name>
+                    uddi-org:iso-ch:3166:1999
+                </name>
+                <description>
+                    UDDI GeographicTaxonomy
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the ISO 3166 
+                        geographic classification taxonomy 
+                        namespace.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+
+            <tModel tModelKey="uuid:807A2C6A-EE22-470D-ADC7-E0424A337C03">
+                <name>
+                    uddi-org:relationships
+                </name>
+                <description>
+                    UDDI businessEntity relationship 
+                    descriptions.
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe business 
+                        relationships. Used in the 
+                        publisherAssertion messages.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="relationship" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="unchecked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:327A56F0-3299-4461-BC23-5CD513E95C55">
+                <name>
+                    uddi-org:operators
+                </name>
+                <description>
+                    Identifier system for identifying 
+                    operators of a registry
+                </description>
+                <overviewDoc>
+                    <description>
+                        This checked value set is used to 
+                        identifiy UDDI operators.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="identifier" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:8609C81E-EE1F-4D5A-B202-3EB13AD01823" >
+                <name>
+                    dnb-com:D-U-N-S
+                </name>
+                <description>
+                    Dun &amp; Bradstreet D-U-N-S&#174; 
+                    Number
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used for the Dun &amp; 
+                        Bradstreet  D-U-N-S&#174; Number 
+                        identifier.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="identifier"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="unchecked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+
+            <tModel tModelKey="uuid:C0B9FE13-179F-413D-8A5B-5004DB8E5BB2" >
+                <name>
+                    ntis-gov:naics:1997
+                </name>
+                <description>
+                    Business Taxonomy: NAICS (1997 Release)
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the NAICS industry 
+                        taxonomy.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:A035A07C-F362-44DD-8F95-E2B134BF43B4" >
+                <name>
+                    uddi-org:general_keywords
+                </name>
+                <description>
+                    This tModel defines generic name / value 
+                    pairs.
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines an unidentified 
+                        taxonomy.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:DB77450D-9FA8-45D4-A7BC-04411D14E384" >
+                <name>
+                    unspsc-org:unspsc:3-1
+                </name>
+                <description>
+                    Product Taxonomy: UNSPSC (Version 3.1)
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the UNSPSC product 
+                        taxonomy.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:CD153257-086A-4237-B336-6BDCBDCC6634" >
+                <name>
+                    unspsc-org:unspsc
+                </name>
+                <description>
+                    Product Taxonomy: UNSPSC (Version 7)
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel defines the UNSPSC product 
+                        taxonomy.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:B1B1BAF5-2329-43E6-AE13-BA8E97195039" >
+                <name>
+                    thomasregister-com:supplierID
+                </name>
+                <description>
+                    Thomas Registry Suppliers
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used for the Thomas 
+                        Register supplier identifier codes.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="identifier"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:E59AE320-77A5-11D5-B898-0004AC49CC1E" >
+                <name>
+                    uddi-org:isReplacedBy
+                </name>
+                <description>
+                    An identifier system used to point (using 
+                    UDDI keys) to the tModel (or 
+                    businessEntity) that is the logical 
+                    replacement for the one in which 
+                    isReplacedBy is used.
+                </description>
+                <overviewDoc>
+                    <description>
+                        The keyValues in keyedReferences that 
+                        refer to this tModel must be tModelKeys 
+                        or businessKeys. Such a keyValue 
+                        specifies the entity that is the 
+                        replacement for the entity in which the 
+                        keyedReference appears.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="identifier"></keyedReference>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked"></keyedReference>
+                </categoryBag>
+            </tModel>
+    <!--end of UDDI core tModels Taxonomy -->
+    <!--Start of UDDI Other Core tModels  -->
+            <tModel tModelKey="uuid:93335D49-3EFB-48A0-ACEA-EA102B60DDC6" >
+                <name>
+                    uddi-org:smtp
+                </name>
+                <description>
+                    E-mail based web service
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe a web 
+                        service that is invoked through SMTP 
+                        email transmissions. These transmissions 
+                        may be either between people or 
+                        applications.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="transport"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:1A2B00BE-6E2C-42F5-875B-56F32686E0E7" >
+                <name>
+                    uddi-org:fax
+                </name>
+                <description>
+                    Fax based web service
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe a web 
+                        service that is invoked through fax 
+                        transmissions.  These transmissions may 
+                        be either between people or applications.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="protocol"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:5FCF5CD0-629A-4C50-8B16-F94E9CF2A674" >
+                <name>
+                    uddi-org:ftp
+                </name>
+                <description>
+                    File transfer protocol (ftp) based web 
+                    service
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe a web 
+                        service that is invoked through file 
+                        transfers via the ftp protocol.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="transport"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:38E12427-5536-4260-A6F9-B5B530E63A07" >
+                <name>
+                    uddi-org:telephone
+                </name>
+                <description>
+                    Telephone based web service
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe a web 
+                        service that is invoked through a 
+                        telephone call and interaction by voice 
+                        and/or touch-tone.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="specification"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:68DE9E80-AD09-469D-8A37-088422BFBC36" >
+                <name>
+                    uddi-org:http
+                </name>
+                <description>
+                    An http or web browser based web service
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used to describe a web 
+                        service that is invoked through a web 
+                        browser and/or the http protocol.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="transport"></keyedReference>
+                </categoryBag>
+            </tModel>
+
+            <tModel tModelKey="uuid:4CEC1CEF-1F68-4B23-8CB7-8BAA763AEB89">
+                <name>
+                    uddi-org:homepage
+                </name>
+                <description>
+                    HTTP Web Home Page URL
+                </description>
+                <overviewDoc>
+                    <description>
+                        This tModel is used as the 
+                        bindingTemplate fingerprint for a web 
+                        home page reference.
+                    </description>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_CoreOther_tModels.htm</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="specification" />
+                </categoryBag>
+            </tModel>
+    <!--end of UDDI Other Core tModels  -->
+    <!--Start of WSRP Canonical tModels from http://www.uddi.org/tmodels.html#WSRPCanonicaltModels  -->
+            <!-- 2.3.1 WSRP Service Type tModel -->
+            <tModel tModelKey="uuid:58A98609-C265-3C28-9079-85EA8B2521EF">
+                <name>
+                    uddi:oasis-open.org:wsrp:service_type
+                </name>
+                <description>
+                    Tags business services as WSRP Producer or Portlet
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP Service Type tModel. This tModel is used to
+                        tag business services as WSRP Producer or Portlet.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp-pfb-uddi-tn-1.0.pdf</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked" />
+                </categoryBag>
+            </tModel>
+
+            <!-- 2.3.2 WSRP v1 Bindings tModel -->
+            <tModel tModelKey="uuid:83A39ACF-5531-346D-AB89-3D2084319037">
+                <name>
+                    uddi:oasis-open.org:wsrp:v1_bindings
+                </name>
+                <description>
+                    Indicates WSRP v1 conformance
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 Bindings tModel. This tModel is used to
+                        indicate WSRP v1 conformance.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_bindings.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+
+            <!-- 2.3.3 WSRP Producer Service Reference tModel -->
+            <tModel tModelKey="uuid:7CF20608-FD2D-3D84-B382-5432AC6FE6EF">
+                <name>
+                    uddi:oasis-open.org:wsrp:producer_service_reference
+                </name>
+                <description>
+                    The means to represent a reference to the Producer service.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP Producer Service Reference tModel. This tModel is used as
+                        the means to represent a reference to the Producer service.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp-pfb-uddi-tn-1.0.pdf</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization" />
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="checked" />
+                </categoryBag>
+            </tModel>
+
+            <!-- 2.3.4 WSRP Portlet Handle tModel -->
+            <tModel tModelKey="uuid:CED0F0D1-0D35-345A-9A3A-13E8A0DCC47F">
+                <name>
+                    uddi:oasis-open.org:wsrp:portlet_handle
+                </name>
+                <description>
+                    The means to publish a WSRP Portlet handle.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP Portlet Handle tModel. This tModel is used as
+                        the means to publish a WSRP Portlet handle.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp-pfb-uddi-tn-1.0.pdf</overviewURL>
+                </overviewDoc>
+                <categoryBag>
+                    <keyedReference tModelKey="uuid:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="uddi-org:types" keyValue="categorization" />
+                </categoryBag>
+            </tModel>
+
+            <!-- 2.3.5 WSRP v1 ServiceDescription PortType tModel -->
+            <tModel tModelKey="uuid:3786A28B-8D02-35DA-BCA9-04D4921B70F2">
+                <name>
+                    WSRP_v1_ServiceDescription_PortType
+                </name>
+                <description>
+                    Representation of the ServiceDescription portType.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 ServiceDescription PortType tModel. This tModel is used as
+                        representation of the ServiceDescription portType.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.6 WSRP v1 Markup PortType tModel -->
+            <tModel tModelKey="UUID:161FB2DD-6A94-3756-9455-8CC24F5CEFE0">
+                <name>
+                    WSRP_v1_Markup_PortType
+                </name>
+                <description>
+                    Representation of the Markup portType.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 Markup portType. This tModel is used as
+                        representation of the Markup portType.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.7 WSRP v1 Registration PortType tModel -->
+            <tModel tModelKey="UUID:E6076806-005C-3C8A-B295-D84033788639">
+                <name>
+                    WSRP_v1_Registration_PortType
+                </name>
+                <description>
+                    Representation of the Registration portType.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 Registration portType. This tModel is used as
+                        representation of the Registration portType.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.8 WSRP v1 PortletManagement PortType tModel -->
+            <tModel tModelKey="UUID:ECF92A86-DD5B-3E19-8DD4-F1EFE669C692">
+                <name>
+                    WSRP_v1_PortletManagement_PortType
+                </name>
+                <description>
+                    Representation of the PortletManagement portType.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 PortletManagement portType. This tModel is used as
+                        representation of the PortletManagement portType.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.9 WSRP v1 ServiceDescription SOAP Binding tModel -->
+            <tModel tModelKey="UUID:973F9D97-8314-3069-A8BC-FD2F8F9D9741">
+                <name>
+                    WSRP_v1_ServiceDescription_Binding_SOAP
+                </name>
+                <description>
+                    Representation of the ServiceDescription SOAP binding.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 ServiceDescription SOAP binding.  This tModel is used as
+                        representation of the ServiceDescription SOAP binding.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.10 WSRP v1 Markup SOAP Binding tModel -->
+            <tModel tModelKey="UUID:6A699C53-2B44-398B-9A1D-ECA88585DD11">
+                <name>
+                    WSRP_v1_Markup_Binding_SOAP
+                </name>
+                <description>
+                    Representation of the Markup SOAP binding.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 Markup SOAP binding.  This tModel is used as
+                        representation of the Markup SOAP binding.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.11 WSRP v1 Registration SOAP Binding tModel -->
+            <tModel tModelKey="UUID:40E2D30F-03FE-3CC3-B126-6B662D2EACB4">
+                <name>
+                    WSRP_v1_Registration_Binding_SOAP
+                </name>
+                <description>
+                    Representation of the Registration SOAP binding.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 Registration SOAP binding.  This tModel is used as
+                        representation of the Registration SOAP binding.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+            
+            <!-- 2.3.12 WSRP v1 PortletManagement SOAP Binding tModel -->
+            <tModel tModelKey="UUID:98E4DCCB-2EB4-3C9C-8FCB-0B176C09A037">
+                <name>
+                    WSRP_v1_PortletManagement_Binding_SOAP
+                </name>
+                <description>
+                    Representation of the PortletManagement SOAP binding.
+                </description>
+                <overviewDoc>
+                    <description>
+                        WSRP v1 PortletManagement SOAP binding.  This tModel is used as
+                        representation of the PortletManagement SOAP binding.
+                    </description>
+                    <overviewURL>http://www.oasis-open.org/committees/wsrp/specifications/version1/wsrp_v1_interfaces.wsdl</overviewURL>
+                </overviewDoc>
+            </tModel>
+    <!--End of WSRP Canonical tModels  -->
+        </save_tModel>
+    </Body>
+
+</Envelope>

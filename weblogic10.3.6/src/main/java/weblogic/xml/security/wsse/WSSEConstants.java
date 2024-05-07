@@ -1,0 +1,60 @@
+package weblogic.xml.security.wsse;
+
+import weblogic.xml.stream.XMLName;
+
+/** @deprecated */
+public interface WSSEConstants {
+   String WSSE_URI = weblogic.xml.security.wsse.v200207.WSSEConstants.WSSE_URI;
+   String USERNAME_TOKEN_URI = weblogic.xml.security.wsse.v200207.WSSEConstants.USERNAME_TOKEN_URI;
+   String X509_URI = weblogic.xml.security.wsse.v200207.WSSEConstants.X509_URI;
+   String WSSE_PREFIX_URI = weblogic.xml.security.wsse.v200207.WSSEConstants.WSSE_PREFIX_URI;
+   String DEFAULT_PREFIX = "wsse";
+   String DEFAULT_ENCODING = "UTF-8";
+   String ATTR_VALUETYPE = "ValueType";
+   String ATTR_ENCODING = "EncodingType";
+   String ATTR_TYPE = "Type";
+   String ATTR_URI = "URI";
+   XMLName QNAME_ATTR_VALUETYPE = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_ATTR_VALUETYPE;
+   String ATTR_ROLE = "role";
+   String ATTR_MUST_UNDERSTAND = "mustUnderstand";
+   String FAULT_UNSUPPORTEDSECURITYTOKEN = "UnsupportedSecurityToken";
+   String FAULT_UNSUPPORTEDALGORITHM = "UnsupportedAlgorithm";
+   String FAULT_INVALIDSECURITY = "InvalidSecurity";
+   String FAULT_INVALIDSECURITYTOKEN = "InvalidSecurityToken";
+   String FAULT_FAILEDAUTHENTICATION = "FailedAuthentication";
+   String FAULT_FAILEDCHECK = "FailedCheck";
+   String FAULT_SECURITYTOKENUNAVAILBLE = "SecurityTokenUnavailable";
+   XMLName QNAME_FAULT_UNSUPPORTEDSECURITYTOKEN = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_UNSUPPORTEDSECURITYTOKEN;
+   XMLName QNAME_FAULT_UNSUPPORTEDALGORITHM = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_UNSUPPORTEDALGORITHM;
+   XMLName QNAME_FAULT_INVALIDSECURITY = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_INVALIDSECURITY;
+   XMLName QNAME_FAULT_INVALIDSECURITYTOKEN = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_INVALIDSECURITYTOKEN;
+   XMLName QNAME_FAULT_FAILEDAUTHENTICATION = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_FAILEDAUTHENTICATION;
+   XMLName QNAME_FAULT_FAILEDCHECK = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_FAILEDCHECK;
+   XMLName QNAME_FAULT_SECURITYTOKENUNAVAILBLE = weblogic.xml.security.wsse.v200207.WSSEConstants.QNAME_FAULT_SECURITYTOKENUNAVAILBLE;
+   String VALUETYPE_X509SKID = weblogic.xml.security.wsse.v200207.WSSEConstants.VALUETYPE_X509SKID;
+   String VALUETYPE_X509V3 = weblogic.xml.security.wsse.v200207.WSSEConstants.VALUETYPE_X509V3;
+   String VALUETYPE_PKCS7 = weblogic.xml.security.wsse.v200207.WSSEConstants.VALUETYPE_PKCS7;
+   String VALUETYPE_PKIPATH = weblogic.xml.security.wsse.v200207.WSSEConstants.VALUETYPE_PKIPATH;
+   String ENCODING_BASE64 = weblogic.xml.security.wsse.v200207.WSSEConstants.ENCODING_BASE64;
+   String PASSWORDTYPE_PASSWORDTEXT = weblogic.xml.security.wsse.v200207.WSSEConstants.PASSWORDTYPE_PASSWORDTEXT;
+   String PASSWORDTYPE_PASSWORDDIGEST = weblogic.xml.security.wsse.v200207.WSSEConstants.PASSWORDTYPE_PASSWORDDIGEST;
+   String TAG_BINARY_SECURITY_TOKEN = "BinarySecurityToken";
+   String TAG_KEY_IDENTIFIER = "KeyIdentifier";
+   String TAG_PASSWORD = "Password";
+   String TAG_REFERENCE = "Reference";
+   String TAG_SECURITY = "Security";
+   String TAG_SECURITY_TOKEN_REFERENCE = "SecurityTokenReference";
+   String TAG_USERNAME = "Username";
+   String TAG_USERNAME_TOKEN = "UsernameToken";
+   String TAG_NONCE = "Nonce";
+   int TC_BINARY_SECURITY_TOKEN = 0;
+   int TC_KEY_IDENTIFIER = 1;
+   int TC_PASSWORD = 2;
+   int TC_REFERENCE = 3;
+   int TC_SECURITY = 4;
+   int TC_SECURITY_TOKEN_REFERNCE = 5;
+   int TC_USERNAME = 6;
+   int TC_USERNAME_TOKEN = 7;
+   boolean C14N_INCLUSIVE_NAMESPACES = weblogic.xml.security.wsse.v200207.WSSEConstants.C14N_INCLUSIVE_NAMESPACES;
+   String[] ID_NAMESPACES = weblogic.xml.security.wsse.v200207.WSSEConstants.ID_NAMESPACES;
+}

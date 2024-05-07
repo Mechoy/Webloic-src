@@ -1,0 +1,40 @@
+## used to build sections of createDConfig method. $mthd is a getter. $xpath is non-null
+#macro ( dconfigCreate $mthd $xpath )
+#set ( $beanAttr = $mthd.getAnnotatableField().getProperty() )## SomeType
+#set ( $isArray = $mthd.getReturnType().isArray() )
+#if ($isArray)
+#set ( $beanType = $mthd.getReturnType().getComponentType().getQualifiedName() )
+#else
+#set ( $beanType = $mthd.getReturnType().getQualifiedName() )
+#end
+    if ($xpath.equals(xpath)) {
+#if ($isArray)
+      $beanType btn = null;
+      ${beanType}[] list = beanTreeNode.${mthd.getName()}();
+      for (int i=0;i<list.length;i++) { 
+        btn = (${beanType})list[i];
+        key = btn.getKeyPropertyValue();
+        if (key != null && key.equals(ddb.getText())) {
+          break;
+        }
+        btn = null;
+      }
+      if (btn == null) {
+        btn = new ${beanType}();
+        beanTreeNode.add${beanAttr}(btn);
+        newdcb = true;
+      }
+      retBean = new ${beanType}DConfig(ddb,btn);
+      ((${beanType}DConfig)retBean).setKeyPropertyValue(ddb.getText());
+      add${beanAttr}((${beanType}DConfig)retBean);
+#else## isArray
+      $beanType btn = beanTreeNode.${mthd.getName()}();
+      if (btn == null) {
+        btn = new ${beanType}();
+        newdcb = true;
+      }
+      retBean = new ${beanType}DConfig(ddb,btn);
+      set${beanAttr}((${beanType}DConfig)retBean);
+#end## isArray
+    }
+#end

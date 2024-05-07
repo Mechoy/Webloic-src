@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<wsp:Policy
+  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+  xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200512"
+  >
+  <sp:SignedParts>
+    <sp:Header Name="Timestamp" Namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/> 
+  </sp:SignedParts>
+</wsp:Policy>
+

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.cluster.migration.example.MigratableVariableImpl"
+    server-ref-classname="weblogic.rmi.cluster.MigratableServerRef"
+>
+<cluster
+    replica-handler-classname="weblogic.rmi.cluster.MigratableReplicaHandler"
+>
+</cluster>
+
+
+</rmi>

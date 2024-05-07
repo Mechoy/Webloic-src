@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-silent-responses>
+</plugin-silent-responses>
+
+<!--
+<plugin-silent-responses>
+  <group name="NodeManagerPlugInGroup">
+    <plugin name="NodeManagerPlugIn">
+      <input-adapter name="IA">
+        <bind-property name="selectedFileNames">
+          <value>__NODE_MANAGER_HOME__</value>
+        </bind-property>
+      </input-adapter>
+    </plugin>
+  </group>
+</plugin-silent-responses>
+-->
+
+<!--
+  e.g. 
+  __NODE_MANAGER_HOME__ = Node Manager Home directory
+-->

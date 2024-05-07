@@ -1,0 +1,6 @@
+package weblogic.wsee.config;
+
+import weblogic.management.configuration.WebServiceRequestBufferingQueueMBean;
+
+public class WebServiceRequestBufferingQueueMBeanImpl extends WebServiceBufferingQueueMBeanImpl implements WebServiceRequestBufferingQueueMBean {
+}

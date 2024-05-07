@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+  name="weblogic.corba.cos.naming.NamingContextAny" 
+  server-ref-classname="weblogic.rmi.internal.BasicServerRef"
+  use-server-side-stubs="true"
+>
+
+<cluster clusterable="true"/>    
+
+<method name="*" transactional="false" idempotent="true"/>
+</rmi>

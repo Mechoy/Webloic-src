@@ -1,0 +1,122 @@
+<!-- 
+This is the DTD for the application client deployment parameters that
+are specific to the WebLogic Server in WebLogic 6.0.0.
+
+Copyright (c) 1999-2000 by BEA Systems, Inc. All Rights Reserved.
+-->
+
+<!--
+The application-client element is the root element of an application client
+deployment parameter descriptor.
+-->
+<!ELEMENT application-client (env-entry*, ejb-ref*, resource-ref*, resource-env-ref*)>
+
+<!--
+The ejb-ref element specifys the jndi name for a declared ejb
+reference in the deployment descriptor. Used in: application-client
+-->
+<!ELEMENT ejb-ref (ejb-ref-name, jndi-name)>
+
+<!--
+The ejb-ref-name element contains the name of an EJB reference. The
+EJB reference is an entry in the application client's environment. It
+is recommended that name is prefixed with "ejb/". Used in: ejb-ref
+Example: <ejb-ref-name>ejb/Payroll</ejb-ref-name>
+-->
+<!ELEMENT ejb-ref-name (#PCDATA)>
+
+<!--
+The env-entry element specifies values for environment entries
+declared in the deployment descriptor. Used in: application-client
+-->
+<!ELEMENT env-entry (env-entry-name, env-entry-value)>
+
+<!--
+The env-entry-name element contains the name of an application client's
+environment entry. Used in: env-entry
+Example: <env-entry-name>EmployeeAppDB</env-entry-name>
+-->
+<!ELEMENT env-entry-name (#PCDATA)>
+
+<!--
+The env-entry-value element contains the value of an application client's
+environment entry. The value must be a String that is valid for the constructor
+of the specified type that takes a single String parameter.
+
+Used in: env-entry
+
+Example:
+<env-entry-value>/datasources/MyDatabase</env-entry-value>
+-->
+<!ELEMENT env-entry-value (#PCDATA)>
+
+<!-- 
+This specifies a jndi-name for a bean, resource or reference. Used in:
+ejb-ref, resource-ref
+-->
+<!ELEMENT jndi-name (#PCDATA)>
+
+<!--
+The res-ref-name element specifies the name of the resource factory
+reference name. The resource factory reference name is the name of the
+application client's environment entry whose value contains the JNDI
+name of the data source.  Used in: resource-ref
+-->
+<!ELEMENT res-ref-name (#PCDATA)>
+
+<!--
+The resource-env-ref element contains a declaration of an
+application client's reference to an administered object associated
+with a resource in the application client's environment. It consists
+of an optional description, the resource environment reference name,
+and an indication of the resource environment reference type expected
+by the application client code.
+Used in: application-client
+Example:
+<resource-env-ref>
+<resource-env-ref-name>jms/StockQueue</resource-env-ref-name>
+<jndi-name>my.stocks.queue</jndi-name>
+</resource-env-ref>
+-->
+<!ELEMENT resource-env-ref (resource-env-ref-name, jndi-name)>
+
+<!--
+The resource-env-ref-name element specifies the name of a resource
+environment reference; its value is the environment entry name used
+in the application client code. The name is a JNDI name relative to
+the java:comp/env context and must be unique within an application
+client.
+Used in: resource-env-ref
+-->
+<!ELEMENT resource-env-ref-name (#PCDATA)>
+
+<!--
+The resource-ref element contains a declaration of application clients's
+reference to an external resource. It consists of an optional description, the
+resource factory reference name, the indication of the resource factory type
+expected by the application client's code, and the type of authentication (bean
+or container).
+
+Example:
+<resource-ref>
+<res-ref-name>EmployeeAppDB</res-ref-name>
+<jndi-name>enterprise/databases/HR1984</jndi-name>
+</resource-ref>
+-->
+<!ELEMENT resource-ref (res-ref-name, jndi-name)>
+
+<!--
+The ID mechanism is to allow tools to easily make tool-specific references to
+the elements of the deployment descriptor.
+ -->
+<!ATTLIST application-client id ID #IMPLIED>
+<!ATTLIST ejb-ref id ID #IMPLIED>
+<!ATTLIST ejb-ref-name id ID #IMPLIED>
+<!ATTLIST env-entry id ID #IMPLIED>
+<!ATTLIST env-entry-name id ID #IMPLIED>
+<!ATTLIST env-entry-value id ID #IMPLIED>
+<!ATTLIST jndi-name id ID #IMPLIED>
+<!ATTLIST res-ref-name id ID #IMPLIED>
+<!ATTLIST resource-env-ref id ID #IMPLIED>
+<!ATTLIST resource-env-ref-name id ID #IMPLIED>
+<!ATTLIST resource-ref id ID #IMPLIED>

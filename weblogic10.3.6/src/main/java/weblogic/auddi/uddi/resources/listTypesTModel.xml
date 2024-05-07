@@ -1,0 +1,23 @@
+<uddi_types key="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" name="uddi-org:types" value="">
+  <level1 key="" name="These types are used for tModels"                   value="tModel">
+    <level2 key="" name="Categorization (taxonomy)"        value="categorization"></level2>
+    <level2 key="" name="Checked value set"                          value="checked"></level2>
+    <level2 key="" name="Namespace"                        value="namespace"></level2>
+    <level2 key="" name="Postal address format"                   value="postalAddress"></level2>
+    <level2 key="" name="Prevents a checked value set from being used"                    value="unvalidatable"></level2>
+    <level2 key="" name="Protocol"                         value="protocol">
+      <level3 key="" name="Wire/transport protocol"                        value="transport"></level3>
+    </level2>
+    <level2 key="" name="Relationship"                     value="relationship"></level2>
+    <level2 key="" name="Signature component"              value="signatureComponent"></level2>
+    <level2 key="" name="Specification for a web service"  value="specification">
+      <level3 key="" name="Specification for a web service described in WSDL"  value="wsdlSpec"></level3>
+      <level3 key="" name="Specification for a web service using XML messages"  value="xmlSpec">
+        <level4 key="" name="Specification for a web service using SOAP messages"  value="soapSpec"></level4>
+      </level3>
+    </level2>
+    <level2 key="" name="Unchecked value set"                        value="unchecked"></level2>
+    <level2 key="" name="Unique identifier system"                value="identifier"></level2>
+  </level1>
+</uddi_types>
+

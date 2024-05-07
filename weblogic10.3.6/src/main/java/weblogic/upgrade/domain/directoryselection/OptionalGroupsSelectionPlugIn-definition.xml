@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>OptionalGroupsSelectionPlugIn</name>
+  <description>Upgrades a JMS store</description>
+  <author>ugorjid@bea.com</author>
+  <class>weblogic.upgrade.domain.directoryselection.OptionalGroupsSelectionPlugIn</class>
+  <i18n>weblogic/upgrade/domain/directoryselection/i18n_OptionalGroupsSelectionPlugIn</i18n>
+  <input-adapter-definition>
+    <description></description>
+    <class>com.bea.plateng.plugin.ia.DefaultChoiceInputAdapter</class>
+    <name>IA</name>
+    <bind-property>selectedChoiceIds</bind-property>
+    <wf-gui>weblogic.upgrade.domain.directoryselection.OptionalGroupsInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+

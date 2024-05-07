@@ -1,0 +1,26 @@
+<!DOCTYPE weblogic-ejb-jar PUBLIC '-//BEA Systems, Inc.//DTD WebLogic 8.1.0 EJB//EN' 'http://www.bea.com/servers/wls810/dtd/weblogic-ejb-jar.dtd'>
+
+
+<!-- Generated XML! -->
+
+<weblogic-ejb-jar>
+  <weblogic-enterprise-bean>
+    <ejb-name>DestinationQueue</ejb-name>
+    <message-driven-descriptor>
+      <pool>
+        <max-beans-in-free-pool>1</max-beans-in-free-pool>
+        <initial-beans-in-free-pool>1</initial-beans-in-free-pool>
+      </pool>
+<!--      <connection-factory-jndi-name>weblogic.jms.XAConnectionFactory</connection-factory-jndi-name>-->
+      <destination-jndi-name>weblogic.wsee.DefaultQueue</destination-jndi-name>
+    </message-driven-descriptor>
+
+    <transaction-descriptor>
+    </transaction-descriptor>
+
+    <reference-descriptor>
+    </reference-descriptor>
+
+    <jndi-name>DestinationQueue</jndi-name>
+  </weblogic-enterprise-bean>
+</weblogic-ejb-jar>

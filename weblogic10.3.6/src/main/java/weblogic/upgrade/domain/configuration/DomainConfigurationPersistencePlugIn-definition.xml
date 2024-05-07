@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainConfigurationPersistencePlugIn</name>
+  <description>Saving the configuration</description>
+  <author>mrack@bea.com</author>
+  <class>weblogic.upgrade.domain.configuration.DomainConfigurationPersistencePlugIn</class>
+  <i18n>weblogic/upgrade/domain/configuration/i18n_DomainConfigurationPersistencePlugIn</i18n>
+</plugin-definition>
+

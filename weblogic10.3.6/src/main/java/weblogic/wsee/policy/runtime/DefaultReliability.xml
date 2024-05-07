@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<wsp:Policy
+   xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy"
+   xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+   xmlns:beapolicy="http://www.bea.com/wsrm/policy"
+  >
+  <wsrm:RMAssertion >
+    <wsrm:InactivityTimeout
+        Milliseconds="600000" />
+    <wsrm:BaseRetransmissionInterval
+        Milliseconds="3000" />
+    <wsrm:ExponentialBackoff />
+    <wsrm:AcknowledgementInterval
+        Milliseconds="200" />
+    <beapolicy:Expires Expires="P1D" optional="true"/>
+  </wsrm:RMAssertion>
+</wsp:Policy>

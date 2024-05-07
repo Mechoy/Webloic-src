@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsp15:Policy xmlns:wsp15="http://www.w3.org/ns/ws-policy">
+	<wsp15:All>
+		<wsrmp:RMAssertion xmlns:wsrmp="http://docs.oasis-open.org/ws-rx/wsrmp/200702">
+			<wsp15:Policy>
+				<wsrmp:SequenceSTR/>
+				<wsrmp:DeliveryAssurance>
+					<wsp15:Policy>
+						<wsrmp:ExactlyOnce/>
+					</wsp15:Policy>
+				</wsrmp:DeliveryAssurance>
+			</wsp15:Policy>
+		</wsrmp:RMAssertion>
+		<wsmc:MCSupported xmlns:wsmc="http://docs.oasis-open.org/ws-rx/wsmc/200702" wsp15:Optional="true"/>
+	</wsp15:All>
+</wsp15:Policy>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plan-definition name="ChannelUpgrade">
+  <!-- declare the plug-ins that will be used; order is irrelevant. -->
+  <plugin-definition-import>
+    weblogic/upgrade/domain/DomainDirectorySelectionPlugIn-definition.xml
+  </plugin-definition-import>
+  <plugin-definition-import>
+    weblogic/upgrade/channels/ChannelPlugIn-definition.xml
+  </plugin-definition-import>
+
+  <!-- define a group that indicates where future upgrade plug-ins will go -->
+  <!-- what is this mess required for - talk about over-engineered APIs. -->
+  <group-definition name="DomainSelectionGroup" allow-backout="false">
+    <i18n>weblogic/upgrade/domain/i18n_DomainSelectionGroup</i18n>
+    <prepare-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.ImageMessageGroupVisualizaton</wf-gui>
+    </prepare-visualization>
+    <plugin>DomainDirectorySelectionPlugIn</plugin>
+    <execute-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.MessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+  </group-definition>
+
+  <group-definition name="ChannelGroup" allow-backout="false">
+    <i18n>weblogic/upgrade/channels/i18n_ChannelGroup</i18n>
+    <prepare-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.ImageMessageGroupVisualizaton</wf-gui>
+    </prepare-visualization>
+    <execute-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.MessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>ChannelPlugIn</plugin>
+  </group-definition>
+
+  <!-- define the plan of execution by ordering the groups -->
+  <execution-plan>
+    <group>DomainSelectionGroup</group>
+    <group>ChannelGroup</group>
+  </execution-plan>
+
+</plan-definition>
+

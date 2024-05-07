@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.corba.idl.poa.POAImpl"
+    server-ref-classname="weblogic.corba.idl.poa.POAServerRef"
+>
+<cluster clusterable="true" load-algorithm="server-affinity"/>
+<lifecycle dgc-policy="managed"/>
+<method name="*" transactional="true" idempotent="true"/>
+</rmi>

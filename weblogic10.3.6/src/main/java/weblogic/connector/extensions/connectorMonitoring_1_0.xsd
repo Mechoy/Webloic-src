@@ -1,0 +1,177 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsd:schema xmlns = "http://www.bea.com/connector/monitoring1dot0"
+	 targetNamespace = "http://www.bea.com/connector/monitoring1dot0"
+	 xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+	 version = "1.0"
+	 elementFormDefault = "qualified">
+	<xsd:annotation>
+		<xsd:documentation>
+      @(#)ConnectorMonitoring_1_0.xsd
+			
+		</xsd:documentation>
+		<xsd:documentation>
+      Copyright 2004 BEA Systems, Inc.
+		
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:group name = "resource-lookup">
+		<xsd:choice>
+			<xsd:element ref = "jndi-name"/>
+			<xsd:element name = "resource-link" type = "xsd:string"/>
+		</xsd:choice>
+	</xsd:group>
+	<xsd:element name = "connector">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "jndi-name"/>
+				<xsd:element ref = "version" minOccurs = "0"/>
+				<xsd:element ref = "description" minOccurs = "0" maxOccurs = "unbounded"/>
+				<xsd:element ref = "vendor-name" minOccurs = "0"/>
+				<xsd:element ref = "eis-type" minOccurs = "0"/>
+				<xsd:element ref = "resourceadapter-version"/>
+				<xsd:element ref = "resourceadapter-class" minOccurs = "0"/>
+				<xsd:element ref = "enable-access-outside-app"/>
+				<xsd:element ref = "link-ref" minOccurs = "0"/>
+				<xsd:element ref = "properties" minOccurs = "0"/>
+				<xsd:element ref = "outbound" minOccurs = "0"/>
+				<xsd:element ref = "admin-objects" minOccurs = "0"/>
+				<xsd:element ref = "inbound" minOccurs = "0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "jndi-name" type = "xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>JNDI Name</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name = "version" type = "xsd:string"/>
+	<xsd:element name = "resourceadapter-class" type = "xsd:string"/>
+	<xsd:element name = "enable-access-outside-app" type = "xsd:boolean"/>
+	<xsd:element name = "outbound">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "outbound-group" minOccurs = "0" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "outbound-group">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "connection-factory-interface"/>
+				<xsd:element ref = "managedconnectionfactory-class"/>
+				<xsd:element ref = "connection-instance" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "connection-factory-interface" type = "xsd:string"/>
+	<xsd:element name = "connection-instance">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref = "resource-lookup"/>
+				<xsd:element ref = "description" minOccurs = "0"/>
+				<xsd:element ref = "transaction-support"/>
+				<xsd:element ref = "pool-params"/>
+				<xsd:element ref = "properties" minOccurs = "0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "pool-params" type = "connection-pool-paramsType"/>
+	<xsd:element name = "properties" type = "config-propertiesType"/>
+	<xsd:element name = "transaction-support" type = "xsd:string"/>
+	<xsd:element name = "description" type = "xsd:string"/>
+	<xsd:complexType name = "connection-pool-paramsType">
+		<xsd:sequence>
+			<xsd:element name = "initial-capacity" type = "xsd:integer"/>
+			<xsd:element name = "max-capacity" type = "xsd:integer"/>
+			<xsd:element name = "capacity-increment" type = "xsd:integer"/>
+			<xsd:element name = "shrinking-enabled" type = "xsd:boolean"/>
+			<xsd:element name = "shrink-frequency-seconds" type = "xsd:integer"/>
+			<xsd:element name = "highest-num-waiters" type = "xsd:integer"/>
+			<xsd:element name = "highest-num-unavailable" type = "xsd:integer"/>
+			<xsd:element name = "connection-creation-retry-frequency-seconds" type = "xsd:integer"/>
+			<xsd:element name = "connection-reserve-timeout-seconds" type = "xsd:integer"/>
+			<xsd:element name = "test-frequency-seconds" type = "xsd:integer"/>
+			<xsd:element name = "test-connections-on-create" type = "xsd:boolean"/>
+			<xsd:element name = "test-connections-on-release" type = "xsd:boolean"/>
+			<xsd:element name = "test-connections-on-reserve" type = "xsd:boolean"/>
+			<xsd:element name = "profile-harvest-frequency-seconds" type = "xsd:integer"/>
+			<xsd:element name = "ignore-in-use-connections-enabled" type = "xsd:boolean"/>
+			<xsd:element name = "match-connections-supported" type = "xsd:boolean"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name = "config-propertiesType">
+		<xsd:sequence>
+			<xsd:element ref = "property" minOccurs = "0" maxOccurs = "unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name = "config-propertyType">
+		<xsd:all>
+			<xsd:element name = "name" type = "xsd:string"/>
+			<xsd:element name = "value" type = "xsd:string"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:element name = "admin-objects">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "admin-object-group" minOccurs = "0" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "property" type = "config-propertyType"/>
+	<xsd:element name = "vendor-name" type = "xsd:string"/>
+	<xsd:element name = "eis-type" type = "xsd:string"/>
+	<xsd:element name = "resourceadapter-version" type = "xsd:string"/>
+	<xsd:element name = "link-ref" type = "xsd:string"/>
+	<xsd:element name = "managedconnectionfactory-class" type = "xsd:string"/>
+	<xsd:element name = "admin-object-group">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "admin-object-interface"/>
+				<xsd:element ref = "admin-object-instance" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "admin-object-interface" type = "xsd:string"/>
+	<xsd:element name = "admin-object-instance">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref = "resource-lookup"/>
+				<xsd:element ref = "properties" minOccurs = "0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "inbound">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "messagelistener" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "messagelistener">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "messagelistener-type"/>
+				<xsd:element ref = "activationspec"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "messagelistener-type" type = "xsd:string"/>
+	<xsd:element name = "activationspec">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "activationspec-class"/>
+				<xsd:element ref = "required-config-property" minOccurs = "0" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "required-config-property">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "description" minOccurs = "0" maxOccurs = "unbounded"/>
+				<xsd:element ref = "config-property-name"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name = "config-property-name" type = "xsd:string"/>
+	<xsd:element name = "activationspec-class" type = "xsd:string"/>
+</xsd:schema>

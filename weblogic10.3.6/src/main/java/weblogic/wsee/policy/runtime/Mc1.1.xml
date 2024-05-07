@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<wsp15:Policy  xmlns:wsp15="http://www.w3.org/ns/ws-policy" 
+  xmlns:wsmc="http://docs.oasis-open.org/ws-rx/wsmc/200702">
+  <wsmc:MCSupported wsp15:Optional="true" />
+</wsp15:Policy>

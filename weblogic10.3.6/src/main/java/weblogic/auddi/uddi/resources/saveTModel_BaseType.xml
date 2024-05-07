@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <save_tModel xmlns="urn:uddi-org:api_v2" generic="2.0">
+            <authInfo>$$auth_token$$</authInfo>
+            <tModel tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4">
+                <name>
+                    uddi-org:types
+                </name>
+                <description xml:lang="en">
+                    UDDI Type Taxonomy
+                </description>
+                <overviewDoc>
+                    <overviewURL>http://uddi.org/taxonomies/UDDI_Taxonomy_tModels.htm#UDDItypes</overviewURL>
+                </overviewDoc>
+        <!--categoryBag>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Categorization"                   keyValue="tModel"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Categorization (taxonomy)"        keyValue="categorization"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Checked"                          keyValue="checked"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Namespace"                        keyValue="namespace"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Postal address"                   keyValue="postalAddress"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Protocol"                         keyValue="protocol"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Relationship"                     keyValue="relationship"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Signature component"              keyValue="signatureComponent"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Specification"                    keyValue="specification"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Specification for a web service"  keyValue="wsdlSpec"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Specification for XML"            keyValue="xmlSpec"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Specification for a SOAP message" keyValue="soapSpec"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Transport"                        keyValue="transport"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Unchecked"                        keyValue="unchecked"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Unique identifier"                keyValue="identifier"></keyedReference>
+          <keyedReference tModelKey="UUID:C1ACF26D-9672-4404-9D70-39B756E62AB4" keyName="Unvalidatable"                    keyValue="unvalidatable"></keyedReference>
+        </categoryBag-->
+            </tModel>
+        </save_tModel>
+    </Body>
+</Envelope>

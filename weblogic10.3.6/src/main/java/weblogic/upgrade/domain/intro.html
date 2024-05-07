@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+body  {
+	font-size: 11pt;
+	font-family: Tahoma;
+	font-weight: normal;
+	margin-left: 0;
+	margin-right: 0;
+	color: black;
+	line-height: 13pt;
+}
+
+
+li p {margin-top: 0;
+    margin-bottom: 0}
+
+
+ul li {margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0}
+
+ul {margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 40;}
+
+a {color: blue;
+   text-decoration: underline}
+
+i  {font-style: italic}
+
+b  {font-weight: bold}
+
+strong {font-weight: bold}
+
+nobr { white-space: nowrap }
+</style>
+</head>
+
+<body>
+This wizard streamlines the upgrade of domains to WebLogic 10.3. Upgrade of WebLogic Server 6.1 or higher domains is supported.  For Portal, Integration, and Workshop domains, version 8.1SP4 or later is supported.
+<p>
+<b>Prerequisites:</b>
+<ul>
+  <li>Shut down the domain you want to upgrade.</li>
+  <li>Backup the domain, including the domain directory, JMS database store tables, and the entire Portal database, if applicable. The wizard will also archive your domain directory contents before upgrade.</li>
+  <li>JDBC drivers required for JMS must be on classpath.</li>
+</ul>
+<b>What to expect:</b>
+<ul>
+  <li>The wizard logs to standard output. By default this is redirected to an audit file in <code>user_projects/upgrade_logs</code> under your Middleware Home.</li>
+  <li>You will see a summary of key information at the end.</li>
+</ul>
+</body>
+</html>

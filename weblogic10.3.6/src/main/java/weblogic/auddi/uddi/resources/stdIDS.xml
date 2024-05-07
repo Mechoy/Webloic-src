@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SOAP-ENV:Body>
+    <tModelDetail generic="2.0" operator="http://localhost:8088/uddi" xmlns="urn:uddi-org:api_v2">
+   
+   <!-- <tModel tModelKey="uuid:4064c064-6d14-4f35-8953-9652106476a9" authorizedName="0100000M99" operator="http://localhost:8088/uddi">
+      <name xml:lang="en">
+        uddi-org:owningBusiness
+      </name>
+      <description xml:lang="en">
+        A pointer to a businessEntity that ownsthe categorized data. (Version 3.1)
+      </description>
+      <categoryBag>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="identifier">
+        </keyedReference>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="checked">
+        </keyedReference>
+      </categoryBag>
+    </tModel>
+    
+    tModel tModelKey="uuid:327a56f0-3299-4461-bc23-5cd513e95c55" authorizedName="0100000M99" operator="http://localhost:8088/uddi">
+      <name xml:lang="en">
+        dnb-com:D-U-N-S
+      </name>
+      <description xml:lang="en">
+        Dun &amp; Bradstreet D-U-N-S® Number
+      </description>
+      <categoryBag>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="identifier">
+        </keyedReference>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="checked">
+        </keyedReference>
+      </categoryBag>
+    </tModel-->
+    <tModel tModelKey="uuid:8609c81e-ee1f-4d5a-b202-3eb13ad01823" authorizedName="0100000M99" operator="http://localhost:8088/uddi">
+      <name xml:lang="en">
+        dnb-com:D-U-N-S
+      </name>
+      <description xml:lang="en">
+        Dun &amp; Bradstreet D-U-N-S® Number
+      </description>
+      <overviewDoc>
+        <description xml:lang="en">
+          This tModel is used for the Dun &amp;Bradstreet  D-U-N-S® Number identifier.
+        </description>
+        <overviewURL>
+          http://www.uddi.org/taxonomies/Core_Taxonomy_OverviewDoc.htm#D-U-N-S
+        </overviewURL>
+      </overviewDoc>
+      <categoryBag>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="identifier">
+        </keyedReference>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="Unchecked" keyValue="unchecked">
+        </keyedReference>
+      </categoryBag>
+    </tModel>
+    <tModel tModelKey="uuid:b1b1baf5-2329-43e6-ae13-ba8e97195039" authorizedName="0100000M99" operator="http://localhost:8088/uddi">
+      <name xml:lang="en">
+        thomasregister-com:supplierID
+      </name>
+      <description xml:lang="en">
+        Thomas Registry Suppliers
+      </description>
+      <overviewDoc>
+        <description xml:lang="en">
+          This tModel is used for the ThomasRegister supplier identifier codes.
+        </description>
+        <overviewURL>
+          http://www.uddi.org/taxonomies/Core_Taxonomy_OverviewDoc.htm#Thomas
+        </overviewURL>
+      </overviewDoc>
+      <categoryBag>
+        <keyedReference tModelKey="uuid:c1acf26d-9672-4404-9d70-39b756e62ab4" keyName="types" keyValue="identifier">
+        </keyedReference>
+      </categoryBag>
+    </tModel>
+    </tModelDetail>
+  </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>

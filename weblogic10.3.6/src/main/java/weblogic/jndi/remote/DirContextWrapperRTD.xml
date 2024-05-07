@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.jndi.remote.DirContextWrapper"
+    use-server-side-stubs="true"
+>
+<method
+     name="*"
+    transactional="false"
+>
+</method>
+
+</rmi>

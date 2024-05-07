@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>ChannelPlugIn</name>
+  <class>weblogic.upgrade.channels.ChannelPlugIn</class>
+  <i18n>weblogic/upgrade/channels/i18n_ChannelPlugIn</i18n>
+</plugin-definition>
+
+

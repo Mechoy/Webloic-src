@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+name="weblogic.servlet.internal.ROIDLookupImpl"
+initial-reference="28">
+<lifecycle
+   dgc-policy="managed">
+</lifecycle>
+<method
+   name="*"
+   transactional="false"
+   dispatch-policy="weblogic.kernel.Non-Blocking">
+</method>
+<method
+  name="unregister(weblogic.cluster.replication.ROID,java.lang.Object[])"
+  oneway="true" >
+</method>
+</rmi>

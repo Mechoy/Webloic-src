@@ -1,0 +1,552 @@
+<WlsBuiltinPolicies xmlns="http://www.oracle.com/weblogic/wsee/policy/runtime/schema">
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-X509-EncryptRequest-SignResponse.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="DefaultReliability.xml">
+    <Category>WSRM</Category>
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Mc1.1.xml">
+    <Category>WSP15</Category>
+    <Category>WSMC</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-DK-X509-Endorsing.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.0-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Https-UsernameToken-Digest.xml">
+    <Category>WSSP12</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss10_x509_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-SignBody.xml">
+    <Category>WSSP12</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-DK-X509-SignedEndorsing.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-HolderOfKey-Wss1.1-IssuedToken.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-HolderOfKey-Wss1.1-IssuedToken.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss11_x509_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-UsernameToken-Plain-X509-TripleDesRsa15.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https-ClientCertReq.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-UsernameToken-Digest-X509-TripleDesRsa15.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.2_SequenceSTR.xml">
+    <Category>WSP15</Category>
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Plain-EncryptedKey-Basic128.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https-UsernameToken-Plain.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https-UsernameToken-Plain-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wssc200502-Bootstrap-Wss1.1.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+    <Category>WSSC</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.1-UsernameToken-Plain-EncryptedKey.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSS11</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC14</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wsp1.5-SignBody-and-Wsa-Headers.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-HolderOfKey-Wss1.0.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-SenderVouches-Wss1.1.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-SenderVouches-Wss1.1-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-HolderOfKey-Wss1.0-Basic128.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-DK.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss10_username_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-SenderVouches-Wss1.1.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-SenderVouches-Wss1.1-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="WsscRmBootstrap.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wsp1.5-EncryptBody.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wsp1.5-SignAndEncryptWSATHeaders.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-X509-EncryptRequest-SignResponse.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Https.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Mc.xml">
+    <Category>WSMC</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-UsernameToken-Plain-X509-Basic256.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.0_1.1.xml">
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Https-BasicAuth.xml">
+    <Category>WSSP12</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Wss1.1.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSS11</Category>
+    <Category>WSSC13</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Plain-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Plain-X509-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.0-UsernameToken-Digest-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wssc200502-Bootstrap-Https.xml">
+    <Category>WSSP12</Category>
+    <Category>WSSC</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.2_SequenceTransportSecurity.xml">
+    <Category>WSP15</Category>
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Https-UsernameToken-Plain.xml">
+    <Category>WSSP12</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="AddSctToken.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-EncryptBody.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-SignAndEncryptWSATHeaders.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss11_saml_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss11_saml20_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wsp1.5-SignBody.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-SignBody.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-HolderOfKey-Wss1.1-Asymmetric.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-EncryptedKey-X509-SignedEndorsing.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Sign-Wsa-Headers.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-EncryptedKey-X509-Endorsing-Basic128.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-HolderOfKey-Wss1.1-Asymmetric.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>SAML</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-X509-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Wss1.0.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSS10</Category>
+    <Category>WSSC13</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Https-BasicAuth.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-X509-TripleDesRsa15.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https-UsernameToken-Digest.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.1-Saml1.1-SenderVouches.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSS11</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC14</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-UsernameToken-DK.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="SecurityTokenService.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Https-UNT.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-SenderVouches-Https.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Digest-DK.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-X509-Basic256.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Https.xml">
+    <Category>WSSP12</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Plain-DK.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-EncryptedKey-X509-SignedEndorsing.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Https-ClientCertReq.xml">
+    <Category>WSSP12</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.1_SequenceSTR.xml">
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-Bearer-Https.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>SAML</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-Bearer-Https.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>SAML</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-Bearer-Https-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>SAML</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-Bearer-Wss1.1.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>SAML</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Digest-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-EncryptedKey-Basic128.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.0_1.2.xml">
+    <Category>WSP15</Category>
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-EncryptedKey.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-SenderVouches-Wss1.1-Basic128.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-X509-SignRequest-EncryptResponse.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssc-sct.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml1.1-SenderVouches-Wss1.0.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-X509-Basic256.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-SenderVouches-Wss1.1-Asymmetric.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Https-BasicAuth.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Saml2.0-Bearer-Wss1.1.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>  
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="DefaultReliability1.1.xml">
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Digest-EncryptedKey.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="LongRunningReliability.xml">
+    <Category>WSRM</Category>
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.0-UsernameToken-Plain-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-EncryptBody.xml">
+    <Category>WSSP12</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="DefaultReliability1.2.xml">
+    <Category>WSP15</Category>
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.2_ExactlyOnce_WithMC1.1.xml">
+    <Category>WSP15</Category>
+    <Category>WSMC</Category>
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssc-dk.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.0-UsernameToken-Digest-X509-Basic256.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-wss10_saml_token_with_message_protection_owsm_policy.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS10</Category>
+    <Category>SAML</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Encrypt.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Https-ClientCertReq.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Https-Saml1.1-Bearer.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+    <Category>SAML</Category>
+    <Category>TRANSPORT</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.3-Bootstrap-Wss1.1-Saml1.1-Bearer.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC13</Category>
+    <Category>SAML</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Auth.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.0-Saml1.1-SenderVouches.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSSC</Category>
+    <Category>SAML</Category>
+    <Category>WSS10</Category>
+    <Category>WSSC14</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wssc200502-Bootstrap-Wss1.0.xml">
+    <Category>WSSP12</Category>
+    <Category>WSSC</Category>
+    <Category>WSS10</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Sign-Wsa-Headers.xml">
+    <Category>WSSP12</Category>
+    <Category>PROTECTION</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="AddSctV13Token.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Mtom.xml">
+    <Category>MTOM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wss1.1-UsernameToken-Plain-EncryptedKey.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Sign.xml">
+    <Category>WLS92</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-Wss1.1-X509-SignRequest-EncryptResponse.xml">
+    <Category>WSSP12</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.0-UsernameToken-Plain-X509-Basic256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSSC</Category>
+    <Category>WSS10</Category>
+    <Category>WSSC14</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.0-UsernameToken-Plain-X509-Basic256Sha256.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSSC</Category>
+    <Category>WSS10</Category>
+    <Category>WSSC14</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Wssp1.2-2007-Wssc1.4-Bootstrap-Wss1.1-Saml2.0-Bearer.xml">
+    <Category>WSSP12_2007</Category>
+    <Category>WSP15</Category>
+    <Category>WSSC</Category>
+    <Category>WSSC14</Category>
+    <Category>SAML</Category>
+    <Category>WSS11</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="Reliability1.1_SequenceTransportSecurity.xml">
+    <Category>WSRM</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat-https-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat-httpsclientcert-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat-registration-inbound-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat-registration-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat11-registration-inbound-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+  <BuiltinPolicy PolicyName="wls_internal/wsat/wsat11-registration-policy.xml">
+    <Category>INTERNAL</Category>
+  </BuiltinPolicy>
+
+</WlsBuiltinPolicies>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.bea.com/wsee/ns/config"
+  xmlns:wsee="http://www.bea.com/wsee/ns/config"
+  xmlns:j2ee="http://java.sun.com/xml/ns/j2ee"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified"
+  version="1.0">
+
+  <annotation>
+    <documentation>
+      <![CDATA[
+      This is the schema definition for wsee configuration.
+      ]]>
+    </documentation>
+  </annotation>
+
+  <import namespace="http://java.sun.com/xml/ns/j2ee" schemaLocation="../../../../j2ee/descriptor/schemas/j2ee14/j2ee_1_4.xsd"/>
+
+  <complexType name="listenerType">
+    <sequence>
+      <element name="listener-class" type="j2ee:fully-qualified-classType"/>
+      <element name="init-param" type="j2ee:param-valueType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="listenerListType">
+    <sequence>
+      <element name="listener" type="wsee:listenerType" minOccurs="1" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="deployment-listenersType">
+    <sequence>
+      <element name="client" type="wsee:listenerListType" minOccurs="0"/>
+      <element name="server" type="wsee:listenerListType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="configType">
+    <sequence>
+      <element name="deployment-listeners" type="wsee:deployment-listenersType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <element name="config" type="wsee:configType"/>
+</schema>

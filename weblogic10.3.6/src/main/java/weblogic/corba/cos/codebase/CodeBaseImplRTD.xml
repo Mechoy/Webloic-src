@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.corba.cos.codebase.CodeBaseImpl"
+    initial-reference="12"
+>
+
+<lifecycle
+    dgc-policy="managed"
+>
+</lifecycle>
+
+<method
+     name="*"
+    idempotent="true"
+    transactional="false"
+>
+</method>
+
+</rmi>

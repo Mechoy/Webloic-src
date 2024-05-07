@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5">
+  <display-name>bea_wls9_async_response</display-name>
+  <module>
+    <web>
+      <web-uri>bea_wls9_async_response.war</web-uri>
+      <context-root>_async</context-root>
+    </web>
+  </module>
+</application>

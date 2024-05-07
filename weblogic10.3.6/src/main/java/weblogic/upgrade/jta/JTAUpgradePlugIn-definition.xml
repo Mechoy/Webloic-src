@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>JTAUpgradePlugIn</name>
+  <description>Upgrades a JTA transaction log</description>
+  <author>wls-jms@bea.com</author>
+  <class>weblogic.upgrade.jta.JTAUpgradePlugIn</class>
+  <i18n>weblogic/upgrade/jta/i18n_JTAStoreUpgrade</i18n>
+</plugin-definition>
+

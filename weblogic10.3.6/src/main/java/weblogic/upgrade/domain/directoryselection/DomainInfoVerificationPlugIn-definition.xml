@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainInfoVerificationPlugIn</name>
+  <description>DomainInfoVerificationPlugIn</description>
+  <author>ugorjid@bea.com</author>
+  <class>weblogic.upgrade.domain.directoryselection.DomainInfoVerificationPlugIn</class>
+  <i18n>weblogic/upgrade/domain/directoryselection/i18n_DomainInfoVerificationPlugIn</i18n>
+  <input-adapter-definition>
+    <description>Domain Name entry field</description>
+    <class>com.bea.plateng.plugin.ia.DefaultTextInputAdapter</class>
+    <name>TextIA</name>
+    <bind-property>value</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultTextInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+  <input-adapter-definition>
+    <description>Domain Version selection</description>
+    <class>com.bea.plateng.plugin.ia.DefaultChoiceInputAdapter</class>
+    <name>ChoiceIA</name>
+    <bind-property>selectedChoiceIds</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultChoiceInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>

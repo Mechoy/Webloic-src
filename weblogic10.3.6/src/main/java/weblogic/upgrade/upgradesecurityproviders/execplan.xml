@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plan-definition name="Default">
+  <!-- declare the plug-ins that will be used; order is irrelevant. -->
+  <plugin-definition-import>weblogic/upgrade/upgradesecurityproviders/SecurityUpgradeProviderStepOne-definition.xml</plugin-definition-import>
+  <plugin-definition-import>weblogic/upgrade/upgradesecurityproviders/SecurityUpgradeProviderStepTwo-definition.xml</plugin-definition-import>
+
+  <!-- define a group that indicates where future upgrade plug-ins will go -->
+  <group-definition name="SecurityProviderUpgradeGroup" allow-backout="false">
+    <i18n>weblogic/upgrade/upgradesecurityproviders/i18n_SecurityProviderUpgradeGroup</i18n>
+    <prepare-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.ImageMessageGroupVisualizaton</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </prepare-visualization>
+    <execute-visualization>
+      <wf-gui>com.bea.plateng.wizard.plugin.gui.MessageGroupVisualization</wf-gui>
+      <wf-silent>com.bea.plateng.wizard.plugin.silent.SilentGroupVisualization</wf-silent>
+    </execute-visualization>
+    <plugin>SecurityProviderUpgradeStepOne</plugin>
+    <plugin>SecurityProviderUpgradeStepTwo</plugin>
+  </group-definition>
+  
+  <!-- define the plan of execution by ordering the groups -->
+  <execution-plan>
+    <group>SecurityProviderUpgradeGroup</group>
+  </execution-plan>
+
+</plan-definition>
+

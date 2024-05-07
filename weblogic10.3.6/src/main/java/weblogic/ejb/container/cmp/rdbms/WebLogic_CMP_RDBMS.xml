@@ -1,0 +1,127 @@
+<!DOCTYPE weblogic-persistence-vendor PUBLIC "-//BEA Systems, Inc.//DTD WebLogic 6.0.0 Persistence Vendor//EN" "http://www.bea.com/no-such-file.dtd">
+
+<weblogic-persistence-vendor>
+  <vendor-name>
+    BEA Systems, Inc.
+  </vendor-name>
+	
+  <weblogic-persistence-type>
+    <persistence-type-identifier>
+      WebLogic_CMP_RDBMS
+    </persistence-type-identifier>
+
+    <persistence-type-version>
+       6.0
+    </persistence-type-version>
+		
+    <weblogic-major-version>
+       7
+    </weblogic-major-version>
+		
+    <cmp-version>
+      2.x
+    </cmp-version>
+
+    <class-information>
+      <cmp-deployer-class>
+        weblogic.ejb.container.cmp.rdbms.Deployer
+      </cmp-deployer-class>
+
+      <persistence-manager-class>
+        weblogic.ejb.container.cmp.rdbms.RDBMSPersistenceManager
+      </persistence-manager-class>
+
+      <jar-deployment-class>
+        weblogic.ejb.container.cmp.rdbms.RDBMSDeployment
+      </jar-deployment-class>
+
+      <code-generator-class>
+        weblogic.ejb.container.cmp.rdbms.codegen.RDBMSCodeGenerator
+      </code-generator-class>
+    </class-information>
+
+  </weblogic-persistence-type>
+
+  <weblogic-persistence-type>
+    <persistence-type-identifier>
+      WebLogic_CMP_RDBMS
+    </persistence-type-identifier>
+
+    <persistence-type-version>
+       7.0
+    </persistence-type-version>
+		
+    <weblogic-major-version>
+       7
+    </weblogic-major-version>
+		
+    <cmp-version>
+      2.x
+    </cmp-version>
+
+    <class-information>
+      <cmp-deployer-class>
+        weblogic.ejb.container.cmp.rdbms.Deployer
+      </cmp-deployer-class>
+
+      <persistence-manager-class>
+        weblogic.ejb.container.cmp.rdbms.RDBMSPersistenceManager
+      </persistence-manager-class>
+
+      <jar-deployment-class>
+        weblogic.ejb.container.cmp.rdbms.RDBMSDeployment
+      </jar-deployment-class>
+
+      <code-generator-class>
+        weblogic.ejb.container.cmp.rdbms.codegen.RDBMSCodeGenerator
+      </code-generator-class>
+    </class-information>
+
+  </weblogic-persistence-type>
+
+  <weblogic-persistence-type>
+    <persistence-type-identifier>
+      WebLogic_CMP_RDBMS
+    </persistence-type-identifier>
+
+    <persistence-type-version>
+      5.1.0
+    </persistence-type-version>
+		
+    <weblogic-major-version>
+       7
+    </weblogic-major-version>
+		
+    <cmp-version>
+      1.x
+    </cmp-version>
+
+    <class-information>
+      <cmp-deployer-class>
+        weblogic.ejb.container.cmp11.rdbms.Deployer
+      </cmp-deployer-class>
+
+      <persistence-manager-class>
+        weblogic.ejb.container.cmp11.rdbms.PersistenceManagerImpl
+      </persistence-manager-class>
+
+      <jar-deployment-class>
+        weblogic.ejb.container.cmp11.rdbms.RDBMSDeployment
+      </jar-deployment-class>
+
+      <code-generator-class>
+        weblogic.ejb.container.cmp11.rdbms.codegen.RDBMSCodeGenerator
+      </code-generator-class>
+    </class-information>
+
+  </weblogic-persistence-type>
+
+</weblogic-persistence-vendor>
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+    name="weblogic.cluster.RemoteClusterHealthCheckerImpl"
+initial-reference="30">
+<cluster
+    clusterable="true"
+    load-algorithm="round-robin-affinity"
+>
+</cluster>
+
+<lifecycle
+    dgc-policy="managed"
+>
+</lifecycle>
+
+<method
+     name="*"
+    idempotent="true"
+    transactional="false"
+>
+</method>
+
+</rmi>

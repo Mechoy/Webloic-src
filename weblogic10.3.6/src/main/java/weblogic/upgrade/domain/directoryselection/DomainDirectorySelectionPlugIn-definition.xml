@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainDirectorySelectionPlugIn</name>
+  <description>Allows user to select a domain directory.  The selected directory is stored in the
+    context under the key SamplePlugInConstants.DOMAIN_DIRECTORY_KEY</description>
+  <author>mrack@bea.com</author>
+  <class>weblogic.upgrade.domain.directoryselection.DomainDirectorySelectionPlugIn</class>
+  <i18n>weblogic/upgrade/domain/directoryselection/i18n_DomainDirectorySelectionPlugIn</i18n>
+  <input-adapter-definition>
+    <description>Allow selection of a domain directory to upgrade.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultFileSelectionInputAdapter</class>
+    <name>FileSelectionIA</name>
+    <bind-property>selectedFileNames</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultFileSelectionInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+

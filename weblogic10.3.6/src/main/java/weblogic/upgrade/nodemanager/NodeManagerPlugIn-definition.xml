@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>NodeManagerPlugIn</name>
+  <class>weblogic.upgrade.nodemanager.NodeManagerPlugIn</class>
+  <i18n>weblogic/upgrade/nodemanager/i18n_NodeManagerPlugIn</i18n>
+  <input-adapter-definition>
+    <description>Allow selection of a home directory.</description>
+    <class>com.bea.plateng.plugin.ia.DefaultFileSelectionInputAdapter</class>
+    <name>IA</name>
+    <bind-property>selectedFileNames</bind-property>
+    <wf-gui>com.bea.plateng.wizard.plugin.gui.DefaultFileSelectionInputAdapterGUIPanel</wf-gui>
+    <wf-console></wf-console>
+    <wf-silent>com.bea.plateng.wizard.plugin.silent.InputAdapterSilentUIBinder</wf-silent>
+  </input-adapter-definition>
+</plugin-definition>
+

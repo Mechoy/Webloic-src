@@ -1,0 +1,131 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:secpol="http://www.bea.com/wls90/security/policy"
+  targetNamespace="http://www.bea.com/wls90/security/policy"
+  elementFormDefault="qualified">
+  
+  <annotation>
+    <documentation>
+      Copyright (c) 2003-2004 BEA Systems, Inc.
+      All rights reserved.
+      
+      This schema describes the compact XML form of the assertions for
+      security policy in WLS 9.0.
+    </documentation>
+  </annotation>
+  
+  <element name="Identity">
+    <complexType>
+      <sequence>
+        <element name="SupportedTokens" type="secpol:SupportedTokensType" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+  
+  <complexType name="SupportedTokensType">
+    <sequence>
+      <element name="SecurityToken" type="secpol:SecurityTokenType" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="SecurityTokenType">
+    <sequence>
+      <xsd:any namespace="##any" processContents="skip" minOccurs="0"/>
+    </sequence>
+    <attribute name="TokenType" type="xsd:anyURI"/>
+    <attribute name="IncludeInMessage" type="xsd:boolean"/>
+    <attribute name="DerivedFromTokenType" type="xsd:anyURI"/>
+    <xsd:anyAttribute/>
+  </complexType>
+  
+  
+  <element name="Integrity">
+    <complexType>
+      <sequence>
+        <element name="SignatureAlgorithm" type="secpol:AlgorithmType"/>
+        <element name="CanonicalizationAlgorithm" type="secpol:AlgorithmType"/>
+        <element name="Target" type="secpol:IntegrityTargetType" minOccurs="1" maxOccurs="unbounded"/>
+        <element name="SupportedTokens" type="secpol:SupportedTokensType" minOccurs="0"/>
+      </sequence>
+      <attribute name="SignToken" type="xsd:boolean" default="true"/>
+      <attribute name="SupportTrust10" type="xsd:boolean" default="false"/>
+      <attribute name="X509AuthConditional" type="xsd:boolean" default="false"/>
+    </complexType>
+  </element>
+  
+  <complexType name="AlgorithmType">
+    <attribute name="URI" type="xsd:anyURI"/>
+  </complexType>
+  
+  <complexType name="IntegrityTargetType">
+    <sequence>
+      <element name="DigestAlgorithm" type="secpol:AlgorithmType"/>
+      <element name="Transform" type="secpol:TransformType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="MessageParts" type="secpol:MessagePartsType"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="TransformType">
+    <complexContent mixed="true">
+      <extension base="xsd:anyType">
+        <attribute name="URI" type="xsd:anyURI" use="required"/>
+      </extension>
+    </complexContent>
+  </complexType>
+  
+  <complexType name="MessagePartsType">
+    <simpleContent>
+      <extension base="xsd:string">
+        <attribute name="Dialect" type="secpol:DialectType"/>
+      </extension>
+    </simpleContent>
+  </complexType>
+  
+  <simpleType name="DialectType">
+    <restriction base="xsd:anyURI">
+      <enumeration value="http://www.w3.org/TR/1999/REC-xpath-19991116"/>
+      <enumeration value="http://schemas.xmlsoap.org/2002/12/wsse#part"/>
+      <enumeration value="http://www.bea.com/wls90/security/policy/wsee#part"/>
+    </restriction>
+  </simpleType>
+  
+  <element name="Confidentiality">
+    <complexType>
+      <sequence>
+        <element name="KeyWrappingAlgorithm" type="secpol:AlgorithmType" minOccurs="0" maxOccurs="1"/>
+        <element name="Target" type="secpol:ConfidentialityTargetType" minOccurs="1" maxOccurs="unbounded"/>
+        <element name="KeyInfo" type="secpol:KeyInfoType"/>
+      </sequence>
+      <attribute name="SupportTrust10" type="xsd:boolean" default="false"/>
+    </complexType>
+  </element>
+  
+  <complexType name="ConfidentialityTargetType">
+    <sequence>
+      <element name="EncryptionAlgorithm" type="secpol:AlgorithmType"/>
+      <element name="Transform" type="secpol:TransformType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="MessageParts" type="secpol:MessagePartsType"/>
+    </sequence>
+    <attribute name="encryptContentOnly" type="xsd:boolean" default="true"/>
+  </complexType>
+  
+  <complexType name="KeyInfoType">
+    <sequence>
+      <element name="SecurityToken" type="secpol:SecurityTokenType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="SecurityTokenReference" type="secpol:SecurityTokenReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="SecurityTokenReferenceType">
+    <sequence>
+      <xsd:any namespace="##any" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  
+  <element name="MessageAge">
+    <complexType>
+      <attribute name="Age" type="xsd:positiveInteger"/>
+    </complexType>
+  </element>
+  
+</schema>

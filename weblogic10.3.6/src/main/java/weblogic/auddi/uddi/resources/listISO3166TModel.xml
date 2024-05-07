@@ -1,0 +1,241 @@
+<iso3166 key="uuid:4e49a8d6-d5a2-4fc2-93a0-0411d8d19e88" name="uddi-org:iso-ch:3166:1999" value="IS0 3166 Geographic Taxonomy">
+<keyedReference key="" name="AFGHANISTAN" value="AF"/>
+<keyedReference key="" name="ALBANIA" value="AL"/>
+<keyedReference key="" name="ALGERIA" value="DZ"/>
+<keyedReference key="" name="AMERICAN SAMOA" value="AS"/>
+<keyedReference key="" name="ANDORRA" value="AD"/>
+<keyedReference key="" name="ANGOLA" value="AO"/>
+<keyedReference key="" name="ANGUILLA" value="AI"/>
+<keyedReference key="" name="ANTARCTICA" value="AQ"/>
+<keyedReference key="" name="ANTIGUA AND BARBUDA" value="AG"/>
+<keyedReference key="" name="ARGENTINA" value="AR"/>
+<keyedReference key="" name="ARMENIA" value="AM"/>
+<keyedReference key="" name="ARUBA" value="AW"/>
+<keyedReference key="" name="AUSTRALIA" value="AU"/>
+<keyedReference key="" name="AUSTRIA" value="AT"/>
+<keyedReference key="" name="AZERBAIJAN" value="AZ"/>
+<keyedReference key="" name="BAHAMAS" value="BS"/>
+<keyedReference key="" name="BAHRAIN" value="BH"/>
+<keyedReference key="" name="BANGLADESH" value="BD"/>
+<keyedReference key="" name="BARBADOS" value="BB"/>
+<keyedReference key="" name="BELARUS" value="BY"/>
+<keyedReference key="" name="BELGIUM" value="BE"/>
+<keyedReference key="" name="BELIZE" value="BZ"/>
+<keyedReference key="" name="BENIN" value="BJ"/>
+<keyedReference key="" name="BERMUDA" value="BM"/>
+<keyedReference key="" name="BHUTAN" value="BT"/>
+<keyedReference key="" name="BOLIVIA" value="BO"/>
+<keyedReference key="" name="BOSNIA AND HERZEGOVINA" value="BA"/>
+<keyedReference key="" name="BOTSWANA" value="BW"/>
+<keyedReference key="" name="BOUVET ISLAND" value="BV"/>
+<keyedReference key="" name="BRAZIL" value="BR"/>
+<keyedReference key="" name="BRITISH INDIAN OCEAN TERRITORY" value="IO"/>
+<keyedReference key="" name="BRUNEI DARUSSALAM" value="BN"/>
+<keyedReference key="" name="BULGARIA" value="BG"/>
+<keyedReference key="" name="BURKINA FASO" value="BF"/>
+<keyedReference key="" name="BURUNDI" value="BI"/>
+<keyedReference key="" name="CAMBODIA" value="KH"/>
+<keyedReference key="" name="CAMEROON" value="CM"/>
+<keyedReference key="" name="CANADA" value="CA"/>
+<keyedReference key="" name="CAPE VERDE" value="CV"/>
+<keyedReference key="" name="CAYMAN ISLANDS" value="KY"/>
+<keyedReference key="" name="CENTRAL AFRICAN REPUBLIC" value="CF"/>
+<keyedReference key="" name="CHAD" value="TD"/>
+<keyedReference key="" name="CHILE" value="CL"/>
+<keyedReference key="" name="CHINA" value="CN"/>
+<keyedReference key="" name="CHRISTMAS ISLAND" value="CX"/>
+<keyedReference key="" name="COCOS (KEELING) ISLANDS" value="CC"/>
+<keyedReference key="" name="COLOMBIA" value="CO"/>
+<keyedReference key="" name="COMOROS" value="KM"/>
+<keyedReference key="" name="CONGO" value="CG"/>
+<keyedReference key="" name="CONGO, THE DEMOCRATIC REPUBLIC OF THE" value="CD"/>
+<keyedReference key="" name="COOK ISLANDS" value="CK"/>
+<keyedReference key="" name="COSTA RICA" value="CR"/>
+<keyedReference key="" name="COTE D'IVOIRE" value="CI"/>
+<keyedReference key="" name="CROATIA" value="HR"/>
+<keyedReference key="" name="CUBA" value="CU"/>
+<keyedReference key="" name="CYPRUS" value="CY"/>
+<keyedReference key="" name="CZECH REPUBLIC" value="CZ"/>
+<keyedReference key="" name="DENMARK" value="DK"/>
+<keyedReference key="" name="DJIBOUTI" value="DJ"/>
+<keyedReference key="" name="DOMINICA" value="DM"/>
+<keyedReference key="" name="DOMINICAN REPUBLIC" value="DO"/>
+<keyedReference key="" name="EAST TIMOR" value="TP"/>
+<keyedReference key="" name="ECUADOR" value="EC"/>
+<keyedReference key="" name="EGYPT" value="EG"/>
+<keyedReference key="" name="EL SALVADOR" value="SV"/>
+<keyedReference key="" name="EQUATORIAL GUINEA" value="GQ"/>
+<keyedReference key="" name="ERITREA" value="ER"/>
+<keyedReference key="" name="ESTONIA" value="EE"/>
+<keyedReference key="" name="ETHIOPIA" value="ET"/>
+<keyedReference key="" name="FALKLAND ISLANDS (MALVINAS)" value="FK"/>
+<keyedReference key="" name="FAROE ISLANDS" value="FO"/>
+<keyedReference key="" name="FIJI" value="FJ"/>
+<keyedReference key="" name="FINLAND" value="FI"/>
+<keyedReference key="" name="FRANCE" value="FR"/>
+<keyedReference key="" name="FRENCH GUIANA" value="GF"/>
+<keyedReference key="" name="FRENCH POLYNESIA" value="PF"/>
+<keyedReference key="" name="FRENCH SOUTHERN TERRITORIES" value="TF"/>
+<keyedReference key="" name="GABON" value="GA"/>
+<keyedReference key="" name="GAMBIA" value="GM"/>
+<keyedReference key="" name="GEORGIA" value="GE"/>
+<keyedReference key="" name="GERMANY" value="DE"/>
+<keyedReference key="" name="GHANA" value="GH"/>
+<keyedReference key="" name="GIBRALTAR" value="GI"/>
+<keyedReference key="" name="GREECE" value="GR"/>
+<keyedReference key="" name="GREENLAND" value="GL"/>
+<keyedReference key="" name="GRENADA" value="GD"/>
+<keyedReference key="" name="GUADELOUPE" value="GP"/>
+<keyedReference key="" name="GUAM" value="GU"/>
+<keyedReference key="" name="GUATEMALA" value="GT"/>
+<keyedReference key="" name="GUINEA" value="GN"/>
+<keyedReference key="" name="GUINEA-BISSAU" value="GW"/>
+<keyedReference key="" name="GUYANA" value="GY"/>
+<keyedReference key="" name="HAITI" value="HT"/>
+<keyedReference key="" name="HEARD ISLAND AND MCDONALD ISLANDS" value="HM"/>
+<keyedReference key="" name="HOLY SEE (VATICAN CITY STATE)" value="VA"/>
+<keyedReference key="" name="HONDURAS" value="HN"/>
+<keyedReference key="" name="HONG KONG" value="HK"/>
+<keyedReference key="" name="HUNGARY" value="HU"/>
+<keyedReference key="" name="ICELAND" value="IS"/>
+<keyedReference key="" name="INDIA" value="IN"/>
+<keyedReference key="" name="INDONESIA" value="ID"/>
+<keyedReference key="" name="IRAN, ISLAMIC REPUBLIC OF" value="IR"/>
+<keyedReference key="" name="IRAQ" value="IQ"/>
+<keyedReference key="" name="IRELAND" value="IE"/>
+<keyedReference key="" name="ISRAEL" value="IL"/>
+<keyedReference key="" name="ITALY" value="IT"/>
+<keyedReference key="" name="JAMAICA" value="JM"/>
+<keyedReference key="" name="JAPAN" value="JP"/>
+<keyedReference key="" name="JORDAN" value="JO"/>
+<keyedReference key="" name="KAZAKSTAN" value="KZ"/>
+<keyedReference key="" name="KENYA" value="KE"/>
+<keyedReference key="" name="KIRIBATI" value="KI"/>
+<keyedReference key="" name="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF" value="KP"/>
+<keyedReference key="" name="KOREA, REPUBLIC OF" value="KR"/>
+<keyedReference key="" name="KUWAIT" value="KW"/>
+<keyedReference key="" name="KYRGYZSTAN" value="KG"/>
+<keyedReference key="" name="LAO PEOPLE'S DEMOCRATIC REPUBLIC" value="LA"/>
+<keyedReference key="" name="LATVIA" value="LV"/>
+<keyedReference key="" name="LEBANON" value="LB"/>
+<keyedReference key="" name="LESOTHO" value="LS"/>
+<keyedReference key="" name="LIBERIA" value="LR"/>
+<keyedReference key="" name="LIBYAN ARAB JAMAHIRIYA" value="LY"/>
+<keyedReference key="" name="LIECHTENSTEIN" value="LI"/>
+<keyedReference key="" name="LITHUANIA" value="LT"/>
+<keyedReference key="" name="LUXEMBOURG" value="LU"/>
+<keyedReference key="" name="MACAU" value="MO"/>
+<keyedReference key="" name="MACEDONIA" value="MK"/>
+<keyedReference key="" name="MADAGASCAR" value="MG"/>
+<keyedReference key="" name="MALAWI" value="MW"/>
+<keyedReference key="" name="MALAYSIA" value="MY"/>
+<keyedReference key="" name="MALDIVES" value="MV"/>
+<keyedReference key="" name="MALI" value="ML"/>
+<keyedReference key="" name="MALTA" value="MT"/>
+<keyedReference key="" name="MARSHALL ISLANDS" value="MH"/>
+<keyedReference key="" name="MARTINIQUE" value="MQ"/>
+<keyedReference key="" name="MAURITANIA" value="MR"/>
+<keyedReference key="" name="MAURITIUS" value="MU"/>
+<keyedReference key="" name="MAYOTTE" value="YT"/>
+<keyedReference key="" name="MEXICO" value="MX"/>
+<keyedReference key="" name="MICRONESIA, FEDERATED STATES OF" value="FM"/>
+<keyedReference key="" name="MOLDOVA, REPUBLIC OF" value="MD"/>
+<keyedReference key="" name="MONACO" value="MC"/>
+<keyedReference key="" name="MONGOLIA" value="MN"/>
+<keyedReference key="" name="MONTSERRAT" value="MS"/>
+<keyedReference key="" name="MOROCCO" value="MA"/>
+<keyedReference key="" name="MOZAMBIQUE" value="MZ"/>
+<keyedReference key="" name="MYANMAR" value="MM"/>
+<keyedReference key="" name="NAMIBIA" value="NA"/>
+<keyedReference key="" name="NAURU" value="NR"/>
+<keyedReference key="" name="NEPAL" value="NP"/>
+<keyedReference key="" name="NETHERLANDS" value="NL"/>
+<keyedReference key="" name="NETHERLANDS ANTILLES" value="AN"/>
+<keyedReference key="" name="NEW CALEDONIA" value="NC"/>
+<keyedReference key="" name="NEW ZEALAND" value="NZ"/>
+<keyedReference key="" name="NICARAGUA" value="NI"/>
+<keyedReference key="" name="NIGER" value="NE"/>
+<keyedReference key="" name="NIGERIA" value="NG"/>
+<keyedReference key="" name="NIUE" value="NU"/>
+<keyedReference key="" name="NORFOLK ISLAND" value="NF"/>
+<keyedReference key="" name="NORTHERN MARIANA ISLANDS" value="MP"/>
+<keyedReference key="" name="NORWAY" value="NO"/>
+<keyedReference key="" name="OMAN" value="OM"/>
+<keyedReference key="" name="PAKISTAN" value="PK"/>
+<keyedReference key="" name="PALAU" value="PW"/>
+<keyedReference key="" name="PALESTINIAN TERRITORY, OCCUPIED" value="PS"/>
+<keyedReference key="" name="PANAMA" value="PA"/>
+<keyedReference key="" name="PAPUA NEW GUINEA" value="PG"/>
+<keyedReference key="" name="PARAGUAY" value="PY"/>
+<keyedReference key="" name="PERU" value="PE"/>
+<keyedReference key="" name="PHILIPPINES" value="PH"/>
+<keyedReference key="" name="PITCAIRN" value="PN"/>
+<keyedReference key="" name="POLAND" value="PL"/>
+<keyedReference key="" name="PORTUGAL" value="PT"/>
+<keyedReference key="" name="PUERTO RICO" value="PR"/>
+<keyedReference key="" name="QATAR" value="QA"/>
+<keyedReference key="" name="REUNION" value="RE"/>
+<keyedReference key="" name="ROMANIA" value="RO"/>
+<keyedReference key="" name="RUSSIAN FEDERATION" value="RU"/>
+<keyedReference key="" name="RWANDA" value="RW"/>
+<keyedReference key="" name="SAINT HELENA" value="SH"/>
+<keyedReference key="" name="SAINT KITTS AND NEVIS" value="KN"/>
+<keyedReference key="" name="SAINT LUCIA" value="LC"/>
+<keyedReference key="" name="SAINT PIERRE AND MIQUELON" value="PM"/>
+<keyedReference key="" name="SAINT VINCENT AND THE GRENADINES" value="VC"/>
+<keyedReference key="" name="SAMOA" value="WS"/>
+<keyedReference key="" name="SAN MARINO" value="SM"/>
+<keyedReference key="" name="SAO TOME AND PRINCIPE" value="ST"/>
+<keyedReference key="" name="SAUDI ARABIA" value="SA"/>
+<keyedReference key="" name="SENEGAL" value="SN"/>
+<keyedReference key="" name="SEYCHELLES" value="SC"/>
+<keyedReference key="" name="SIERRA LEONE" value="SL"/>
+<keyedReference key="" name="SINGAPORE" value="SG"/>
+<keyedReference key="" name="SLOVAKIA" value="SK"/>
+<keyedReference key="" name="SLOVENIA" value="SI"/>
+<keyedReference key="" name="SOLOMON ISLANDS" value="SB"/>
+<keyedReference key="" name="SOMALIA" value="SO"/>
+<keyedReference key="" name="SOUTH AFRICA" value="ZA"/>
+<keyedReference key="" name="SOUTH GEORGIA &amp; SOUTH SANDWICH ISLANDS" value="GS"/>
+<keyedReference key="" name="SPAIN" value="ES"/>
+<keyedReference key="" name="SRI LANKA" value="LK"/>
+<keyedReference key="" name="SUDAN" value="SD"/>
+<keyedReference key="" name="SURINAME" value="SR"/>
+<keyedReference key="" name="SVALBARD AND JAN MAYEN" value="SJ"/>
+<keyedReference key="" name="SWAZILAND" value="SZ"/>
+<keyedReference key="" name="SWEDEN" value="SE"/>
+<keyedReference key="" name="SWITZERLAND" value="CH"/>
+<keyedReference key="" name="SYRIAN ARAB REPUBLIC" value="SY"/>
+<keyedReference key="" name="TAIWAN, PROVINCE OF CHINA" value="TW"/>
+<keyedReference key="" name="TAJIKISTAN" value="TJ"/>
+<keyedReference key="" name="TANZANIA, UNITED REPUBLIC OF" value="TZ"/>
+<keyedReference key="" name="THAILAND" value="TH"/>
+<keyedReference key="" name="TOGO" value="TG"/>
+<keyedReference key="" name="TOKELAU" value="TK"/>
+<keyedReference key="" name="TONGA" value="TO"/>
+<keyedReference key="" name="TRINIDAD AND TOBAGO" value="TT"/>
+<keyedReference key="" name="TUNISIA" value="TN"/>
+<keyedReference key="" name="TURKEY" value="TR"/>
+<keyedReference key="" name="TURKMENISTAN" value="TM"/>
+<keyedReference key="" name="TURKS AND CAICOS ISLANDS" value="TC"/>
+<keyedReference key="" name="TUVALU" value="TV"/>
+<keyedReference key="" name="UGANDA" value="UG"/>
+<keyedReference key="" name="UKRAINE" value="UA"/>
+<keyedReference key="" name="UNITED ARAB EMIRATES" value="AE"/>
+<keyedReference key="" name="UNITED KINGDOM" value="GB"/>
+<keyedReference key="" name="UNITED STATES" value="US"/>
+<keyedReference key="" name="UNITED STATES MINOR OUTLYING ISLANDS" value="UM"/>
+<keyedReference key="" name="URUGUAY" value="UY"/>
+<keyedReference key="" name="UZBEKISTAN" value="UZ"/>
+<keyedReference key="" name="VANUATU" value="VU"/>
+<keyedReference key="" name="VENEZUELA" value="VE"/>
+<keyedReference key="" name="VIET NAM" value="VN"/>
+<keyedReference key="" name="VIRGIN ISLANDS, BRITISH" value="VG"/>
+<keyedReference key="" name="VIRGIN ISLANDS, U.S." value="VI"/>
+<keyedReference key="" name="WALLIS AND FUTUNA" value="WF"/>
+<keyedReference key="" name="WESTERN SAHARA" value="EH"/>
+<keyedReference key="" name="YEMEN" value="YE"/>
+<keyedReference key="" name="YUGOSLAVIA" value="YU"/>
+<keyedReference key="" name="ZAMBIA" value="ZM"/>
+<keyedReference key="" name="ZIMBABWE" value="ZW"/>
+</iso3166>

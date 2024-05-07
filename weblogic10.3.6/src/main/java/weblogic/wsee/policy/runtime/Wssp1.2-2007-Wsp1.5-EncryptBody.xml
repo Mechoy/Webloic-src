@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<wsp15:Policy xmlns:wsp15="http://www.w3.org/ns/ws-policy"
+  xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" >
+  <sp:EncryptedParts>
+    <sp:Body/>
+  </sp:EncryptedParts>
+</wsp15:Policy>

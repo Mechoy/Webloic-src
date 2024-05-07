@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>SimplestPlugInEver</name>
+  <class>weblogic.upgrade.simple.SimplestPlugInEver</class>
+  <i18n>weblogic/upgrade/simple/i18n_SimplestPlugInEver</i18n>
+</plugin-definition>
+
+

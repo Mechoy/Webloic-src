@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rmi PUBLIC "-//BEA Systems, Inc.//RMI Runtime DTD 1.0//EN" "rmi.dtd">
+<rmi
+name="weblogic.cluster.replication.MANReplicationManager"
+initial-reference="29">
+<lifecycle
+   dgc-policy="managed">
+</lifecycle>
+<method
+   name="*"
+   transactional="false"
+   dispatch-policy="weblogic.kernel.Non-Blocking">
+</method>
+<method
+   name="remove(weblogic.cluster.replication.ROID[])"
+   transactional="false"
+   oneway="true"
+   dispatch-policy="weblogic.kernel.Non-Blocking">
+</method>
+</rmi>

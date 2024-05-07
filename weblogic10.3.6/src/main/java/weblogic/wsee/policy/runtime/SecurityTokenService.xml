@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<wsp:Policy 
+  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+  xmlns:wssp="http://www.bea.com/wls90/security/policy"
+  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+  xmlns:wls="http://www.bea.com/wls90/security/policy/wsee#part"
+  >
+  
+  <wssp:Integrity>
+    
+    <wssp:SignatureAlgorithm URI="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <wssp:CanonicalizationAlgorithm URI="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <wssp:MessageParts Dialect="http://www.bea.com/wls90/security/policy/wsee#part"> 
+        wls:SystemHeaders()
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <wssp:MessageParts Dialect="http://www.bea.com/wls90/security/policy/wsee#part"> 
+        wls:SecurityHeader(wsu:Timestamp)
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:Target>
+      <wssp:DigestAlgorithm URI="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <wssp:MessageParts Dialect="http://schemas.xmlsoap.org/2002/12/wsse#part">
+      wsp:Body()
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:SupportedTokens>
+      <wssp:SecurityToken IncludeInMessage="true" 
+        TokenType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+    </wssp:SupportedTokens>
+    
+  </wssp:Integrity>
+  
+  <wssp:Confidentiality>
+    
+    <wssp:KeyWrappingAlgorithm URI="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+    
+    <wssp:Target>
+      <wssp:EncryptionAlgorithm URI="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+      <wssp:MessageParts>
+      wsp:GetBody(.)
+      </wssp:MessageParts>
+    </wssp:Target>
+    
+    <wssp:KeyInfo>
+      <wssp:SecurityToken IncludeInMessage="true" 
+        TokenType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+    </wssp:KeyInfo>
+    
+  </wssp:Confidentiality>
+  
+  <wssp:MessageAge Age="300"/>
+  
+</wsp:Policy>

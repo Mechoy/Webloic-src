@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-definition>
+  <name>DomainDirectoryReorgPlugIn</name>
+  <description>Restructure the provided Domain Directory to the new 9.1 Domain Directory Structure</description>
+  <class>weblogic.upgrade.domain.directoryrestructure.DomainDirectoryReorgPlugIn</class>
+  <i18n>weblogic/upgrade/domain/directoryrestructure/i18n_DomainDirectoryReorgPlugIn</i18n>
+</plugin-definition>
+
